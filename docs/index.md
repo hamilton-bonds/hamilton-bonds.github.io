@@ -1,37 +1,19 @@
-## Welcome to GitHub Pages
+# Hamilton Bonds
+Cyber Warfare Officer | CISSP
 
-You can use the [editor on GitHub](https://github.com/hamilton-bonds/hamilton-bonds.github.io/edit/main/docs/index.md) to maintain and preview the content for your website in Markdown files.
+## CTFs
 
-Whenever you commit to this repository, GitHub Pages will run [Jekyll](https://jekyllrb.com/) to rebuild the pages in your site, from the content in your Markdown files.
+[2020 ACICTF All-Army Cyber Stakes](https://hamilton-bonds.github.io/ctf/2020/2020_ACICTF_Cyber_Stakes.html)
 
-### Markdown
+[2020 Hack-A-Sat](https://hamilton-bonds.github.io/ctf/2020/2020_Hack-A-Sat.html)
 
-Markdown is a lightweight and easy-to-use syntax for styling your writing. It includes conventions for
+[2021 DEFCON QUALS (OOO)](https://hamilton-bonds.github.io/ctf/2021/2021_DEFCON_QUALS.html)
 
-```markdown
-Syntax highlighted code block
+## Proofs of Concept
 
-# Header 1
-## Header 2
-### Header 3
+### Zoomer
+At the onset of COVID-19, life turned virtual and people flocked to Zoom.  In an effort to ensure user safety, I investigated and presented flaws in Zoom's implementation regarding CAPTCHA.  Zoom has since corrected this issue, justifying the release of this Proof of Concept video.
+[Zoomer](https://hamilton-bonds.github.io/files/2020/ZoomerVideoPoC.webm)
 
-- Bulleted
-- List
+## Achievements
 
-1. Numbered
-2. List
-
-**Bold** and _Italic_ and `Code` text
-
-[Link](url) and ![Image](src)
-```
-
-For more details see [Basic writing and formatting syntax](https://docs.github.com/en/github/writing-on-github/getting-started-with-writing-and-formatting-on-github/basic-writing-and-formatting-syntax).
-
-### Jekyll Themes
-
-Your Pages site will use the layout and styles from the Jekyll theme you have selected in your [repository settings](https://github.com/hamilton-bonds/hamilton-bonds.github.io/settings/pages). The name of this theme is saved in the Jekyll `_config.yml` configuration file.
-
-### Support or Contact
-
-Having trouble with Pages? Check out our [documentation](https://docs.github.com/categories/github-pages-basics/) or [contact support](https://support.github.com/contact) and we’ll help you sort it out.

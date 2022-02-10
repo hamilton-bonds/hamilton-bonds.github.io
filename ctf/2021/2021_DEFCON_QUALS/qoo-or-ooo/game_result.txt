@@ -1,0 +1,585 @@
+kali@kali:~/Documents/ctf/defcon21/crypto/qoo-or-ooo$ python3 interact.py 
+zardus: Hey hacker! Shall we play a game against QOO?
+        There are two competitors here and they each will bet on 0 or 1.
+        Let's put our numbers there so that the sum of ours is same as the multiplication of theirs
+[Round 0]: Your competitor bets on 1
+0. Bet for 0
+1. Bet for 1
+2. Use your magic qoin
+
+2
+<You>2
+Do you want to rotate your qoin before flipping?
+0. No, do not rotate my qoin
+1. Yes, rotate left
+2. Yes, rotate right
+
+0
+0: ['2', '0', None]
+<You>0
+[Round 0]: zardus's competitor bets on 1, you bet on 1
+Win!
+[Round 1]: Your competitor bets on 1
+0. Bet for 0
+1. Bet for 1
+2. Use your magic qoin
+
+2
+1: ['2', '0', None]
+<You>2
+Do you want to rotate your qoin before flipping?
+0. No, do not rotate my qoin
+1. Yes, rotate left
+2. Yes, rotate right
+
+0
+0: ['2', '0', None]
+<You>0
+[Round 1]: zardus's competitor bets on 0, you bet on 1
+Win!
+[Round 2]: Your competitor bets on 0
+0. Bet for 0
+1. Bet for 1
+2. Use your magic qoin
+
+2
+1: ['2', '0', None]
+<You>2
+Do you want to rotate your qoin before flipping?
+0. No, do not rotate my qoin
+1. Yes, rotate left
+2. Yes, rotate right
+
+0
+0: ['2', '0', None]
+<You>0
+[Round 2]: zardus's competitor bets on 0, you bet on 1
+Win!
+[Round 3]: Your competitor bets on 1
+0. Bet for 0
+1. Bet for 1
+2. Use your magic qoin
+
+2
+1: ['2', '0', None]
+<You>2
+Do you want to rotate your qoin before flipping?
+0. No, do not rotate my qoin
+1. Yes, rotate left
+2. Yes, rotate right
+
+0
+0: ['2', '0', None]
+<You>0
+[Round 3]: zardus's competitor bets on 0, you bet on 1
+Win!
+[Round 4]: Your competitor bets on 1
+0. Bet for 0
+1. Bet for 1
+2. Use your magic qoin
+
+2
+1: ['2', '0', None]
+<You>2
+Do you want to rotate your qoin before flipping?
+0. No, do not rotate my qoin
+1. Yes, rotate left
+2. Yes, rotate right
+
+0
+0: ['2', '0', None]
+<You>0
+[Round 4]: zardus's competitor bets on 1, you bet on 1
+Win!
+[Round 5]: Your competitor bets on 0
+0. Bet for 0
+1. Bet for 1
+2. Use your magic qoin
+
+2
+1: ['2', '0', None]
+<You>2
+Do you want to rotate your qoin before flipping?
+0. No, do not rotate my qoin
+1. Yes, rotate left
+2. Yes, rotate right
+
+0
+0: ['2', '0', None]
+<You>0
+[Round 5]: zardus's competitor bets on 0, you bet on 1
+Win!
+[Round 6]: Your competitor bets on 1
+0. Bet for 0
+1. Bet for 1
+2. Use your magic qoin
+
+2 
+1: ['2', '0', None]
+<You>2
+Do you want to rotate your qoin before flipping?
+0. No, do not rotate my qoin
+1. Yes, rotate left
+2. Yes, rotate right
+
+0
+0: ['2', '0', None]
+<You>0
+[Round 6]: zardus's competitor bets on 0, you bet on 0
+Win!
+[Round 7]: Your competitor bets on 0
+0. Bet for 0
+1. Bet for 1
+2. Use your magic qoin
+
+2
+1: ['2', '0', None]
+<You>2
+Do you want to rotate your qoin before flipping?
+0. No, do not rotate my qoin
+1. Yes, rotate left
+2. Yes, rotate right
+
+0
+0: ['2', '0', None]
+<You>0
+[Round 7]: zardus's competitor bets on 0, you bet on 0
+Win!
+[Round 8]: Your competitor bets on 0
+0. Bet for 0
+1. Bet for 1
+2. Use your magic qoin
+
+2
+1: ['2', '0', None]
+<You>2
+Do you want to rotate your qoin before flipping?
+0. No, do not rotate my qoin
+1. Yes, rotate left
+2. Yes, rotate right
+
+0
+0: ['2', '0', None]
+<You>0
+[Round 8]: zardus's competitor bets on 0, you bet on 0
+Win!
+[Round 9]: Your competitor bets on 1
+0. Bet for 0
+1. Bet for 1
+2. Use your magic qoin
+
+2
+1: ['2', '0', None]
+<You>2
+Do you want to rotate your qoin before flipping?
+0. No, do not rotate my qoin
+1. Yes, rotate left
+2. Yes, rotate right
+
+0
+0: ['2', '0', None]
+<You>0
+[Round 9]: zardus's competitor bets on 0, you bet on 1
+Win!
+[Round 10]: Your competitor bets on 1
+0. Bet for 0
+1. Bet for 1
+2. Use your magic qoin
+
+2
+1: ['2', '0', None]
+<You>2
+Do you want to rotate your qoin before flipping?
+0. No, do not rotate my qoin
+1. Yes, rotate left
+2. Yes, rotate right
+
+0
+0: ['2', '0', None]
+<You>0
+[Round 10]: zardus's competitor bets on 0, you bet on 1
+Win!
+[Round 11]: Your competitor bets on 1
+0. Bet for 0
+1. Bet for 1
+2. Use your magic qoin
+
+2
+1: ['2', '0', None]
+<You>2
+Do you want to rotate your qoin before flipping?
+0. No, do not rotate my qoin
+1. Yes, rotate left
+2. Yes, rotate right
+
+0
+0: ['2', '0', None]
+<You>0
+[Round 11]: zardus's competitor bets on 0, you bet on 1
+Win!
+[Round 12]: Your competitor bets on 1
+0. Bet for 0
+1. Bet for 1
+2. Use your magic qoin
+
+2
+1: ['2', '0', None]
+<You>2
+Do you want to rotate your qoin before flipping?
+0. No, do not rotate my qoin
+1. Yes, rotate left
+2. Yes, rotate right
+
+0
+0: ['2', '0', None]
+<You>0
+[Round 12]: zardus's competitor bets on 0, you bet on 1
+Win!
+[Round 13]: Your competitor bets on 1
+0. Bet for 0
+1. Bet for 1
+2. Use your magic qoin
+
+2
+1: ['2', '0', None]
+<You>2
+Do you want to rotate your qoin before flipping?
+0. No, do not rotate my qoin
+1. Yes, rotate left
+2. Yes, rotate right
+
+0
+0: ['2', '0', None]
+<You>0
+[Round 13]: zardus's competitor bets on 0, you bet on 1
+Win!
+[Round 14]: Your competitor bets on 0
+0. Bet for 0
+1. Bet for 1
+2. Use your magic qoin
+
+2
+1: ['2', '0', None]
+<You>2
+Do you want to rotate your qoin before flipping?
+0. No, do not rotate my qoin
+1. Yes, rotate left
+2. Yes, rotate right
+
+0
+0: ['2', '0', None]
+<You>0
+[Round 14]: zardus's competitor bets on 1, you bet on 1
+Lose!
+[Round 15]: Your competitor bets on 1
+0. Bet for 0
+1. Bet for 1
+2. Use your magic qoin
+
+2
+1: ['2', '0', None]
+<You>2
+Do you want to rotate your qoin before flipping?
+0. No, do not rotate my qoin
+1. Yes, rotate left
+2. Yes, rotate right
+
+0
+0: ['2', '0', None]
+<You>0
+[Round 15]: zardus's competitor bets on 0, you bet on 1
+Win!
+[Round 16]: Your competitor bets on 1
+0. Bet for 0
+1. Bet for 1
+2. Use your magic qoin
+
+2
+1: ['2', '0', None]
+<You>2
+Do you want to rotate your qoin before flipping?
+0. No, do not rotate my qoin
+1. Yes, rotate left
+2. Yes, rotate right
+
+0
+0: ['2', '0', None]
+<You>0
+[Round 16]: zardus's competitor bets on 0, you bet on 1
+Win!
+[Round 17]: Your competitor bets on 1
+0. Bet for 0
+1. Bet for 1
+2. Use your magic qoin
+
+2
+1: ['2', '0', None]
+<You>2
+Do you want to rotate your qoin before flipping?
+0. No, do not rotate my qoin
+1. Yes, rotate left
+2. Yes, rotate right
+
+0
+0: ['2', '0', None]
+<You>0
+[Round 17]: zardus's competitor bets on 0, you bet on 0
+Win!
+[Round 18]: Your competitor bets on 1
+0. Bet for 0
+1. Bet for 1
+2. Use your magic qoin
+
+2
+1: ['2', '0', None]
+<You>2
+Do you want to rotate your qoin before flipping?
+0. No, do not rotate my qoin
+1. Yes, rotate left
+2. Yes, rotate right
+
+0
+0: ['2', '0', None]
+<You>0
+[Round 18]: zardus's competitor bets on 0, you bet on 0
+Win!
+[Round 19]: Your competitor bets on 0
+0. Bet for 0
+1. Bet for 1
+2. Use your magic qoin
+
+2
+1: ['2', '0', None]
+<You>2
+Do you want to rotate your qoin before flipping?
+0. No, do not rotate my qoin
+1. Yes, rotate left
+2. Yes, rotate right
+
+0
+0: ['2', '0', None]
+<You>0
+[Round 19]: zardus's competitor bets on 1, you bet on 0
+Win!
+[Round 20]: Your competitor bets on 0
+0. Bet for 0
+1. Bet for 1
+2. Use your magic qoin
+
+2
+1: ['2', '0', None]
+<You>2
+Do you want to rotate your qoin before flipping?
+0. No, do not rotate my qoin
+1. Yes, rotate left
+2. Yes, rotate right
+
+0
+0: ['2', '0', None]
+<You>0
+[Round 20]: zardus's competitor bets on 1, you bet on 0
+Win!
+[Round 21]: Your competitor bets on 0
+0. Bet for 0
+1. Bet for 1
+2. Use your magic qoin
+
+2
+1: ['2', '0', None]
+<You>2
+Do you want to rotate your qoin before flipping?
+0. No, do not rotate my qoin
+1. Yes, rotate left
+2. Yes, rotate right
+
+0
+0: ['2', '0', None]
+<You>0
+[Round 21]: zardus's competitor bets on 0, you bet on 1
+Win!
+[Round 22]: Your competitor bets on 0
+0. Bet for 0
+1. Bet for 1
+2. Use your magic qoin
+
+2
+1: ['2', '0', None]
+<You>2
+Do you want to rotate your qoin before flipping?
+0. No, do not rotate my qoin
+1. Yes, rotate left
+2. Yes, rotate right
+
+0
+0: ['2', '0', None]
+<You>0
+[Round 22]: zardus's competitor bets on 1, you bet on 1
+Win!
+[Round 23]: Your competitor bets on 1
+0. Bet for 0
+1. Bet for 1
+2. Use your magic qoin
+
+2
+1: ['2', '0', None]
+<You>2
+Do you want to rotate your qoin before flipping?
+0. No, do not rotate my qoin
+1. Yes, rotate left
+2. Yes, rotate right
+
+0
+0: ['2', '0', None]
+<You>0
+[Round 23]: zardus's competitor bets on 0, you bet on 0
+Win!
+[Round 24]: Your competitor bets on 0
+0. Bet for 0
+1. Bet for 1
+2. Use your magic qoin
+
+2
+1: ['2', '0', None]
+<You>2
+Do you want to rotate your qoin before flipping?
+0. No, do not rotate my qoin
+1. Yes, rotate left
+2. Yes, rotate right
+
+0
+0: ['2', '0', None]
+<You>0
+[Round 24]: zardus's competitor bets on 1, you bet on 0
+Win!
+[Round 25]: Your competitor bets on 0
+0. Bet for 0
+1. Bet for 1
+2. Use your magic qoin
+
+2
+1: ['2', '0', None]
+<You>2
+Do you want to rotate your qoin before flipping?
+0. No, do not rotate my qoin
+1. Yes, rotate left
+2. Yes, rotate right
+
+0
+0: ['2', '0', None]
+<You>0
+[Round 25]: zardus's competitor bets on 0, you bet on 1
+Win!
+[Round 26]: Your competitor bets on 1
+0. Bet for 0
+1. Bet for 1
+2. Use your magic qoin
+
+2
+1: ['2', '0', None]
+<You>2
+Do you want to rotate your qoin before flipping?
+0. No, do not rotate my qoin
+1. Yes, rotate left
+2. Yes, rotate right
+
+0
+0: ['2', '0', None]
+<You>0
+[Round 26]: zardus's competitor bets on 1, you bet on 1
+Lose!
+[Round 27]: Your competitor bets on 0
+0. Bet for 0
+1. Bet for 1
+2. Use your magic qoin
+
+2
+1: ['2', '0', None]
+<You>2
+Do you want to rotate your qoin before flipping?
+0. No, do not rotate my qoin
+1. Yes, rotate left
+2. Yes, rotate right
+
+0
+0: ['2', '0', None]
+<You>0
+[Round 27]: zardus's competitor bets on 1, you bet on 1
+Win!
+[Round 28]: Your competitor bets on 1
+0. Bet for 0
+1. Bet for 1
+2. Use your magic qoin
+
+2
+1: ['2', '0', None]
+<You>2
+Do you want to rotate your qoin before flipping?
+0. No, do not rotate my qoin
+1. Yes, rotate left
+2. Yes, rotate right
+
+0
+0: ['2', '0', None]
+<You>0
+[Round 28]: zardus's competitor bets on 1, you bet on 1
+Lose!
+[Round 29]: Your competitor bets on 1
+0. Bet for 0
+1. Bet for 1
+2. Use your magic qoin
+
+2
+1: ['2', '0', None]
+<You>2
+Do you want to rotate your qoin before flipping?
+0. No, do not rotate my qoin
+1. Yes, rotate left
+2. Yes, rotate right
+
+0
+0: ['2', '0', None]
+<You>0
+[Round 29]: zardus's competitor bets on 0, you bet on 0
+Win!
+your winning rate: 0.9
+zardus: очень хороший! You are my true good friend.
+        I am gonna share with you my chat with adamd.
+        Shhhh, don't let him know.
+zardus receives from adamd: 0:0
+zardus receives from adamd: 1:1
+zardus receives from adamd: 2:0
+zardus receives from adamd: 3:1
+zardus receives from adamd: 4:0
+zardus receives from adamd: 5:1
+zardus receives from adamd: 6:0
+zardus receives from adamd: 7:0
+zardus receives from adamd: 8:0
+zardus receives from adamd: 9:1
+zardus receives from adamd: 10:0
+zardus receives from adamd: 11:0
+zardus receives from adamd: 12:1
+zardus receives from adamd: 13:1
+zardus receives from adamd: 14:1
+zardus receives from adamd: 15:0
+zardus receives from adamd: 16:1
+zardus receives from adamd: 17:1
+zardus receives from adamd: 18:1
+zardus receives from adamd: 19:1
+zardus receives from adamd: 20:1
+zardus receives from adamd: 21:1
+zardus receives from adamd: 22:0
+zardus receives from adamd: 23:1
+zardus receives from adamd: 24:0
+zardus receives from adamd: 25:1
+zardus receives from adamd: 26:1
+zardus receives from adamd: 27:0
+zardus receives from adamd: 28:0
+zardus receives from adamd: 29:0
+zardus receives from adamd: -1:0e57c87d3787cf9ee34f6a67fd99fbb3
+zardus receives from adamd: -2:baba14aa468f7f0cc37aa61985cf01f08899e9a9799b496f8e21f09295b878b1571375e67768ef6d6d47596229bd1b046af56aef03
+
+sent to adamd from zardus (plays): 100010000000001000011010101110
+recvd from adamd on bases (bases): 010101000100111011111101011000
+                                   
+
+See https://tqsd.github.io/QuNetSim/examples/quantum_coin_flipping.html

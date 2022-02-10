@@ -1,0 +1,159 @@
+This challenge focused on planning a mission for the satellite. After running nc on the socket, we get the mission parameters:
+
+```
+##########################                                                                                                                                 
+Mission Planning Challenge                                                                                                                                 
+##########################                                                                                                                                 
+The current time is April 22, 2020 at midnight (2020-04-22T00:00:00Z).                                                                                     
+We need to obtain images of the Iranian space port (35.234722 N 53.920833 E) with our satellite within the next 48 hours.                                  
+You must design a mission plan that obtains the images and downloads them within the time frame without causing any system failures on the spacecraft, or putting it at risk of continuing operations.                                                                                                                
+The spacecraft in question is USA 224 in the NORAD database with the following TLE:                                                                        
+
+1 37348U 11002A   20053.50800700  .00010600  00000-0  95354-4 0    09
+2 37348  97.9000 166.7120 0540467 271.5258 235.8003 14.76330431    04
+
+The TLE and all locations are already known by the simulator, and are provided for your information only.
+
+Requirements
+############
+You need to obtain 120 MB of image data of the target location and downlink it to our ground station in Fairbanks, AK (64.977488 N 147.510697 W).
+Your mission will begin at 2020-04-22T00:00:00Z and last 48 hours.
+You are submitting a mission plan to a simulator that will ensure the mission plan will not put the spacecraft at risk, and will accomplish the desired objectives.
+
+Mission Plan
+############
+Enter the mission plan into the interface, where each line corresponds to an entry.
+You can copy/paste multiple lines at once into the interface.
+The simulation runs once per minute, so all entries must have 00 for the seconds field.
+Each line must be a timestamp followed by the mode with the format:
+
+2020-04-22T00:00:00Z sun_point
+YYYY-MM-DDThh:mm:00Z next_mode
+...
+
+The mission will run for it's full duration, regardless of when the image data if obtained.
+You must ensure the bus survives the entire duration.
+
+Mode Information
+################
+The bus has 4 possible modes:
+
+- sun_point: Charges the batteries by pointing the panels at the sun.
+- imaging: Trains the imager on the target location and begins capturing image data.
+- data_downlink: Slews the spacecraft to point it's high bandwidth downlink transmitter at the ground station and transmits data to the station.
+- wheel_desaturate: Desaturates the spacecraft reaction wheels using the on board magnetorquers.
+
+Each mode dictates the entire state of the spacecraft.
+The required inputs for each mode are already known by the mission planner.
+
+Bus Information
+###############
+The onboard computer has 95 MB of storage.
+All bus components are rated to operate effectively between 0 and 60 degrees Celsius.
+The battery cannot fall below 10% capacity, or it will reduce the life of the spacecraft.
+The reaction wheels have a maximum speed of 7000 RPM.
+You will received telemetry from the spacecraft throughout the simulated mission duration.
+You will need to monitor this telemetry to derive the behavior of each mode.
+
+########################################################################
+
+Please input mission plan in order by time.
+Each line must be a timestamp followed by the mode with the format:
+
+                    YYYY-MM-DDThh:mm:ssZ new_mode
+
+Usage:
+
+   run  -- Starts simulation
+   plan -- Lists current plan entries
+   exit -- Exits
+
+Once your plan is executed, it will not be saved, so make note of your plan elsewhere.
+```
+
+The parameters are straightforward and point to an obvious method:  trial and error.  In principle, three options exist.  The first and most time-consuming option is to modify commands in a chosen n-minute interval and assess your decisions' impacts on the mission.  As an alternative, the second option is to automate this process, creating code that connects, injects plans, assesses the impact, and modifies the plan accordingly before repeating.  Perhaps the best use of time would be to use the given two-line element (TLE) and datetime group (DTG) to find out when the satellite should be over our target locations.
+
+There will still be a considerable amount of trial-and-error, as there are multifarious factors for mission success.  Namely, the most volatile factors are battery, temperature, and orientation.  It's actually quite simple to desaturate the wheel and lower RPMs.  For the rest of the factors, it is necessary to precisely measure how a plan's timing influences the aforementioned volatile factors.  Imaging and downlink significantly diminishes battery life, which the satellite's orientation can raise.  Orientation, equipment operation, and wheel desaturation raise temperatures of various sensitive instruments.  Lastly, the satellite can only make imaging or data_downlink bus mode changes in view of a target location, and, in the case of imaging, only if the Sun illuminates the Earth's surface.  This gives us the choice for a default "resting bus mode" - sun_point or wheel_desaturate.  Given that wheel_desaturate raises instrument temperatures, let's choose sun_point.
+
+It is prudent to compile the plan in a text document and run Python code to interface with the challenge's socket:
+
+```
+import socket
+import time
+
+ticket = 'ticket{uniform18344yankee:GEbvzOzes0pAp7PiJRSnLuM42l8oosUhLMe3BcT3kiz9Y3okn5TlQ-KJVi4Bw3MdEA}'
+IPADDR1 = '52.14.163.235'
+PORT1 = 5023
+ret = '\n'
+
+commands = [b'run',b'plan',b'exit']
+
+def loadMission(filename):
+    mission = list()
+    with open(filename,'r') as infile:
+        for x,line in enumerate(infile):
+            mission.append(line.strip())
+        infile.close()
+    return '\n'.join(mission)
+
+s1 = socket.socket(socket.AF_INET,socket.SOCK_STREAM)
+s1.connect((IPADDR1,PORT1))
+resp_s1_1 = s1.recv(4096).decode('ascii')
+print(resp_s1_1)
+delims = "-"*((len(ticket)//2)+2)
+padding = " "*(((len(delims)*2)+5)-len(ticket))
+SEND_BOX = "+{}SENDALL{}+\n|  {}{}|\n+{}{}{}+\n".format(delims,delims,ticket,padding,delims,"-"*7,delims)
+print(SEND_BOX)
+s1.sendall(ticket.encode('ascii')+ret.encode('ascii'))
+resp_s1_2 = s1.recv(8192).decode('ascii')
+print(resp_s1_2)
+
+time.sleep(2)
+mission = loadMission('mission.txt').encode('ascii')
+#mission = loadMission('measure.txt').encode('ascii')
+
+print("LOADING MISSION...")
+time.sleep(2)
+s1.sendall(mission+ret.encode('ascii'))
+s1.sendall(commands[1]+ret.encode('ascii'))
+resp_mis = s1.recv(4096).decode('ascii')
+print(resp_mis)
+s1.sendall(commands[0]+ret.encode('ascii'))
+while True:
+    resp_cmd0 = s1.recv(4096).decode('ascii')
+    print(resp_cmd0)
+    if len(resp_cmd0) == 0:
+        break
+
+s1.close()
+
+print("DONE!")
+```
+
+Finally, the plan that solved the challenge:
+
+```
+2020-04-22T00:00:00Z sun_point
+2020-04-22T09:28:00Z imaging
+2020-04-22T09:35:00Z wheel_desaturate
+2020-04-22T09:36:00Z sun_point
+2020-04-22T10:47:00Z data_downlink
+2020-04-22T10:49:00Z sun_point
+2020-04-22T16:43:00Z wheel_desaturate
+2020-04-22T17:19:00Z sun_point
+2020-04-22T22:10:00Z wheel_desaturate
+2020-04-22T23:50:00Z sun_point
+2020-04-23T05:40:00Z wheel_desaturate
+2020-04-23T06:20:00Z sun_point
+2020-04-23T09:32:00Z data_downlink
+2020-04-23T09:34:00Z sun_point
+2020-04-23T09:50:00Z imaging
+2020-04-23T09:55:00Z sun_point
+2020-04-23T09:56:00Z imaging
+2020-04-23T09:57:00Z sun_point
+2020-04-23T11:10:00Z data_downlink
+2020-04-23T11:11:00Z sun_point
+2020-04-23T20:53:00Z wheel_desaturate
+2020-04-23T22:44:00Z data_downlink
+2020-04-23T22:46:00Z sun_point
+```

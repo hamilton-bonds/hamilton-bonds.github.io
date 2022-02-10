@@ -1,0 +1,146 @@
+---
+title: "[50] Over Time: Paid (Cryptography)"
+layout: template
+filename: overtimepaid.md
+---
+
+## [50] Over Time: Paid (Cryptography)
+
+### Prompt:
+
+After many months of hard work by our agents, we've gained access to a sensitive payroll document from a competitor. Unfortunately, it looks heavily encrypted. document.encrypted source.py
+
+### Initial Analysis:
+
+When first looking at the file source.py, the first thing that stands out is that the code is prefaced with a list of words and two predefined variables "INTRO" and "OUTRO".  For any crypto problem, known text significantly simplifies the problem-solving process.
+
+The next thing to note is how encrypt_otp functions:
+
+```
+def encrypt_otp(data):
+    d = data.encode('utf-8')
+    otp = bytes(os.urandom(64))
+    out = []
+    for i in range(0, len(d)):
+        out.append(d[i] ^ otp[i % len(otp)])
+    return bytes(out)
+```
+
+encrypt_otp takes in data, which is effectively a combination of "INTRO", selections from the list "words", "OUTRO", and then the flag.  The data is then XOR'd against the 64-byte Unicode-Random one-time pad (OTP) with the caret operator (^), byte-by-byte.
+
+Seeing that the INTRO is 65 bytes in length, we can deduce the OTP from a known input by looking at the first 64 bytes of document.encrypted.  From there, we decrypt the document with the given OTP, as XOR is a two-way operation; that is, if a^b=c, then c^b=a.
+
+### Solution:
+
+For single-byte XOR problems, I like to start by generating a list of single-byte hex combinations.
+
+```keylist = [hex(x)[2:].zfill(2) for x in range(256)]```
+
+Import the data from document.encrypted:
+
+```
+hexlist = list()
+with open('document.encrypted','r') as infile:
+    for line in infile:
+        hexlist.extend([line.strip()[i:i+2] for i in range(0,len(line),2)])
+    infile.close()
+```
+
+Then, create a list of characters from the hex values:
+
+```
+unhexd_list = list()
+for hc in hexlist:
+    unhexd_list.append(binascii.unhexlify(hc.zfill(2)))
+```
+
+I created two functions to handle finding the OTP and then subsequently decrypting the file as discussed in the analysis:
+
+```
+def getOTP(INTRO,unhexd_list,keylist):
+    otp = list()
+    sample_in = INTRO[:64]
+    sample_out = unhexd_list[:64]
+    for i,char in enumerate(sample_in):
+        char = char.encode('utf-8')
+        for key in keylist:
+            kb = bytes.fromhex(key)
+            result = char[0] ^ kb[0]
+            result = bytes([result])
+            if result.hex() == sample_out[i].hex():
+                otp.append(kb)
+    return otp
+
+def decode(message,otp):
+    out = list()
+    otp_ctr = 0
+    for z,m in enumerate(message):
+        if z % 64 == 0:
+            otp_ctr = 0
+        xl = m
+        xr = otp[otp_ctr]
+        out.append(chr(xl[0] ^ xr[0]))
+        otp_ctr += 1
+    return out
+```
+
+How getOTP works is visualized below:
+
+```
+ INPUT: 'The following encoded individuals are to be given a $27.3k bonus'
+xINPUT: 
+        T  h  e     f  o  l  l 
+        54 68 65 20 66 6f 6c 6c
+	o  w  i  n  g     e  n
+        6f 77 69 6e 67 20 65 6e
+	c  o  d  e  d     i  n
+	63 6f 64 65 64 20 69 6e
+	d  i  v  i  d  u  a  l
+	64 69 76 69 64 75 61 6c
+	s     a  r  e     t  o
+	73 20 61 72 65 20 74 6f
+	   b  e     g  i  v  e
+	20 62 65 20 67 69 76 65
+	n     a     $  2  7  .
+	6e 20 61 20 24 32 37 2e
+	3  k     b  o  n  u  s
+	33 6b 20 62 6f 6e 75 73
+
+ FUNCT: Does 54^00 == OUTPUT[0]?...Does 54^FF == OUTPUT[0]?
+        If yes, add the correct XOR key piece to the OTP.
+        Does 68^00 == OUTPUT[1]?...Does 68^FF == OUTPUT[1]?
+	If yes, add the correct XOR key piece to the OTP.
+	..
+	Does 73^00 == OUTPUT[63]?..Does 73^FF == OUTPUT[63]?
+```
+
+Finally, the main:
+
+```
+if __name__ == '__main__':
+    otp = getOTP(INTRO,unhexd_list,keylist)
+    original = decode(unhexd_list,otp)
+    print(''.join(original))
+```
+
+And there you have it!
+
+```
+The following encoded individuals are to be given a $27.3k bonus:
+DELTA TANGO GOLF TANGO TANGO ALPHA INDIA TANGO GOLF DELTA      
+DELTA DELTA ALPHA SIERRA ECHO HOTEL DELTA SIERRA BRAVO ECHO    
+CHARLIE FOXTROT DELTA DELTA ECHO FOXTROT ZETA GOLF HOTEL ECHO  
+SIERRA CHARLIE ALPHA FOXTROT ALPHA TANGO ECHO INDIA SIERRA     
+BRAVO DELTA TANGO GOLF SIERRA HOTEL SIERRA SIERRA HOTEL        
+ZETA ECHO FOXTROT HOTEL GOLF SIERRA DELTA ZETA INDIA GOLF      
+TANGO HOTEL BRAVO INDIA GOLF HOTEL ECHO ECHO TANGO HOTEL ZETA  
+HOTEL BRAVO HOTEL ECHO SIERRA ALPHA SIERRA SIERRA BRAVO HOTEL  
+DELTA ALPHA DELTA ZETA HOTEL HOTEL CHARLIE ZETA CHARLIE ALPHA  
+BRAVO TANGO SIERRA SIERRA TANGO FOXTROT FOXTROT DELTA DELTA    
+                                                               
+Furthermore, the FLAG is:                                      
+
+ACI{redacted...you don't get it that easily!}
+```
+
+END
