@@ -1,5 +1,5 @@
 # Hamilton Bonds
-Cyber Warfare Officer | CISSP
+Cyber Warfare Officer | [CISSP](https://www.credly.com/badges/3e4d80dc-37fd-40dd-86bc-a8e233745d9e/public_url)
 
 ## CTFs
 
