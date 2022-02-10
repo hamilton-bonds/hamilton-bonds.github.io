@@ -1,6 +1,9 @@
 # Hamilton Bonds
 Cyber Warfare Officer | [CISSP](https://www.credly.com/badges/3e4d80dc-37fd-40dd-86bc-a8e233745d9e/public_url)
 
+## Resume
+[LinkedIn](https://linkedin.com/in/hamilton-b-138843a8/)
+
 ## CTFs
 
 [2020 ACICTF All-Army Cyber Stakes](https://hamilton-bonds.github.io/ctf/2020/2020_ACICTF_Cyber_Stakes.html)
