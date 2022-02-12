@@ -1,0 +1,5 @@
+#!/bin/bash
+
+touch /tmp/sh25/bandit26pass.txt
+cp /etc/bandit_pass/bandit26 /tmp/sh25/bandit26pass.txt
+echo "DONE!"

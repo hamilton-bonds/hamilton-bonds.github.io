@@ -1,0 +1,64 @@
+
+Starting Nmap 7.60 ( https://nmap.org ) at 2019-06-10 19:20 EDT
+Nmap scan report for 192.168.1.11
+Host is up (0.0019s latency).
+Not shown: 996 closed ports
+PORT     STATE SERVICE     VERSION
+22/tcp   open  ssh         (protocol 2.0)
+| fingerprint-strings: 
+|   NULL: 
+|_    SSH-2.0-OpenSSH_7.4p1 Raspbian-10+deb9u6
+| ssh-hostkey: 
+|   2048 13:4d:81:31:e2:6b:2c:2d:c5:fc:14:f2:d2:c7:ad:b3 (RSA)
+|   256 d0:38:cf:e8:e2:0e:4d:72:09:a8:b5:07:5b:9a:bf:76 (ECDSA)
+|_  256 d0:ca:34:63:03:7d:15:25:b5:11:66:fc:5a:0c:90:33 (EdDSA)
+139/tcp  open  netbios-ssn Samba smbd 3.X - 4.X (workgroup: WORKGROUP)
+445/tcp  open  netbios-ssn Samba smbd 4.5.16-Debian (workgroup: WORKGROUP)
+5900/tcp open  vnc         RealVNC Enterprise 5.3 or later (protocol 5.0)
+| vnc-info: 
+|   Protocol version: 005.000
+|   Security types: 
+|     Unknown security type (13)
+|     RA2 (5)
+|     RA2ne (6)
+|     Unknown security type (130)
+|_    Unknown security type (192)
+1 service unrecognized despite returning data. If you know the service/version, please submit the following fingerprint at https://nmap.org/cgi-bin/submit.cgi?new-service :
+SF-Port22-TCP:V=7.60%I=7%D=6/10%Time=5CFEE5C9%P=x86_64-pc-linux-gnu%r(NULL
+SF:,29,"SSH-2\.0-OpenSSH_7\.4p1\x20Raspbian-10\+deb9u6\n");
+MAC Address: B8:27:EB:C7:0D:7D (Raspberry Pi Foundation)
+Device type: general purpose
+Running: Linux 3.X|4.X
+OS CPE: cpe:/o:linux:linux_kernel:3 cpe:/o:linux:linux_kernel:4
+OS details: Linux 3.2 - 4.8
+Network Distance: 1 hop
+Service Info: Host: RASPBERRYPI
+
+Host script results:
+|_clock-skew: mean: -3s, deviation: 0s, median: -3s
+|_nbstat: NetBIOS name: RASPBERRYPI, NetBIOS user: <unknown>, NetBIOS MAC: <unknown> (unknown)
+| smb-os-discovery: 
+|   OS: Windows 6.1 (Samba 4.5.16-Debian)
+|   Computer name: raspberrypi
+|   NetBIOS computer name: RASPBERRYPI\x00
+|   Domain name: \x00
+|   FQDN: raspberrypi
+|_  System time: 2019-06-10T19:20:45-04:00
+| smb-security-mode: 
+|   account_used: guest
+|   authentication_level: user
+|   challenge_response: supported
+|_  message_signing: disabled (dangerous, but default)
+| smb2-security-mode: 
+|   2.02: 
+|_    Message signing enabled but not required
+| smb2-time: 
+|   date: 2019-06-10 19:20:45
+|_  start_date: 1600-12-31 19:03:58
+
+TRACEROUTE
+HOP RTT     ADDRESS
+1   1.95 ms 192.168.1.11
+
+OS and Service detection performed. Please report any incorrect results at https://nmap.org/submit/ .
+Nmap done: 1 IP address (1 host up) scanned in 14.14 seconds

@@ -1,0 +1,2628 @@
+
+
+
+
+
+
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+  <link rel="dns-prefetch" href="https://assets-cdn.github.com">
+  <link rel="dns-prefetch" href="https://avatars0.githubusercontent.com">
+  <link rel="dns-prefetch" href="https://avatars1.githubusercontent.com">
+  <link rel="dns-prefetch" href="https://avatars2.githubusercontent.com">
+  <link rel="dns-prefetch" href="https://avatars3.githubusercontent.com">
+  <link rel="dns-prefetch" href="https://github-cloud.s3.amazonaws.com">
+  <link rel="dns-prefetch" href="https://user-images.githubusercontent.com/">
+
+
+
+  <link crossorigin="anonymous" media="all" integrity="sha512-hqbuBb0QOOmiWgl8a1V1N5q6TI/G0A2hVt/lCFYafR+fYsuXeRUcsdcb/yUyVEHYXktmUXl0Mx9s/BOUNZVq4w==" rel="stylesheet" href="https://assets-cdn.github.com/assets/frameworks-23c9e7262eee71bc6f67f6950190a162.css" />
+  <link crossorigin="anonymous" media="all" integrity="sha512-Tmj0bzh6pGuTOzcpS9hZwZ5/OueHTn15RCG9F8UIEAA/UmUr4tc5l22L4OBmSiHSD6Uz2pZZqvJ7MSWgP9wiVg==" rel="stylesheet" href="https://assets-cdn.github.com/assets/github-f3dbefb182d184a7c6bf518633cfcb38.css" />
+  
+  
+  <link crossorigin="anonymous" media="all" integrity="sha512-cCY9KKeDzfGd+snVDZwcOIrTjK+JAFW4FR1c4OGJo1Z2QZNbAGVD6JlcnHL19LBcdByWHVxwrAPwigT/v/DWyQ==" rel="stylesheet" href="https://assets-cdn.github.com/assets/site-7472e7b4603d4095447d49d428375ab8.css" />
+  
+
+  <meta name="viewport" content="width=device-width">
+  
+  <title>GitHub - python/cpython: The Python programming language</title>
+    <meta name="description" content="GitHub is where people build software. More than 27 million people use GitHub to discover, fork, and contribute to over 80 million projects.">
+  <link rel="search" type="application/opensearchdescription+xml" href="/opensearch.xml" title="GitHub">
+  <link rel="fluid-icon" href="https://github.com/fluidicon.png" title="GitHub">
+  <meta property="fb:app_id" content="1401488693436528">
+
+    
+    <meta property="og:image" content="https://avatars2.githubusercontent.com/u/1525981?s=400&amp;v=4" /><meta property="og:site_name" content="GitHub" /><meta property="og:type" content="object" /><meta property="og:title" content="python/cpython" /><meta property="og:url" content="https://github.com/python/cpython" /><meta property="og:description" content="cpython - The Python programming language" />
+
+  <link rel="assets" href="https://assets-cdn.github.com/">
+  
+  <meta name="pjax-timeout" content="1000">
+  
+  <meta name="request-id" content="8FE6:3976:39D0030:6954746:5AFA09A9" data-pjax-transient>
+
+
+  
+
+  <meta name="selected-link" value="repo_source" data-pjax-transient>
+
+    <meta name="google-site-verification" content="KT5gs8h0wvaagLKAVWq8bbeNwnZZK1r1XQysX3xurLU">
+  <meta name="google-site-verification" content="ZzhVyEFwb7w3e0-uOTltm8Jsck2F5StVihD0exw2fsA">
+  <meta name="google-site-verification" content="GXs5KoUUkNCoaAZn7wPN-t01Pywp9M3sEjnt_3_ZWPc">
+    <meta name="google-analytics" content="UA-3769691-2">
+
+<meta name="octolytics-host" content="collector.githubapp.com" /><meta name="octolytics-app-id" content="github" /><meta name="octolytics-event-url" content="https://collector.githubapp.com/github-external/browser_event" /><meta name="octolytics-dimension-request_id" content="8FE6:3976:39D0030:6954746:5AFA09A9" /><meta name="octolytics-dimension-region_edge" content="iad" /><meta name="octolytics-dimension-region_render" content="iad" />
+<meta name="analytics-location" content="/&lt;user-name&gt;/&lt;repo-name&gt;" data-pjax-transient="true" />
+
+
+
+
+  <meta class="js-ga-set" name="dimension1" content="Logged Out">
+
+
+  
+
+      <meta name="hostname" content="github.com">
+    <meta name="user-login" content="">
+
+      <meta name="expected-hostname" content="github.com">
+    <meta name="js-proxy-site-detection-payload" content="NTE3MTkzMzU1Mzc0OGQ5NTcyYWQyNDQ5NWZlNTQzOGQyOGNhMjVhZWE3NjBiZDUzZjE4YjhkNWQ3MjA2NzE3Y3x7InJlbW90ZV9hZGRyZXNzIjoiMjQuMTkyLjIzNS40MiIsInJlcXVlc3RfaWQiOiI4RkU2OjM5NzY6MzlEMDAzMDo2OTU0NzQ2OjVBRkEwOUE5IiwidGltZXN0YW1wIjoxNTI2MzM1OTE0LCJob3N0IjoiZ2l0aHViLmNvbSJ9">
+
+    <meta name="enabled-features" content="UNIVERSE_BANNER,FREE_TRIALS,MARKETPLACE_INSIGHTS,MARKETPLACE_SELF_SERVE,MARKETPLACE_FREE_APPS,MARKETPLACE_INSIGHTS_CONVERSION_PERCENTAGES">
+
+  <meta name="html-safe-nonce" content="5067bb5ac92b1ab17ff3ba5a3ef1b88640cfd4b5">
+
+  <meta http-equiv="x-pjax-version" content="69c9898a00bbd29edd948ab28102b701">
+  
+
+      <link href="https://github.com/python/cpython/commits/master.atom" rel="alternate" title="Recent Commits to cpython:master" type="application/atom+xml">
+
+  <meta name="description" content="cpython - The Python programming language">
+  <meta name="go-import" content="github.com/python/cpython git https://github.com/python/cpython.git">
+
+  <meta name="octolytics-dimension-user_id" content="1525981" /><meta name="octolytics-dimension-user_login" content="python" /><meta name="octolytics-dimension-repository_id" content="81598961" /><meta name="octolytics-dimension-repository_nwo" content="python/cpython" /><meta name="octolytics-dimension-repository_public" content="true" /><meta name="octolytics-dimension-repository_is_fork" content="false" /><meta name="octolytics-dimension-repository_network_root_id" content="81598961" /><meta name="octolytics-dimension-repository_network_root_nwo" content="python/cpython" /><meta name="octolytics-dimension-repository_explore_github_marketplace_ci_cta_shown" content="false" />
+
+
+    <link rel="canonical" href="https://github.com/python/cpython" data-pjax-transient>
+
+
+  <meta name="browser-stats-url" content="https://api.github.com/_private/browser/stats">
+
+  <meta name="browser-errors-url" content="https://api.github.com/_private/browser/errors">
+
+  <link rel="mask-icon" href="https://assets-cdn.github.com/pinned-octocat.svg" color="#000000">
+  <link rel="icon" type="image/x-icon" class="js-site-favicon" href="https://assets-cdn.github.com/favicon.ico">
+
+<meta name="theme-color" content="#1e2327">
+
+
+
+<link rel="manifest" href="/manifest.json" crossOrigin="use-credentials">
+
+  </head>
+
+  <body class="logged-out env-production">
+    
+
+  <div class="position-relative js-header-wrapper ">
+    <a href="#start-of-content" tabindex="1" class="px-2 py-4 bg-blue text-white show-on-focus js-skip-to-content">Skip to content</a>
+    <div id="js-pjax-loader-bar" class="pjax-loader-bar"><div class="progress"></div></div>
+
+    
+    
+    
+
+
+
+        <header class="Header header-logged-out  position-relative f4 py-3" role="banner">
+  <div class="container-lg d-flex px-3">
+    <div class="d-flex flex-justify-between flex-items-center">
+      <a class="header-logo-invertocat my-0" href="https://github.com/" aria-label="Homepage" data-ga-click="(Logged out) Header, go to homepage, icon:logo-wordmark">
+        <svg height="32" class="octicon octicon-mark-github" viewBox="0 0 16 16" version="1.1" width="32" aria-hidden="true"><path fill-rule="evenodd" d="M8 0C3.58 0 0 3.58 0 8c0 3.54 2.29 6.53 5.47 7.59.4.07.55-.17.55-.38 0-.19-.01-.82-.01-1.49-2.01.37-2.53-.49-2.69-.94-.09-.23-.48-.94-.82-1.13-.28-.15-.68-.52-.01-.53.63-.01 1.08.58 1.23.82.72 1.21 1.87.87 2.33.66.07-.52.28-.87.51-1.07-1.78-.2-3.64-.89-3.64-3.95 0-.87.31-1.59.82-2.15-.08-.2-.36-1.02.08-2.12 0 0 .67-.21 2.2.82.64-.18 1.32-.27 2-.27.68 0 1.36.09 2 .27 1.53-1.04 2.2-.82 2.2-.82.44 1.1.16 1.92.08 2.12.51.56.82 1.27.82 2.15 0 3.07-1.87 3.75-3.65 3.95.29.25.54.73.54 1.48 0 1.07-.01 1.93-.01 2.2 0 .21.15.46.55.38A8.013 8.013 0 0 0 16 8c0-4.42-3.58-8-8-8z"/></svg>
+      </a>
+
+    </div>
+
+    <div class="HeaderMenu HeaderMenu--bright d-flex flex-justify-between flex-auto">
+        <nav class="mt-0">
+          <ul class="d-flex list-style-none">
+              <li class="ml-2">
+                <a class="js-selected-navigation-item HeaderNavlink px-0 py-2 m-0" data-ga-click="Header, click, Nav menu - item:features" data-selected-links="/features /features/project-management /features/code-review /features/project-management /features/integrations /features" href="/features">
+                  Features
+</a>              </li>
+              <li class="ml-4">
+                <a class="js-selected-navigation-item HeaderNavlink px-0 py-2 m-0" data-ga-click="Header, click, Nav menu - item:business" data-selected-links="/business /business/security /business/customers /business" href="/business">
+                  Business
+</a>              </li>
+
+              <li class="ml-4">
+                <a class="js-selected-navigation-item HeaderNavlink px-0 py-2 m-0" data-ga-click="Header, click, Nav menu - item:explore" data-selected-links="/explore /trending /trending/developers /integrations /integrations/feature/code /integrations/feature/collaborate /integrations/feature/ship showcases showcases_search showcases_landing /explore" href="/explore">
+                  Explore
+</a>              </li>
+
+              <li class="ml-4">
+                    <a class="js-selected-navigation-item HeaderNavlink px-0 py-2 m-0" data-ga-click="Header, click, Nav menu - item:marketplace" data-selected-links=" /marketplace" href="/marketplace">
+                      Marketplace
+</a>              </li>
+              <li class="ml-4">
+                <a class="js-selected-navigation-item HeaderNavlink px-0 py-2 m-0" data-ga-click="Header, click, Nav menu - item:pricing" data-selected-links="/pricing /pricing/developer /pricing/team /pricing/business-hosted /pricing/business-enterprise /pricing" href="/pricing">
+                  Pricing
+</a>              </li>
+          </ul>
+        </nav>
+
+      <div class="d-flex">
+          <div class="d-lg-flex flex-items-center mr-3">
+            <div class="header-search scoped-search site-scoped-search js-site-search" role="search">
+  <!-- '"` --><!-- </textarea></xmp> --></option></form><form class="js-site-search-form" data-scope-type="Repository" data-scope-id="81598961" data-scoped-search-url="/python/cpython/search" data-unscoped-search-url="/search" action="/python/cpython/search" accept-charset="UTF-8" method="get"><input name="utf8" type="hidden" value="&#x2713;" />
+    <label class="form-control header-search-wrapper  js-chromeless-input-container">
+          <a class="header-search-scope no-underline" href="/python/cpython">This repository</a>
+      <input type="text"
+        class="form-control header-search-input  js-site-search-focus js-site-search-field is-clearable"
+        data-hotkey="s,/"
+        name="q"
+        value=""
+        placeholder="Search"
+        aria-label="Search this repository"
+        data-unscoped-placeholder="Search GitHub"
+        data-scoped-placeholder="Search"
+        autocapitalize="off"
+        >
+        <input type="hidden" class="js-site-search-type-field" name="type" >
+    </label>
+</form></div>
+
+          </div>
+
+        <span class="d-inline-block">
+            <div class="HeaderNavlink px-0 py-2 m-0">
+              <a class="text-bold text-white no-underline" href="/login?return_to=%2Fpython%2Fcpython" data-ga-click="(Logged out) Header, clicked Sign in, text:sign-in">Sign in</a>
+                <span class="text-gray">or</span>
+                <a class="text-bold text-white no-underline" href="/join?source=header-repo" data-ga-click="(Logged out) Header, clicked Sign up, text:sign-up">Sign up</a>
+            </div>
+        </span>
+      </div>
+    </div>
+  </div>
+</header>
+
+  </div>
+
+  <div id="start-of-content" class="show-on-focus"></div>
+
+    <div id="js-flash-container">
+</div>
+
+
+
+  <div role="main" class="application-main ">
+        <div itemscope itemtype="http://schema.org/SoftwareSourceCode" class="">
+    <div id="js-repo-pjax-container" data-pjax-container >
+      
+
+
+
+  
+
+
+
+  <div class="pagehead repohead instapaper_ignore readability-menu experiment-repo-nav  ">
+    <div class="repohead-details-container clearfix container">
+
+      <ul class="pagehead-actions">
+  <li>
+      <a href="/login?return_to=%2Fpython%2Fcpython"
+    class="btn btn-sm btn-with-count tooltipped tooltipped-n"
+    aria-label="You must be signed in to watch a repository" rel="nofollow">
+    <svg class="octicon octicon-eye" viewBox="0 0 16 16" version="1.1" width="16" height="16" aria-hidden="true"><path fill-rule="evenodd" d="M8.06 2C3 2 0 8 0 8s3 6 8.06 6C13 14 16 8 16 8s-3-6-7.94-6zM8 12c-2.2 0-4-1.78-4-4 0-2.2 1.8-4 4-4 2.22 0 4 1.8 4 4 0 2.22-1.78 4-4 4zm2-4c0 1.11-.89 2-2 2-1.11 0-2-.89-2-2 0-1.11.89-2 2-2 1.11 0 2 .89 2 2z"/></svg>
+    Watch
+  </a>
+  <a class="social-count" href="/python/cpython/watchers"
+     aria-label="856 users are watching this repository">
+    856
+  </a>
+
+  </li>
+
+  <li>
+      <a href="/login?return_to=%2Fpython%2Fcpython"
+    class="btn btn-sm btn-with-count tooltipped tooltipped-n"
+    aria-label="You must be signed in to star a repository" rel="nofollow">
+    <svg class="octicon octicon-star" viewBox="0 0 14 16" version="1.1" width="14" height="16" aria-hidden="true"><path fill-rule="evenodd" d="M14 6l-4.9-.64L7 1 4.9 5.36 0 6l3.6 3.26L2.67 14 7 11.67 11.33 14l-.93-4.74L14 6z"/></svg>
+    Star
+  </a>
+
+    <a class="social-count js-social-count" href="/python/cpython/stargazers"
+      aria-label="17647 users starred this repository">
+      17,647
+    </a>
+
+  </li>
+
+  <li>
+      <a href="/login?return_to=%2Fpython%2Fcpython"
+        class="btn btn-sm btn-with-count tooltipped tooltipped-n"
+        aria-label="You must be signed in to fork a repository" rel="nofollow">
+        <svg class="octicon octicon-repo-forked" viewBox="0 0 10 16" version="1.1" width="10" height="16" aria-hidden="true"><path fill-rule="evenodd" d="M8 1a1.993 1.993 0 0 0-1 3.72V6L5 8 3 6V4.72A1.993 1.993 0 0 0 2 1a1.993 1.993 0 0 0-1 3.72V6.5l3 3v1.78A1.993 1.993 0 0 0 5 15a1.993 1.993 0 0 0 1-3.72V9.5l3-3V4.72A1.993 1.993 0 0 0 8 1zM2 4.2C1.34 4.2.8 3.65.8 3c0-.65.55-1.2 1.2-1.2.65 0 1.2.55 1.2 1.2 0 .65-.55 1.2-1.2 1.2zm3 10c-.66 0-1.2-.55-1.2-1.2 0-.65.55-1.2 1.2-1.2.65 0 1.2.55 1.2 1.2 0 .65-.55 1.2-1.2 1.2zm3-10c-.66 0-1.2-.55-1.2-1.2 0-.65.55-1.2 1.2-1.2.65 0 1.2.55 1.2 1.2 0 .65-.55 1.2-1.2 1.2z"/></svg>
+        Fork
+      </a>
+
+    <a href="/python/cpython/network" class="social-count"
+       aria-label="5360 users forked this repository">
+      5,360
+    </a>
+  </li>
+</ul>
+
+      <h1 class="public ">
+  <svg class="octicon octicon-repo" viewBox="0 0 12 16" version="1.1" width="12" height="16" aria-hidden="true"><path fill-rule="evenodd" d="M4 9H3V8h1v1zm0-3H3v1h1V6zm0-2H3v1h1V4zm0-2H3v1h1V2zm8-1v12c0 .55-.45 1-1 1H6v2l-1.5-1.5L3 16v-2H1c-.55 0-1-.45-1-1V1c0-.55.45-1 1-1h10c.55 0 1 .45 1 1zm-1 10H1v2h2v-1h3v1h5v-2zm0-10H2v9h9V1z"/></svg>
+  <span class="author" itemprop="author"><a class="url fn" rel="author" href="/python">python</a></span><!--
+--><span class="path-divider">/</span><!--
+--><strong itemprop="name"><a data-pjax="#js-repo-pjax-container" href="/python/cpython">cpython</a></strong>
+
+</h1>
+
+    </div>
+    
+<nav class="reponav js-repo-nav js-sidenav-container-pjax container"
+     itemscope
+     itemtype="http://schema.org/BreadcrumbList"
+     role="navigation"
+     data-pjax="#js-repo-pjax-container">
+
+  <span itemscope itemtype="http://schema.org/ListItem" itemprop="itemListElement">
+    <a class="js-selected-navigation-item selected reponav-item" itemprop="url" data-hotkey="g c" data-selected-links="repo_source repo_downloads repo_commits repo_releases repo_tags repo_branches repo_packages /python/cpython" href="/python/cpython">
+      <svg class="octicon octicon-code" viewBox="0 0 14 16" version="1.1" width="14" height="16" aria-hidden="true"><path fill-rule="evenodd" d="M9.5 3L8 4.5 11.5 8 8 11.5 9.5 13 14 8 9.5 3zm-5 0L0 8l4.5 5L6 11.5 2.5 8 6 4.5 4.5 3z"/></svg>
+      <span itemprop="name">Code</span>
+      <meta itemprop="position" content="1">
+</a>  </span>
+
+
+  <span itemscope itemtype="http://schema.org/ListItem" itemprop="itemListElement">
+    <a data-hotkey="g p" itemprop="url" class="js-selected-navigation-item reponav-item" data-selected-links="repo_pulls checks /python/cpython/pulls" href="/python/cpython/pulls">
+      <svg class="octicon octicon-git-pull-request" viewBox="0 0 12 16" version="1.1" width="12" height="16" aria-hidden="true"><path fill-rule="evenodd" d="M11 11.28V5c-.03-.78-.34-1.47-.94-2.06C9.46 2.35 8.78 2.03 8 2H7V0L4 3l3 3V4h1c.27.02.48.11.69.31.21.2.3.42.31.69v6.28A1.993 1.993 0 0 0 10 15a1.993 1.993 0 0 0 1-3.72zm-1 2.92c-.66 0-1.2-.55-1.2-1.2 0-.65.55-1.2 1.2-1.2.65 0 1.2.55 1.2 1.2 0 .65-.55 1.2-1.2 1.2zM4 3c0-1.11-.89-2-2-2a1.993 1.993 0 0 0-1 3.72v6.56A1.993 1.993 0 0 0 2 15a1.993 1.993 0 0 0 1-3.72V4.72c.59-.34 1-.98 1-1.72zm-.8 10c0 .66-.55 1.2-1.2 1.2-.65 0-1.2-.55-1.2-1.2 0-.65.55-1.2 1.2-1.2.65 0 1.2.55 1.2 1.2zM2 4.2C1.34 4.2.8 3.65.8 3c0-.65.55-1.2 1.2-1.2.65 0 1.2.55 1.2 1.2 0 .65-.55 1.2-1.2 1.2z"/></svg>
+      <span itemprop="name">Pull requests</span>
+      <span class="Counter">710</span>
+      <meta itemprop="position" content="3">
+</a>  </span>
+
+
+
+
+  <a class="js-selected-navigation-item reponav-item" data-selected-links="repo_graphs repo_contributors dependency_graph pulse /python/cpython/pulse" href="/python/cpython/pulse">
+    <svg class="octicon octicon-graph" viewBox="0 0 16 16" version="1.1" width="16" height="16" aria-hidden="true"><path fill-rule="evenodd" d="M16 14v1H0V0h1v14h15zM5 13H3V8h2v5zm4 0H7V3h2v10zm4 0h-2V6h2v7z"/></svg>
+    Insights
+</a>
+
+</nav>
+
+
+  </div>
+
+<div class="container new-discussion-timeline experiment-repo-nav  ">
+  <div class="repository-content ">
+
+    
+      <div class="signup-prompt-bg rounded-1">
+      <div class="signup-prompt p-4 text-center mb-4 rounded-1">
+        <div class="position-relative">
+          <!-- '"` --><!-- </textarea></xmp> --></option></form><form action="/site/dismiss_signup_prompt" accept-charset="UTF-8" method="post"><input name="utf8" type="hidden" value="&#x2713;" /><input type="hidden" name="authenticity_token" value="QoU9ZjCAYHtWMF+x555R3IL5E4I6Anr/YGVoG0fOI2bNqafe2DinhgWQsrGnK/ZKigvVgUx+FQCCVyWoYhXLZA==" />
+            <button type="submit" class="position-absolute top-0 right-0 btn-link link-gray" data-ga-click="(Logged out) Sign up prompt, clicked Dismiss, text:dismiss">
+              Dismiss
+            </button>
+</form>
+          <h3 class="pt-2">Join GitHub today</h3>
+          <p class="col-6 mx-auto">GitHub is home to over 20 million developers working together to host and review code, manage projects, and build software together.</p>
+          <p class="pb-2">
+            <a class="btn btn-blue" href="/join?source=prompt-code" data-ga-click="(Logged out) Sign up prompt, clicked Sign up, text:sign-up">Sign up</a>
+          </p>
+        </div>
+      </div>
+    </div>
+
+
+  <div class="js-repo-meta-container">
+  <div class="repository-meta mb-0 mb-3 js-repo-meta-edit js-details-container ">
+    <div class="repository-meta-content col-11 mb-1">
+          <span class="col-11 text-gray-dark mr-2" itemprop="about">
+            The Python programming language
+          </span>
+          <span itemprop="url"><a rel="nofollow" href="https://www.python.org/">https://www.python.org/</a></span>
+    </div>
+
+  </div>
+
+</div>
+
+
+
+  <div class="overall-summary overall-summary-bottomless">
+    <div class="stats-switcher-viewport js-stats-switcher-viewport">
+      <div class="stats-switcher-wrapper">
+      <ul class="numbers-summary">
+        <li class="commits">
+          <a data-pjax href="/python/cpython/commits/master">
+              <svg class="octicon octicon-history" viewBox="0 0 14 16" version="1.1" width="14" height="16" aria-hidden="true"><path fill-rule="evenodd" d="M8 13H6V6h5v2H8v5zM7 1C4.81 1 2.87 2.02 1.59 3.59L0 2v4h4L2.5 4.5C3.55 3.17 5.17 2.3 7 2.3c3.14 0 5.7 2.56 5.7 5.7s-2.56 5.7-5.7 5.7A5.71 5.71 0 0 1 1.3 8c0-.34.03-.67.09-1H.08C.03 7.33 0 7.66 0 8c0 3.86 3.14 7 7 7s7-3.14 7-7-3.14-7-7-7z"/></svg>
+              <span class="num text-emphasized">
+                101,385
+              </span>
+              commits
+          </a>
+        </li>
+        <li>
+          <a data-pjax href="/python/cpython/branches">
+            <svg class="octicon octicon-git-branch" viewBox="0 0 10 16" version="1.1" width="10" height="16" aria-hidden="true"><path fill-rule="evenodd" d="M10 5c0-1.11-.89-2-2-2a1.993 1.993 0 0 0-1 3.72v.3c-.02.52-.23.98-.63 1.38-.4.4-.86.61-1.38.63-.83.02-1.48.16-2 .45V4.72a1.993 1.993 0 0 0-1-3.72C.88 1 0 1.89 0 3a2 2 0 0 0 1 1.72v6.56c-.59.35-1 .99-1 1.72 0 1.11.89 2 2 2 1.11 0 2-.89 2-2 0-.53-.2-1-.53-1.36.09-.06.48-.41.59-.47.25-.11.56-.17.94-.17 1.05-.05 1.95-.45 2.75-1.25S8.95 7.77 9 6.73h-.02C9.59 6.37 10 5.73 10 5zM2 1.8c.66 0 1.2.55 1.2 1.2 0 .65-.55 1.2-1.2 1.2C1.35 4.2.8 3.65.8 3c0-.65.55-1.2 1.2-1.2zm0 12.41c-.66 0-1.2-.55-1.2-1.2 0-.65.55-1.2 1.2-1.2.65 0 1.2.55 1.2 1.2 0 .65-.55 1.2-1.2 1.2zm6-8c-.66 0-1.2-.55-1.2-1.2 0-.65.55-1.2 1.2-1.2.65 0 1.2.55 1.2 1.2 0 .65-.55 1.2-1.2 1.2z"/></svg>
+            <span class="num text-emphasized">
+              6
+            </span>
+            branches
+          </a>
+        </li>
+
+        <li>
+          <a href="/python/cpython/releases">
+            <svg class="octicon octicon-tag" viewBox="0 0 14 16" version="1.1" width="14" height="16" aria-hidden="true"><path fill-rule="evenodd" d="M7.685 1.72a2.49 2.49 0 0 0-1.76-.726H3.48A2.5 2.5 0 0 0 .994 3.48v2.456c0 .656.269 1.292.726 1.76l6.024 6.024a.99.99 0 0 0 1.402 0l4.563-4.563a.99.99 0 0 0 0-1.402L7.685 1.72zM2.366 7.048A1.54 1.54 0 0 1 1.9 5.925V3.48c0-.874.716-1.58 1.58-1.58h2.456c.418 0 .825.159 1.123.467l6.104 6.094-4.702 4.702-6.094-6.114zm.626-4.066h1.989v1.989H2.982V2.982h.01z"/></svg>
+            <span class="num text-emphasized">
+              354
+            </span>
+            releases
+          </a>
+        </li>
+
+        <li>
+            <a href="/python/cpython/graphs/contributors">
+  <svg class="octicon octicon-organization" viewBox="0 0 16 16" version="1.1" width="16" height="16" aria-hidden="true"><path fill-rule="evenodd" d="M16 12.999c0 .439-.45 1-1 1H7.995c-.539 0-.994-.447-.995-.999H1c-.54 0-1-.561-1-1 0-2.634 3-4 3-4s.229-.409 0-1c-.841-.621-1.058-.59-1-3 .058-2.419 1.367-3 2.5-3s2.442.58 2.5 3c.058 2.41-.159 2.379-1 3-.229.59 0 1 0 1s1.549.711 2.42 2.088C9.196 9.369 10 8.999 10 8.999s.229-.409 0-1c-.841-.62-1.058-.59-1-3 .058-2.419 1.367-3 2.5-3s2.437.581 2.495 3c.059 2.41-.158 2.38-1 3-.229.59 0 1 0 1s3.005 1.366 3.005 4z"/></svg>
+    <span class="num text-emphasized">
+      537
+    </span>
+    contributors
+</a>
+
+        </li>
+      </ul>
+
+        <div class="repository-lang-stats">
+          <ol class="repository-lang-stats-numbers">
+            <li>
+                <a href="/python/cpython/search?l=python"  data-ga-click="Repository, language stats search click, location:repo overview">
+                  <span class="color-block language-color" style="background-color:#3572A5;"></span>
+                  <span class="lang">Python</span>
+                  <span class="percent">58.5%</span>
+                </a>
+            </li>
+            <li>
+                <a href="/python/cpython/search?l=c"  data-ga-click="Repository, language stats search click, location:repo overview">
+                  <span class="color-block language-color" style="background-color:#555555;"></span>
+                  <span class="lang">C</span>
+                  <span class="percent">33.7%</span>
+                </a>
+            </li>
+            <li>
+                <a href="/python/cpython/search?l=objective-c"  data-ga-click="Repository, language stats search click, location:repo overview">
+                  <span class="color-block language-color" style="background-color:#438eff;"></span>
+                  <span class="lang">Objective-C</span>
+                  <span class="percent">4.5%</span>
+                </a>
+            </li>
+            <li>
+                <a href="/python/cpython/search?l=c%2B%2B"  data-ga-click="Repository, language stats search click, location:repo overview">
+                  <span class="color-block language-color" style="background-color:#f34b7d;"></span>
+                  <span class="lang">C++</span>
+                  <span class="percent">1.9%</span>
+                </a>
+            </li>
+            <li>
+                <a href="/python/cpython/search?l=m4"  data-ga-click="Repository, language stats search click, location:repo overview">
+                  <span class="color-block language-color" style="background-color:#ccc;"></span>
+                  <span class="lang">M4</span>
+                  <span class="percent">0.4%</span>
+                </a>
+            </li>
+            <li>
+                <a href="/python/cpython/search?l=html"  data-ga-click="Repository, language stats search click, location:repo overview">
+                  <span class="color-block language-color" style="background-color:#e34c26;"></span>
+                  <span class="lang">HTML</span>
+                  <span class="percent">0.4%</span>
+                </a>
+            </li>
+            <li>
+                <span>
+                  <span class="color-block language-color" style="background-color:#ededed;"></span>
+                  <span class="lang">Other</span>
+                  <span class="percent">0.6%</span>
+                </span>
+            </li>
+          </ol>
+        </div>
+      </div>
+    </div>
+  </div>
+
+    <div class="repository-lang-stats-graph js-toggle-lang-stats" title="Click for language details" data-ga-click="Repository, language bar stats toggle, location:repo overview">
+      <span class="language-color" aria-label="Python 58.5%" style="width:58.5%; background-color:#3572A5;" itemprop="keywords">Python</span>
+      <span class="language-color" aria-label="C 33.7%" style="width:33.7%; background-color:#555555;" itemprop="keywords">C</span>
+      <span class="language-color" aria-label="Objective-C 4.5%" style="width:4.5%; background-color:#438eff;" itemprop="keywords">Objective-C</span>
+      <span class="language-color" aria-label="C++ 1.9%" style="width:1.9%; background-color:#f34b7d;" itemprop="keywords">C++</span>
+      <span class="language-color" aria-label="M4 0.4%" style="width:0.4%; background-color:#ccc;" itemprop="keywords">M4</span>
+      <span class="language-color" aria-label="HTML 0.4%" style="width:0.4%; background-color:#e34c26;" itemprop="keywords">HTML</span>
+      <span class="language-color" aria-label="Other 0.6%" style="width:0.6%; background-color:#ededed;" itemprop="keywords">Other</span>
+    </div>
+
+
+
+  <div class="file-navigation in-mid-page d-flex flex-items-start">
+  
+<div class="select-menu branch-select-menu js-menu-container js-select-menu float-left">
+  <button class=" btn btn-sm select-menu-button js-menu-target css-truncate" data-hotkey="w"
+    
+    type="button" aria-label="Switch branches or tags" aria-expanded="false" aria-haspopup="true">
+      <i>Branch:</i>
+      <span class="js-select-button css-truncate-target">master</span>
+  </button>
+
+  <div class="select-menu-modal-holder js-menu-content js-navigation-container" data-pjax>
+
+    <div class="select-menu-modal">
+      <div class="select-menu-header">
+        <svg class="octicon octicon-x js-menu-close" role="img" aria-label="Close" viewBox="0 0 12 16" version="1.1" width="12" height="16"><path fill-rule="evenodd" d="M7.48 8l3.75 3.75-1.48 1.48L6 9.48l-3.75 3.75-1.48-1.48L4.52 8 .77 4.25l1.48-1.48L6 6.52l3.75-3.75 1.48 1.48L7.48 8z"/></svg>
+        <span class="select-menu-title">Switch branches/tags</span>
+      </div>
+
+      <div class="select-menu-filters">
+        <div class="select-menu-text-filter">
+          <input type="text" aria-label="Filter branches/tags" id="context-commitish-filter-field" class="form-control js-filterable-field js-navigation-enable" placeholder="Filter branches/tags">
+        </div>
+        <div class="select-menu-tabs">
+          <ul>
+            <li class="select-menu-tab">
+              <a href="#" data-tab-filter="branches" data-filter-placeholder="Filter branches/tags" class="js-select-menu-tab" role="tab">Branches</a>
+            </li>
+            <li class="select-menu-tab">
+              <a href="#" data-tab-filter="tags" data-filter-placeholder="Find a tag…" class="js-select-menu-tab" role="tab">Tags</a>
+            </li>
+          </ul>
+        </div>
+      </div>
+
+      <div class="select-menu-list select-menu-tab-bucket js-select-menu-tab-bucket" data-tab-filter="branches" role="menu">
+
+        <div data-filterable-for="context-commitish-filter-field" data-filterable-type="substring">
+
+
+            <a class="select-menu-item js-navigation-item js-navigation-open "
+               href="/python/cpython/tree/2.7"
+               data-name="2.7"
+               data-skip-pjax="true"
+               rel="nofollow">
+              <svg class="octicon octicon-check select-menu-item-icon" viewBox="0 0 12 16" version="1.1" width="12" height="16" aria-hidden="true"><path fill-rule="evenodd" d="M12 5l-8 8-4-4 1.5-1.5L4 10l6.5-6.5L12 5z"/></svg>
+              <span class="select-menu-item-text css-truncate-target js-select-menu-filter-text">
+                2.7
+              </span>
+            </a>
+            <a class="select-menu-item js-navigation-item js-navigation-open "
+               href="/python/cpython/tree/3.4"
+               data-name="3.4"
+               data-skip-pjax="true"
+               rel="nofollow">
+              <svg class="octicon octicon-check select-menu-item-icon" viewBox="0 0 12 16" version="1.1" width="12" height="16" aria-hidden="true"><path fill-rule="evenodd" d="M12 5l-8 8-4-4 1.5-1.5L4 10l6.5-6.5L12 5z"/></svg>
+              <span class="select-menu-item-text css-truncate-target js-select-menu-filter-text">
+                3.4
+              </span>
+            </a>
+            <a class="select-menu-item js-navigation-item js-navigation-open "
+               href="/python/cpython/tree/3.5"
+               data-name="3.5"
+               data-skip-pjax="true"
+               rel="nofollow">
+              <svg class="octicon octicon-check select-menu-item-icon" viewBox="0 0 12 16" version="1.1" width="12" height="16" aria-hidden="true"><path fill-rule="evenodd" d="M12 5l-8 8-4-4 1.5-1.5L4 10l6.5-6.5L12 5z"/></svg>
+              <span class="select-menu-item-text css-truncate-target js-select-menu-filter-text">
+                3.5
+              </span>
+            </a>
+            <a class="select-menu-item js-navigation-item js-navigation-open "
+               href="/python/cpython/tree/3.6"
+               data-name="3.6"
+               data-skip-pjax="true"
+               rel="nofollow">
+              <svg class="octicon octicon-check select-menu-item-icon" viewBox="0 0 12 16" version="1.1" width="12" height="16" aria-hidden="true"><path fill-rule="evenodd" d="M12 5l-8 8-4-4 1.5-1.5L4 10l6.5-6.5L12 5z"/></svg>
+              <span class="select-menu-item-text css-truncate-target js-select-menu-filter-text">
+                3.6
+              </span>
+            </a>
+            <a class="select-menu-item js-navigation-item js-navigation-open "
+               href="/python/cpython/tree/3.7"
+               data-name="3.7"
+               data-skip-pjax="true"
+               rel="nofollow">
+              <svg class="octicon octicon-check select-menu-item-icon" viewBox="0 0 12 16" version="1.1" width="12" height="16" aria-hidden="true"><path fill-rule="evenodd" d="M12 5l-8 8-4-4 1.5-1.5L4 10l6.5-6.5L12 5z"/></svg>
+              <span class="select-menu-item-text css-truncate-target js-select-menu-filter-text">
+                3.7
+              </span>
+            </a>
+            <a class="select-menu-item js-navigation-item js-navigation-open selected"
+               href="/python/cpython/tree/master"
+               data-name="master"
+               data-skip-pjax="true"
+               rel="nofollow">
+              <svg class="octicon octicon-check select-menu-item-icon" viewBox="0 0 12 16" version="1.1" width="12" height="16" aria-hidden="true"><path fill-rule="evenodd" d="M12 5l-8 8-4-4 1.5-1.5L4 10l6.5-6.5L12 5z"/></svg>
+              <span class="select-menu-item-text css-truncate-target js-select-menu-filter-text">
+                master
+              </span>
+            </a>
+        </div>
+
+          <div class="select-menu-no-results">Nothing to show</div>
+      </div>
+
+      <div class="select-menu-list select-menu-tab-bucket js-select-menu-tab-bucket" data-tab-filter="tags">
+        <div data-filterable-for="context-commitish-filter-field" data-filterable-type="substring">
+
+
+            <a class="select-menu-item js-navigation-item js-navigation-open "
+              href="/python/cpython/tree/v3.7.0b4"
+              data-name="v3.7.0b4"
+              data-skip-pjax="true"
+              rel="nofollow">
+              <svg class="octicon octicon-check select-menu-item-icon" viewBox="0 0 12 16" version="1.1" width="12" height="16" aria-hidden="true"><path fill-rule="evenodd" d="M12 5l-8 8-4-4 1.5-1.5L4 10l6.5-6.5L12 5z"/></svg>
+              <span class="select-menu-item-text css-truncate-target" title="v3.7.0b4">
+                v3.7.0b4
+              </span>
+            </a>
+            <a class="select-menu-item js-navigation-item js-navigation-open "
+              href="/python/cpython/tree/v3.7.0b3"
+              data-name="v3.7.0b3"
+              data-skip-pjax="true"
+              rel="nofollow">
+              <svg class="octicon octicon-check select-menu-item-icon" viewBox="0 0 12 16" version="1.1" width="12" height="16" aria-hidden="true"><path fill-rule="evenodd" d="M12 5l-8 8-4-4 1.5-1.5L4 10l6.5-6.5L12 5z"/></svg>
+              <span class="select-menu-item-text css-truncate-target" title="v3.7.0b3">
+                v3.7.0b3
+              </span>
+            </a>
+            <a class="select-menu-item js-navigation-item js-navigation-open "
+              href="/python/cpython/tree/v3.7.0b2"
+              data-name="v3.7.0b2"
+              data-skip-pjax="true"
+              rel="nofollow">
+              <svg class="octicon octicon-check select-menu-item-icon" viewBox="0 0 12 16" version="1.1" width="12" height="16" aria-hidden="true"><path fill-rule="evenodd" d="M12 5l-8 8-4-4 1.5-1.5L4 10l6.5-6.5L12 5z"/></svg>
+              <span class="select-menu-item-text css-truncate-target" title="v3.7.0b2">
+                v3.7.0b2
+              </span>
+            </a>
+            <a class="select-menu-item js-navigation-item js-navigation-open "
+              href="/python/cpython/tree/v3.7.0b1"
+              data-name="v3.7.0b1"
+              data-skip-pjax="true"
+              rel="nofollow">
+              <svg class="octicon octicon-check select-menu-item-icon" viewBox="0 0 12 16" version="1.1" width="12" height="16" aria-hidden="true"><path fill-rule="evenodd" d="M12 5l-8 8-4-4 1.5-1.5L4 10l6.5-6.5L12 5z"/></svg>
+              <span class="select-menu-item-text css-truncate-target" title="v3.7.0b1">
+                v3.7.0b1
+              </span>
+            </a>
+            <a class="select-menu-item js-navigation-item js-navigation-open "
+              href="/python/cpython/tree/v3.7.0a4"
+              data-name="v3.7.0a4"
+              data-skip-pjax="true"
+              rel="nofollow">
+              <svg class="octicon octicon-check select-menu-item-icon" viewBox="0 0 12 16" version="1.1" width="12" height="16" aria-hidden="true"><path fill-rule="evenodd" d="M12 5l-8 8-4-4 1.5-1.5L4 10l6.5-6.5L12 5z"/></svg>
+              <span class="select-menu-item-text css-truncate-target" title="v3.7.0a4">
+                v3.7.0a4
+              </span>
+            </a>
+            <a class="select-menu-item js-navigation-item js-navigation-open "
+              href="/python/cpython/tree/v3.7.0a3"
+              data-name="v3.7.0a3"
+              data-skip-pjax="true"
+              rel="nofollow">
+              <svg class="octicon octicon-check select-menu-item-icon" viewBox="0 0 12 16" version="1.1" width="12" height="16" aria-hidden="true"><path fill-rule="evenodd" d="M12 5l-8 8-4-4 1.5-1.5L4 10l6.5-6.5L12 5z"/></svg>
+              <span class="select-menu-item-text css-truncate-target" title="v3.7.0a3">
+                v3.7.0a3
+              </span>
+            </a>
+            <a class="select-menu-item js-navigation-item js-navigation-open "
+              href="/python/cpython/tree/v3.7.0a2"
+              data-name="v3.7.0a2"
+              data-skip-pjax="true"
+              rel="nofollow">
+              <svg class="octicon octicon-check select-menu-item-icon" viewBox="0 0 12 16" version="1.1" width="12" height="16" aria-hidden="true"><path fill-rule="evenodd" d="M12 5l-8 8-4-4 1.5-1.5L4 10l6.5-6.5L12 5z"/></svg>
+              <span class="select-menu-item-text css-truncate-target" title="v3.7.0a2">
+                v3.7.0a2
+              </span>
+            </a>
+            <a class="select-menu-item js-navigation-item js-navigation-open "
+              href="/python/cpython/tree/v3.7.0a1"
+              data-name="v3.7.0a1"
+              data-skip-pjax="true"
+              rel="nofollow">
+              <svg class="octicon octicon-check select-menu-item-icon" viewBox="0 0 12 16" version="1.1" width="12" height="16" aria-hidden="true"><path fill-rule="evenodd" d="M12 5l-8 8-4-4 1.5-1.5L4 10l6.5-6.5L12 5z"/></svg>
+              <span class="select-menu-item-text css-truncate-target" title="v3.7.0a1">
+                v3.7.0a1
+              </span>
+            </a>
+            <a class="select-menu-item js-navigation-item js-navigation-open "
+              href="/python/cpython/tree/v3.6.5"
+              data-name="v3.6.5"
+              data-skip-pjax="true"
+              rel="nofollow">
+              <svg class="octicon octicon-check select-menu-item-icon" viewBox="0 0 12 16" version="1.1" width="12" height="16" aria-hidden="true"><path fill-rule="evenodd" d="M12 5l-8 8-4-4 1.5-1.5L4 10l6.5-6.5L12 5z"/></svg>
+              <span class="select-menu-item-text css-truncate-target" title="v3.6.5">
+                v3.6.5
+              </span>
+            </a>
+            <a class="select-menu-item js-navigation-item js-navigation-open "
+              href="/python/cpython/tree/v3.6.5rc1"
+              data-name="v3.6.5rc1"
+              data-skip-pjax="true"
+              rel="nofollow">
+              <svg class="octicon octicon-check select-menu-item-icon" viewBox="0 0 12 16" version="1.1" width="12" height="16" aria-hidden="true"><path fill-rule="evenodd" d="M12 5l-8 8-4-4 1.5-1.5L4 10l6.5-6.5L12 5z"/></svg>
+              <span class="select-menu-item-text css-truncate-target" title="v3.6.5rc1">
+                v3.6.5rc1
+              </span>
+            </a>
+            <a class="select-menu-item js-navigation-item js-navigation-open "
+              href="/python/cpython/tree/v3.6.4"
+              data-name="v3.6.4"
+              data-skip-pjax="true"
+              rel="nofollow">
+              <svg class="octicon octicon-check select-menu-item-icon" viewBox="0 0 12 16" version="1.1" width="12" height="16" aria-hidden="true"><path fill-rule="evenodd" d="M12 5l-8 8-4-4 1.5-1.5L4 10l6.5-6.5L12 5z"/></svg>
+              <span class="select-menu-item-text css-truncate-target" title="v3.6.4">
+                v3.6.4
+              </span>
+            </a>
+            <a class="select-menu-item js-navigation-item js-navigation-open "
+              href="/python/cpython/tree/v3.6.4rc1"
+              data-name="v3.6.4rc1"
+              data-skip-pjax="true"
+              rel="nofollow">
+              <svg class="octicon octicon-check select-menu-item-icon" viewBox="0 0 12 16" version="1.1" width="12" height="16" aria-hidden="true"><path fill-rule="evenodd" d="M12 5l-8 8-4-4 1.5-1.5L4 10l6.5-6.5L12 5z"/></svg>
+              <span class="select-menu-item-text css-truncate-target" title="v3.6.4rc1">
+                v3.6.4rc1
+              </span>
+            </a>
+            <a class="select-menu-item js-navigation-item js-navigation-open "
+              href="/python/cpython/tree/v3.6.3"
+              data-name="v3.6.3"
+              data-skip-pjax="true"
+              rel="nofollow">
+              <svg class="octicon octicon-check select-menu-item-icon" viewBox="0 0 12 16" version="1.1" width="12" height="16" aria-hidden="true"><path fill-rule="evenodd" d="M12 5l-8 8-4-4 1.5-1.5L4 10l6.5-6.5L12 5z"/></svg>
+              <span class="select-menu-item-text css-truncate-target" title="v3.6.3">
+                v3.6.3
+              </span>
+            </a>
+            <a class="select-menu-item js-navigation-item js-navigation-open "
+              href="/python/cpython/tree/v3.6.3rc1"
+              data-name="v3.6.3rc1"
+              data-skip-pjax="true"
+              rel="nofollow">
+              <svg class="octicon octicon-check select-menu-item-icon" viewBox="0 0 12 16" version="1.1" width="12" height="16" aria-hidden="true"><path fill-rule="evenodd" d="M12 5l-8 8-4-4 1.5-1.5L4 10l6.5-6.5L12 5z"/></svg>
+              <span class="select-menu-item-text css-truncate-target" title="v3.6.3rc1">
+                v3.6.3rc1
+              </span>
+            </a>
+            <a class="select-menu-item js-navigation-item js-navigation-open "
+              href="/python/cpython/tree/v3.6.2"
+              data-name="v3.6.2"
+              data-skip-pjax="true"
+              rel="nofollow">
+              <svg class="octicon octicon-check select-menu-item-icon" viewBox="0 0 12 16" version="1.1" width="12" height="16" aria-hidden="true"><path fill-rule="evenodd" d="M12 5l-8 8-4-4 1.5-1.5L4 10l6.5-6.5L12 5z"/></svg>
+              <span class="select-menu-item-text css-truncate-target" title="v3.6.2">
+                v3.6.2
+              </span>
+            </a>
+            <a class="select-menu-item js-navigation-item js-navigation-open "
+              href="/python/cpython/tree/v3.6.2rc2"
+              data-name="v3.6.2rc2"
+              data-skip-pjax="true"
+              rel="nofollow">
+              <svg class="octicon octicon-check select-menu-item-icon" viewBox="0 0 12 16" version="1.1" width="12" height="16" aria-hidden="true"><path fill-rule="evenodd" d="M12 5l-8 8-4-4 1.5-1.5L4 10l6.5-6.5L12 5z"/></svg>
+              <span class="select-menu-item-text css-truncate-target" title="v3.6.2rc2">
+                v3.6.2rc2
+              </span>
+            </a>
+            <a class="select-menu-item js-navigation-item js-navigation-open "
+              href="/python/cpython/tree/v3.6.2rc1"
+              data-name="v3.6.2rc1"
+              data-skip-pjax="true"
+              rel="nofollow">
+              <svg class="octicon octicon-check select-menu-item-icon" viewBox="0 0 12 16" version="1.1" width="12" height="16" aria-hidden="true"><path fill-rule="evenodd" d="M12 5l-8 8-4-4 1.5-1.5L4 10l6.5-6.5L12 5z"/></svg>
+              <span class="select-menu-item-text css-truncate-target" title="v3.6.2rc1">
+                v3.6.2rc1
+              </span>
+            </a>
+            <a class="select-menu-item js-navigation-item js-navigation-open "
+              href="/python/cpython/tree/v3.6.1"
+              data-name="v3.6.1"
+              data-skip-pjax="true"
+              rel="nofollow">
+              <svg class="octicon octicon-check select-menu-item-icon" viewBox="0 0 12 16" version="1.1" width="12" height="16" aria-hidden="true"><path fill-rule="evenodd" d="M12 5l-8 8-4-4 1.5-1.5L4 10l6.5-6.5L12 5z"/></svg>
+              <span class="select-menu-item-text css-truncate-target" title="v3.6.1">
+                v3.6.1
+              </span>
+            </a>
+            <a class="select-menu-item js-navigation-item js-navigation-open "
+              href="/python/cpython/tree/v3.6.1rc1"
+              data-name="v3.6.1rc1"
+              data-skip-pjax="true"
+              rel="nofollow">
+              <svg class="octicon octicon-check select-menu-item-icon" viewBox="0 0 12 16" version="1.1" width="12" height="16" aria-hidden="true"><path fill-rule="evenodd" d="M12 5l-8 8-4-4 1.5-1.5L4 10l6.5-6.5L12 5z"/></svg>
+              <span class="select-menu-item-text css-truncate-target" title="v3.6.1rc1">
+                v3.6.1rc1
+              </span>
+            </a>
+            <a class="select-menu-item js-navigation-item js-navigation-open "
+              href="/python/cpython/tree/v3.6.0"
+              data-name="v3.6.0"
+              data-skip-pjax="true"
+              rel="nofollow">
+              <svg class="octicon octicon-check select-menu-item-icon" viewBox="0 0 12 16" version="1.1" width="12" height="16" aria-hidden="true"><path fill-rule="evenodd" d="M12 5l-8 8-4-4 1.5-1.5L4 10l6.5-6.5L12 5z"/></svg>
+              <span class="select-menu-item-text css-truncate-target" title="v3.6.0">
+                v3.6.0
+              </span>
+            </a>
+            <a class="select-menu-item js-navigation-item js-navigation-open "
+              href="/python/cpython/tree/v3.6.0rc2"
+              data-name="v3.6.0rc2"
+              data-skip-pjax="true"
+              rel="nofollow">
+              <svg class="octicon octicon-check select-menu-item-icon" viewBox="0 0 12 16" version="1.1" width="12" height="16" aria-hidden="true"><path fill-rule="evenodd" d="M12 5l-8 8-4-4 1.5-1.5L4 10l6.5-6.5L12 5z"/></svg>
+              <span class="select-menu-item-text css-truncate-target" title="v3.6.0rc2">
+                v3.6.0rc2
+              </span>
+            </a>
+            <a class="select-menu-item js-navigation-item js-navigation-open "
+              href="/python/cpython/tree/v3.6.0rc1"
+              data-name="v3.6.0rc1"
+              data-skip-pjax="true"
+              rel="nofollow">
+              <svg class="octicon octicon-check select-menu-item-icon" viewBox="0 0 12 16" version="1.1" width="12" height="16" aria-hidden="true"><path fill-rule="evenodd" d="M12 5l-8 8-4-4 1.5-1.5L4 10l6.5-6.5L12 5z"/></svg>
+              <span class="select-menu-item-text css-truncate-target" title="v3.6.0rc1">
+                v3.6.0rc1
+              </span>
+            </a>
+            <a class="select-menu-item js-navigation-item js-navigation-open "
+              href="/python/cpython/tree/v3.6.0b4"
+              data-name="v3.6.0b4"
+              data-skip-pjax="true"
+              rel="nofollow">
+              <svg class="octicon octicon-check select-menu-item-icon" viewBox="0 0 12 16" version="1.1" width="12" height="16" aria-hidden="true"><path fill-rule="evenodd" d="M12 5l-8 8-4-4 1.5-1.5L4 10l6.5-6.5L12 5z"/></svg>
+              <span class="select-menu-item-text css-truncate-target" title="v3.6.0b4">
+                v3.6.0b4
+              </span>
+            </a>
+            <a class="select-menu-item js-navigation-item js-navigation-open "
+              href="/python/cpython/tree/v3.6.0b3"
+              data-name="v3.6.0b3"
+              data-skip-pjax="true"
+              rel="nofollow">
+              <svg class="octicon octicon-check select-menu-item-icon" viewBox="0 0 12 16" version="1.1" width="12" height="16" aria-hidden="true"><path fill-rule="evenodd" d="M12 5l-8 8-4-4 1.5-1.5L4 10l6.5-6.5L12 5z"/></svg>
+              <span class="select-menu-item-text css-truncate-target" title="v3.6.0b3">
+                v3.6.0b3
+              </span>
+            </a>
+            <a class="select-menu-item js-navigation-item js-navigation-open "
+              href="/python/cpython/tree/v3.6.0b2"
+              data-name="v3.6.0b2"
+              data-skip-pjax="true"
+              rel="nofollow">
+              <svg class="octicon octicon-check select-menu-item-icon" viewBox="0 0 12 16" version="1.1" width="12" height="16" aria-hidden="true"><path fill-rule="evenodd" d="M12 5l-8 8-4-4 1.5-1.5L4 10l6.5-6.5L12 5z"/></svg>
+              <span class="select-menu-item-text css-truncate-target" title="v3.6.0b2">
+                v3.6.0b2
+              </span>
+            </a>
+            <a class="select-menu-item js-navigation-item js-navigation-open "
+              href="/python/cpython/tree/v3.6.0b1"
+              data-name="v3.6.0b1"
+              data-skip-pjax="true"
+              rel="nofollow">
+              <svg class="octicon octicon-check select-menu-item-icon" viewBox="0 0 12 16" version="1.1" width="12" height="16" aria-hidden="true"><path fill-rule="evenodd" d="M12 5l-8 8-4-4 1.5-1.5L4 10l6.5-6.5L12 5z"/></svg>
+              <span class="select-menu-item-text css-truncate-target" title="v3.6.0b1">
+                v3.6.0b1
+              </span>
+            </a>
+            <a class="select-menu-item js-navigation-item js-navigation-open "
+              href="/python/cpython/tree/v3.6.0a4"
+              data-name="v3.6.0a4"
+              data-skip-pjax="true"
+              rel="nofollow">
+              <svg class="octicon octicon-check select-menu-item-icon" viewBox="0 0 12 16" version="1.1" width="12" height="16" aria-hidden="true"><path fill-rule="evenodd" d="M12 5l-8 8-4-4 1.5-1.5L4 10l6.5-6.5L12 5z"/></svg>
+              <span class="select-menu-item-text css-truncate-target" title="v3.6.0a4">
+                v3.6.0a4
+              </span>
+            </a>
+            <a class="select-menu-item js-navigation-item js-navigation-open "
+              href="/python/cpython/tree/v3.6.0a3"
+              data-name="v3.6.0a3"
+              data-skip-pjax="true"
+              rel="nofollow">
+              <svg class="octicon octicon-check select-menu-item-icon" viewBox="0 0 12 16" version="1.1" width="12" height="16" aria-hidden="true"><path fill-rule="evenodd" d="M12 5l-8 8-4-4 1.5-1.5L4 10l6.5-6.5L12 5z"/></svg>
+              <span class="select-menu-item-text css-truncate-target" title="v3.6.0a3">
+                v3.6.0a3
+              </span>
+            </a>
+            <a class="select-menu-item js-navigation-item js-navigation-open "
+              href="/python/cpython/tree/v3.6.0a2"
+              data-name="v3.6.0a2"
+              data-skip-pjax="true"
+              rel="nofollow">
+              <svg class="octicon octicon-check select-menu-item-icon" viewBox="0 0 12 16" version="1.1" width="12" height="16" aria-hidden="true"><path fill-rule="evenodd" d="M12 5l-8 8-4-4 1.5-1.5L4 10l6.5-6.5L12 5z"/></svg>
+              <span class="select-menu-item-text css-truncate-target" title="v3.6.0a2">
+                v3.6.0a2
+              </span>
+            </a>
+            <a class="select-menu-item js-navigation-item js-navigation-open "
+              href="/python/cpython/tree/v3.6.0a1"
+              data-name="v3.6.0a1"
+              data-skip-pjax="true"
+              rel="nofollow">
+              <svg class="octicon octicon-check select-menu-item-icon" viewBox="0 0 12 16" version="1.1" width="12" height="16" aria-hidden="true"><path fill-rule="evenodd" d="M12 5l-8 8-4-4 1.5-1.5L4 10l6.5-6.5L12 5z"/></svg>
+              <span class="select-menu-item-text css-truncate-target" title="v3.6.0a1">
+                v3.6.0a1
+              </span>
+            </a>
+            <a class="select-menu-item js-navigation-item js-navigation-open "
+              href="/python/cpython/tree/v3.5.5"
+              data-name="v3.5.5"
+              data-skip-pjax="true"
+              rel="nofollow">
+              <svg class="octicon octicon-check select-menu-item-icon" viewBox="0 0 12 16" version="1.1" width="12" height="16" aria-hidden="true"><path fill-rule="evenodd" d="M12 5l-8 8-4-4 1.5-1.5L4 10l6.5-6.5L12 5z"/></svg>
+              <span class="select-menu-item-text css-truncate-target" title="v3.5.5">
+                v3.5.5
+              </span>
+            </a>
+            <a class="select-menu-item js-navigation-item js-navigation-open "
+              href="/python/cpython/tree/v3.5.5rc1"
+              data-name="v3.5.5rc1"
+              data-skip-pjax="true"
+              rel="nofollow">
+              <svg class="octicon octicon-check select-menu-item-icon" viewBox="0 0 12 16" version="1.1" width="12" height="16" aria-hidden="true"><path fill-rule="evenodd" d="M12 5l-8 8-4-4 1.5-1.5L4 10l6.5-6.5L12 5z"/></svg>
+              <span class="select-menu-item-text css-truncate-target" title="v3.5.5rc1">
+                v3.5.5rc1
+              </span>
+            </a>
+            <a class="select-menu-item js-navigation-item js-navigation-open "
+              href="/python/cpython/tree/v3.5.4"
+              data-name="v3.5.4"
+              data-skip-pjax="true"
+              rel="nofollow">
+              <svg class="octicon octicon-check select-menu-item-icon" viewBox="0 0 12 16" version="1.1" width="12" height="16" aria-hidden="true"><path fill-rule="evenodd" d="M12 5l-8 8-4-4 1.5-1.5L4 10l6.5-6.5L12 5z"/></svg>
+              <span class="select-menu-item-text css-truncate-target" title="v3.5.4">
+                v3.5.4
+              </span>
+            </a>
+            <a class="select-menu-item js-navigation-item js-navigation-open "
+              href="/python/cpython/tree/v3.5.4rc1"
+              data-name="v3.5.4rc1"
+              data-skip-pjax="true"
+              rel="nofollow">
+              <svg class="octicon octicon-check select-menu-item-icon" viewBox="0 0 12 16" version="1.1" width="12" height="16" aria-hidden="true"><path fill-rule="evenodd" d="M12 5l-8 8-4-4 1.5-1.5L4 10l6.5-6.5L12 5z"/></svg>
+              <span class="select-menu-item-text css-truncate-target" title="v3.5.4rc1">
+                v3.5.4rc1
+              </span>
+            </a>
+            <a class="select-menu-item js-navigation-item js-navigation-open "
+              href="/python/cpython/tree/v3.5.3"
+              data-name="v3.5.3"
+              data-skip-pjax="true"
+              rel="nofollow">
+              <svg class="octicon octicon-check select-menu-item-icon" viewBox="0 0 12 16" version="1.1" width="12" height="16" aria-hidden="true"><path fill-rule="evenodd" d="M12 5l-8 8-4-4 1.5-1.5L4 10l6.5-6.5L12 5z"/></svg>
+              <span class="select-menu-item-text css-truncate-target" title="v3.5.3">
+                v3.5.3
+              </span>
+            </a>
+            <a class="select-menu-item js-navigation-item js-navigation-open "
+              href="/python/cpython/tree/v3.5.3rc1"
+              data-name="v3.5.3rc1"
+              data-skip-pjax="true"
+              rel="nofollow">
+              <svg class="octicon octicon-check select-menu-item-icon" viewBox="0 0 12 16" version="1.1" width="12" height="16" aria-hidden="true"><path fill-rule="evenodd" d="M12 5l-8 8-4-4 1.5-1.5L4 10l6.5-6.5L12 5z"/></svg>
+              <span class="select-menu-item-text css-truncate-target" title="v3.5.3rc1">
+                v3.5.3rc1
+              </span>
+            </a>
+            <a class="select-menu-item js-navigation-item js-navigation-open "
+              href="/python/cpython/tree/v3.5.2"
+              data-name="v3.5.2"
+              data-skip-pjax="true"
+              rel="nofollow">
+              <svg class="octicon octicon-check select-menu-item-icon" viewBox="0 0 12 16" version="1.1" width="12" height="16" aria-hidden="true"><path fill-rule="evenodd" d="M12 5l-8 8-4-4 1.5-1.5L4 10l6.5-6.5L12 5z"/></svg>
+              <span class="select-menu-item-text css-truncate-target" title="v3.5.2">
+                v3.5.2
+              </span>
+            </a>
+            <a class="select-menu-item js-navigation-item js-navigation-open "
+              href="/python/cpython/tree/v3.5.2rc1"
+              data-name="v3.5.2rc1"
+              data-skip-pjax="true"
+              rel="nofollow">
+              <svg class="octicon octicon-check select-menu-item-icon" viewBox="0 0 12 16" version="1.1" width="12" height="16" aria-hidden="true"><path fill-rule="evenodd" d="M12 5l-8 8-4-4 1.5-1.5L4 10l6.5-6.5L12 5z"/></svg>
+              <span class="select-menu-item-text css-truncate-target" title="v3.5.2rc1">
+                v3.5.2rc1
+              </span>
+            </a>
+            <a class="select-menu-item js-navigation-item js-navigation-open "
+              href="/python/cpython/tree/v3.5.1"
+              data-name="v3.5.1"
+              data-skip-pjax="true"
+              rel="nofollow">
+              <svg class="octicon octicon-check select-menu-item-icon" viewBox="0 0 12 16" version="1.1" width="12" height="16" aria-hidden="true"><path fill-rule="evenodd" d="M12 5l-8 8-4-4 1.5-1.5L4 10l6.5-6.5L12 5z"/></svg>
+              <span class="select-menu-item-text css-truncate-target" title="v3.5.1">
+                v3.5.1
+              </span>
+            </a>
+            <a class="select-menu-item js-navigation-item js-navigation-open "
+              href="/python/cpython/tree/v3.5.1rc1"
+              data-name="v3.5.1rc1"
+              data-skip-pjax="true"
+              rel="nofollow">
+              <svg class="octicon octicon-check select-menu-item-icon" viewBox="0 0 12 16" version="1.1" width="12" height="16" aria-hidden="true"><path fill-rule="evenodd" d="M12 5l-8 8-4-4 1.5-1.5L4 10l6.5-6.5L12 5z"/></svg>
+              <span class="select-menu-item-text css-truncate-target" title="v3.5.1rc1">
+                v3.5.1rc1
+              </span>
+            </a>
+            <a class="select-menu-item js-navigation-item js-navigation-open "
+              href="/python/cpython/tree/v3.5.0"
+              data-name="v3.5.0"
+              data-skip-pjax="true"
+              rel="nofollow">
+              <svg class="octicon octicon-check select-menu-item-icon" viewBox="0 0 12 16" version="1.1" width="12" height="16" aria-hidden="true"><path fill-rule="evenodd" d="M12 5l-8 8-4-4 1.5-1.5L4 10l6.5-6.5L12 5z"/></svg>
+              <span class="select-menu-item-text css-truncate-target" title="v3.5.0">
+                v3.5.0
+              </span>
+            </a>
+            <a class="select-menu-item js-navigation-item js-navigation-open "
+              href="/python/cpython/tree/v3.5.0rc4"
+              data-name="v3.5.0rc4"
+              data-skip-pjax="true"
+              rel="nofollow">
+              <svg class="octicon octicon-check select-menu-item-icon" viewBox="0 0 12 16" version="1.1" width="12" height="16" aria-hidden="true"><path fill-rule="evenodd" d="M12 5l-8 8-4-4 1.5-1.5L4 10l6.5-6.5L12 5z"/></svg>
+              <span class="select-menu-item-text css-truncate-target" title="v3.5.0rc4">
+                v3.5.0rc4
+              </span>
+            </a>
+            <a class="select-menu-item js-navigation-item js-navigation-open "
+              href="/python/cpython/tree/v3.5.0rc3"
+              data-name="v3.5.0rc3"
+              data-skip-pjax="true"
+              rel="nofollow">
+              <svg class="octicon octicon-check select-menu-item-icon" viewBox="0 0 12 16" version="1.1" width="12" height="16" aria-hidden="true"><path fill-rule="evenodd" d="M12 5l-8 8-4-4 1.5-1.5L4 10l6.5-6.5L12 5z"/></svg>
+              <span class="select-menu-item-text css-truncate-target" title="v3.5.0rc3">
+                v3.5.0rc3
+              </span>
+            </a>
+            <a class="select-menu-item js-navigation-item js-navigation-open "
+              href="/python/cpython/tree/v3.5.0rc2"
+              data-name="v3.5.0rc2"
+              data-skip-pjax="true"
+              rel="nofollow">
+              <svg class="octicon octicon-check select-menu-item-icon" viewBox="0 0 12 16" version="1.1" width="12" height="16" aria-hidden="true"><path fill-rule="evenodd" d="M12 5l-8 8-4-4 1.5-1.5L4 10l6.5-6.5L12 5z"/></svg>
+              <span class="select-menu-item-text css-truncate-target" title="v3.5.0rc2">
+                v3.5.0rc2
+              </span>
+            </a>
+            <a class="select-menu-item js-navigation-item js-navigation-open "
+              href="/python/cpython/tree/v3.5.0rc1"
+              data-name="v3.5.0rc1"
+              data-skip-pjax="true"
+              rel="nofollow">
+              <svg class="octicon octicon-check select-menu-item-icon" viewBox="0 0 12 16" version="1.1" width="12" height="16" aria-hidden="true"><path fill-rule="evenodd" d="M12 5l-8 8-4-4 1.5-1.5L4 10l6.5-6.5L12 5z"/></svg>
+              <span class="select-menu-item-text css-truncate-target" title="v3.5.0rc1">
+                v3.5.0rc1
+              </span>
+            </a>
+            <a class="select-menu-item js-navigation-item js-navigation-open "
+              href="/python/cpython/tree/v3.5.0b4"
+              data-name="v3.5.0b4"
+              data-skip-pjax="true"
+              rel="nofollow">
+              <svg class="octicon octicon-check select-menu-item-icon" viewBox="0 0 12 16" version="1.1" width="12" height="16" aria-hidden="true"><path fill-rule="evenodd" d="M12 5l-8 8-4-4 1.5-1.5L4 10l6.5-6.5L12 5z"/></svg>
+              <span class="select-menu-item-text css-truncate-target" title="v3.5.0b4">
+                v3.5.0b4
+              </span>
+            </a>
+            <a class="select-menu-item js-navigation-item js-navigation-open "
+              href="/python/cpython/tree/v3.5.0b3"
+              data-name="v3.5.0b3"
+              data-skip-pjax="true"
+              rel="nofollow">
+              <svg class="octicon octicon-check select-menu-item-icon" viewBox="0 0 12 16" version="1.1" width="12" height="16" aria-hidden="true"><path fill-rule="evenodd" d="M12 5l-8 8-4-4 1.5-1.5L4 10l6.5-6.5L12 5z"/></svg>
+              <span class="select-menu-item-text css-truncate-target" title="v3.5.0b3">
+                v3.5.0b3
+              </span>
+            </a>
+            <a class="select-menu-item js-navigation-item js-navigation-open "
+              href="/python/cpython/tree/v3.5.0b2"
+              data-name="v3.5.0b2"
+              data-skip-pjax="true"
+              rel="nofollow">
+              <svg class="octicon octicon-check select-menu-item-icon" viewBox="0 0 12 16" version="1.1" width="12" height="16" aria-hidden="true"><path fill-rule="evenodd" d="M12 5l-8 8-4-4 1.5-1.5L4 10l6.5-6.5L12 5z"/></svg>
+              <span class="select-menu-item-text css-truncate-target" title="v3.5.0b2">
+                v3.5.0b2
+              </span>
+            </a>
+            <a class="select-menu-item js-navigation-item js-navigation-open "
+              href="/python/cpython/tree/v3.5.0b1"
+              data-name="v3.5.0b1"
+              data-skip-pjax="true"
+              rel="nofollow">
+              <svg class="octicon octicon-check select-menu-item-icon" viewBox="0 0 12 16" version="1.1" width="12" height="16" aria-hidden="true"><path fill-rule="evenodd" d="M12 5l-8 8-4-4 1.5-1.5L4 10l6.5-6.5L12 5z"/></svg>
+              <span class="select-menu-item-text css-truncate-target" title="v3.5.0b1">
+                v3.5.0b1
+              </span>
+            </a>
+            <a class="select-menu-item js-navigation-item js-navigation-open "
+              href="/python/cpython/tree/v3.5.0a4"
+              data-name="v3.5.0a4"
+              data-skip-pjax="true"
+              rel="nofollow">
+              <svg class="octicon octicon-check select-menu-item-icon" viewBox="0 0 12 16" version="1.1" width="12" height="16" aria-hidden="true"><path fill-rule="evenodd" d="M12 5l-8 8-4-4 1.5-1.5L4 10l6.5-6.5L12 5z"/></svg>
+              <span class="select-menu-item-text css-truncate-target" title="v3.5.0a4">
+                v3.5.0a4
+              </span>
+            </a>
+            <a class="select-menu-item js-navigation-item js-navigation-open "
+              href="/python/cpython/tree/v3.5.0a3"
+              data-name="v3.5.0a3"
+              data-skip-pjax="true"
+              rel="nofollow">
+              <svg class="octicon octicon-check select-menu-item-icon" viewBox="0 0 12 16" version="1.1" width="12" height="16" aria-hidden="true"><path fill-rule="evenodd" d="M12 5l-8 8-4-4 1.5-1.5L4 10l6.5-6.5L12 5z"/></svg>
+              <span class="select-menu-item-text css-truncate-target" title="v3.5.0a3">
+                v3.5.0a3
+              </span>
+            </a>
+            <a class="select-menu-item js-navigation-item js-navigation-open "
+              href="/python/cpython/tree/v3.5.0a2"
+              data-name="v3.5.0a2"
+              data-skip-pjax="true"
+              rel="nofollow">
+              <svg class="octicon octicon-check select-menu-item-icon" viewBox="0 0 12 16" version="1.1" width="12" height="16" aria-hidden="true"><path fill-rule="evenodd" d="M12 5l-8 8-4-4 1.5-1.5L4 10l6.5-6.5L12 5z"/></svg>
+              <span class="select-menu-item-text css-truncate-target" title="v3.5.0a2">
+                v3.5.0a2
+              </span>
+            </a>
+            <a class="select-menu-item js-navigation-item js-navigation-open "
+              href="/python/cpython/tree/v3.5.0a1"
+              data-name="v3.5.0a1"
+              data-skip-pjax="true"
+              rel="nofollow">
+              <svg class="octicon octicon-check select-menu-item-icon" viewBox="0 0 12 16" version="1.1" width="12" height="16" aria-hidden="true"><path fill-rule="evenodd" d="M12 5l-8 8-4-4 1.5-1.5L4 10l6.5-6.5L12 5z"/></svg>
+              <span class="select-menu-item-text css-truncate-target" title="v3.5.0a1">
+                v3.5.0a1
+              </span>
+            </a>
+            <a class="select-menu-item js-navigation-item js-navigation-open "
+              href="/python/cpython/tree/v3.4.8"
+              data-name="v3.4.8"
+              data-skip-pjax="true"
+              rel="nofollow">
+              <svg class="octicon octicon-check select-menu-item-icon" viewBox="0 0 12 16" version="1.1" width="12" height="16" aria-hidden="true"><path fill-rule="evenodd" d="M12 5l-8 8-4-4 1.5-1.5L4 10l6.5-6.5L12 5z"/></svg>
+              <span class="select-menu-item-text css-truncate-target" title="v3.4.8">
+                v3.4.8
+              </span>
+            </a>
+            <a class="select-menu-item js-navigation-item js-navigation-open "
+              href="/python/cpython/tree/v3.4.8rc1"
+              data-name="v3.4.8rc1"
+              data-skip-pjax="true"
+              rel="nofollow">
+              <svg class="octicon octicon-check select-menu-item-icon" viewBox="0 0 12 16" version="1.1" width="12" height="16" aria-hidden="true"><path fill-rule="evenodd" d="M12 5l-8 8-4-4 1.5-1.5L4 10l6.5-6.5L12 5z"/></svg>
+              <span class="select-menu-item-text css-truncate-target" title="v3.4.8rc1">
+                v3.4.8rc1
+              </span>
+            </a>
+            <a class="select-menu-item js-navigation-item js-navigation-open "
+              href="/python/cpython/tree/v3.4.7"
+              data-name="v3.4.7"
+              data-skip-pjax="true"
+              rel="nofollow">
+              <svg class="octicon octicon-check select-menu-item-icon" viewBox="0 0 12 16" version="1.1" width="12" height="16" aria-hidden="true"><path fill-rule="evenodd" d="M12 5l-8 8-4-4 1.5-1.5L4 10l6.5-6.5L12 5z"/></svg>
+              <span class="select-menu-item-text css-truncate-target" title="v3.4.7">
+                v3.4.7
+              </span>
+            </a>
+            <a class="select-menu-item js-navigation-item js-navigation-open "
+              href="/python/cpython/tree/v3.4.7rc1"
+              data-name="v3.4.7rc1"
+              data-skip-pjax="true"
+              rel="nofollow">
+              <svg class="octicon octicon-check select-menu-item-icon" viewBox="0 0 12 16" version="1.1" width="12" height="16" aria-hidden="true"><path fill-rule="evenodd" d="M12 5l-8 8-4-4 1.5-1.5L4 10l6.5-6.5L12 5z"/></svg>
+              <span class="select-menu-item-text css-truncate-target" title="v3.4.7rc1">
+                v3.4.7rc1
+              </span>
+            </a>
+            <a class="select-menu-item js-navigation-item js-navigation-open "
+              href="/python/cpython/tree/v3.4.6"
+              data-name="v3.4.6"
+              data-skip-pjax="true"
+              rel="nofollow">
+              <svg class="octicon octicon-check select-menu-item-icon" viewBox="0 0 12 16" version="1.1" width="12" height="16" aria-hidden="true"><path fill-rule="evenodd" d="M12 5l-8 8-4-4 1.5-1.5L4 10l6.5-6.5L12 5z"/></svg>
+              <span class="select-menu-item-text css-truncate-target" title="v3.4.6">
+                v3.4.6
+              </span>
+            </a>
+            <a class="select-menu-item js-navigation-item js-navigation-open "
+              href="/python/cpython/tree/v3.4.6rc1"
+              data-name="v3.4.6rc1"
+              data-skip-pjax="true"
+              rel="nofollow">
+              <svg class="octicon octicon-check select-menu-item-icon" viewBox="0 0 12 16" version="1.1" width="12" height="16" aria-hidden="true"><path fill-rule="evenodd" d="M12 5l-8 8-4-4 1.5-1.5L4 10l6.5-6.5L12 5z"/></svg>
+              <span class="select-menu-item-text css-truncate-target" title="v3.4.6rc1">
+                v3.4.6rc1
+              </span>
+            </a>
+            <a class="select-menu-item js-navigation-item js-navigation-open "
+              href="/python/cpython/tree/v3.4.5"
+              data-name="v3.4.5"
+              data-skip-pjax="true"
+              rel="nofollow">
+              <svg class="octicon octicon-check select-menu-item-icon" viewBox="0 0 12 16" version="1.1" width="12" height="16" aria-hidden="true"><path fill-rule="evenodd" d="M12 5l-8 8-4-4 1.5-1.5L4 10l6.5-6.5L12 5z"/></svg>
+              <span class="select-menu-item-text css-truncate-target" title="v3.4.5">
+                v3.4.5
+              </span>
+            </a>
+            <a class="select-menu-item js-navigation-item js-navigation-open "
+              href="/python/cpython/tree/v3.4.5rc1"
+              data-name="v3.4.5rc1"
+              data-skip-pjax="true"
+              rel="nofollow">
+              <svg class="octicon octicon-check select-menu-item-icon" viewBox="0 0 12 16" version="1.1" width="12" height="16" aria-hidden="true"><path fill-rule="evenodd" d="M12 5l-8 8-4-4 1.5-1.5L4 10l6.5-6.5L12 5z"/></svg>
+              <span class="select-menu-item-text css-truncate-target" title="v3.4.5rc1">
+                v3.4.5rc1
+              </span>
+            </a>
+            <a class="select-menu-item js-navigation-item js-navigation-open "
+              href="/python/cpython/tree/v3.4.4"
+              data-name="v3.4.4"
+              data-skip-pjax="true"
+              rel="nofollow">
+              <svg class="octicon octicon-check select-menu-item-icon" viewBox="0 0 12 16" version="1.1" width="12" height="16" aria-hidden="true"><path fill-rule="evenodd" d="M12 5l-8 8-4-4 1.5-1.5L4 10l6.5-6.5L12 5z"/></svg>
+              <span class="select-menu-item-text css-truncate-target" title="v3.4.4">
+                v3.4.4
+              </span>
+            </a>
+            <a class="select-menu-item js-navigation-item js-navigation-open "
+              href="/python/cpython/tree/v3.4.4rc1"
+              data-name="v3.4.4rc1"
+              data-skip-pjax="true"
+              rel="nofollow">
+              <svg class="octicon octicon-check select-menu-item-icon" viewBox="0 0 12 16" version="1.1" width="12" height="16" aria-hidden="true"><path fill-rule="evenodd" d="M12 5l-8 8-4-4 1.5-1.5L4 10l6.5-6.5L12 5z"/></svg>
+              <span class="select-menu-item-text css-truncate-target" title="v3.4.4rc1">
+                v3.4.4rc1
+              </span>
+            </a>
+            <a class="select-menu-item js-navigation-item js-navigation-open "
+              href="/python/cpython/tree/v3.4.3"
+              data-name="v3.4.3"
+              data-skip-pjax="true"
+              rel="nofollow">
+              <svg class="octicon octicon-check select-menu-item-icon" viewBox="0 0 12 16" version="1.1" width="12" height="16" aria-hidden="true"><path fill-rule="evenodd" d="M12 5l-8 8-4-4 1.5-1.5L4 10l6.5-6.5L12 5z"/></svg>
+              <span class="select-menu-item-text css-truncate-target" title="v3.4.3">
+                v3.4.3
+              </span>
+            </a>
+            <a class="select-menu-item js-navigation-item js-navigation-open "
+              href="/python/cpython/tree/v3.4.3rc1"
+              data-name="v3.4.3rc1"
+              data-skip-pjax="true"
+              rel="nofollow">
+              <svg class="octicon octicon-check select-menu-item-icon" viewBox="0 0 12 16" version="1.1" width="12" height="16" aria-hidden="true"><path fill-rule="evenodd" d="M12 5l-8 8-4-4 1.5-1.5L4 10l6.5-6.5L12 5z"/></svg>
+              <span class="select-menu-item-text css-truncate-target" title="v3.4.3rc1">
+                v3.4.3rc1
+              </span>
+            </a>
+            <a class="select-menu-item js-navigation-item js-navigation-open "
+              href="/python/cpython/tree/v3.4.2"
+              data-name="v3.4.2"
+              data-skip-pjax="true"
+              rel="nofollow">
+              <svg class="octicon octicon-check select-menu-item-icon" viewBox="0 0 12 16" version="1.1" width="12" height="16" aria-hidden="true"><path fill-rule="evenodd" d="M12 5l-8 8-4-4 1.5-1.5L4 10l6.5-6.5L12 5z"/></svg>
+              <span class="select-menu-item-text css-truncate-target" title="v3.4.2">
+                v3.4.2
+              </span>
+            </a>
+            <a class="select-menu-item js-navigation-item js-navigation-open "
+              href="/python/cpython/tree/v3.4.2rc1"
+              data-name="v3.4.2rc1"
+              data-skip-pjax="true"
+              rel="nofollow">
+              <svg class="octicon octicon-check select-menu-item-icon" viewBox="0 0 12 16" version="1.1" width="12" height="16" aria-hidden="true"><path fill-rule="evenodd" d="M12 5l-8 8-4-4 1.5-1.5L4 10l6.5-6.5L12 5z"/></svg>
+              <span class="select-menu-item-text css-truncate-target" title="v3.4.2rc1">
+                v3.4.2rc1
+              </span>
+            </a>
+            <a class="select-menu-item js-navigation-item js-navigation-open "
+              href="/python/cpython/tree/v3.4.1"
+              data-name="v3.4.1"
+              data-skip-pjax="true"
+              rel="nofollow">
+              <svg class="octicon octicon-check select-menu-item-icon" viewBox="0 0 12 16" version="1.1" width="12" height="16" aria-hidden="true"><path fill-rule="evenodd" d="M12 5l-8 8-4-4 1.5-1.5L4 10l6.5-6.5L12 5z"/></svg>
+              <span class="select-menu-item-text css-truncate-target" title="v3.4.1">
+                v3.4.1
+              </span>
+            </a>
+            <a class="select-menu-item js-navigation-item js-navigation-open "
+              href="/python/cpython/tree/v3.4.1rc1"
+              data-name="v3.4.1rc1"
+              data-skip-pjax="true"
+              rel="nofollow">
+              <svg class="octicon octicon-check select-menu-item-icon" viewBox="0 0 12 16" version="1.1" width="12" height="16" aria-hidden="true"><path fill-rule="evenodd" d="M12 5l-8 8-4-4 1.5-1.5L4 10l6.5-6.5L12 5z"/></svg>
+              <span class="select-menu-item-text css-truncate-target" title="v3.4.1rc1">
+                v3.4.1rc1
+              </span>
+            </a>
+            <a class="select-menu-item js-navigation-item js-navigation-open "
+              href="/python/cpython/tree/v3.4.0"
+              data-name="v3.4.0"
+              data-skip-pjax="true"
+              rel="nofollow">
+              <svg class="octicon octicon-check select-menu-item-icon" viewBox="0 0 12 16" version="1.1" width="12" height="16" aria-hidden="true"><path fill-rule="evenodd" d="M12 5l-8 8-4-4 1.5-1.5L4 10l6.5-6.5L12 5z"/></svg>
+              <span class="select-menu-item-text css-truncate-target" title="v3.4.0">
+                v3.4.0
+              </span>
+            </a>
+            <a class="select-menu-item js-navigation-item js-navigation-open "
+              href="/python/cpython/tree/v3.4.0rc3"
+              data-name="v3.4.0rc3"
+              data-skip-pjax="true"
+              rel="nofollow">
+              <svg class="octicon octicon-check select-menu-item-icon" viewBox="0 0 12 16" version="1.1" width="12" height="16" aria-hidden="true"><path fill-rule="evenodd" d="M12 5l-8 8-4-4 1.5-1.5L4 10l6.5-6.5L12 5z"/></svg>
+              <span class="select-menu-item-text css-truncate-target" title="v3.4.0rc3">
+                v3.4.0rc3
+              </span>
+            </a>
+            <a class="select-menu-item js-navigation-item js-navigation-open "
+              href="/python/cpython/tree/v3.4.0rc2"
+              data-name="v3.4.0rc2"
+              data-skip-pjax="true"
+              rel="nofollow">
+              <svg class="octicon octicon-check select-menu-item-icon" viewBox="0 0 12 16" version="1.1" width="12" height="16" aria-hidden="true"><path fill-rule="evenodd" d="M12 5l-8 8-4-4 1.5-1.5L4 10l6.5-6.5L12 5z"/></svg>
+              <span class="select-menu-item-text css-truncate-target" title="v3.4.0rc2">
+                v3.4.0rc2
+              </span>
+            </a>
+            <a class="select-menu-item js-navigation-item js-navigation-open "
+              href="/python/cpython/tree/v3.4.0rc1"
+              data-name="v3.4.0rc1"
+              data-skip-pjax="true"
+              rel="nofollow">
+              <svg class="octicon octicon-check select-menu-item-icon" viewBox="0 0 12 16" version="1.1" width="12" height="16" aria-hidden="true"><path fill-rule="evenodd" d="M12 5l-8 8-4-4 1.5-1.5L4 10l6.5-6.5L12 5z"/></svg>
+              <span class="select-menu-item-text css-truncate-target" title="v3.4.0rc1">
+                v3.4.0rc1
+              </span>
+            </a>
+            <a class="select-menu-item js-navigation-item js-navigation-open "
+              href="/python/cpython/tree/v3.4.0b3"
+              data-name="v3.4.0b3"
+              data-skip-pjax="true"
+              rel="nofollow">
+              <svg class="octicon octicon-check select-menu-item-icon" viewBox="0 0 12 16" version="1.1" width="12" height="16" aria-hidden="true"><path fill-rule="evenodd" d="M12 5l-8 8-4-4 1.5-1.5L4 10l6.5-6.5L12 5z"/></svg>
+              <span class="select-menu-item-text css-truncate-target" title="v3.4.0b3">
+                v3.4.0b3
+              </span>
+            </a>
+            <a class="select-menu-item js-navigation-item js-navigation-open "
+              href="/python/cpython/tree/v3.4.0b2"
+              data-name="v3.4.0b2"
+              data-skip-pjax="true"
+              rel="nofollow">
+              <svg class="octicon octicon-check select-menu-item-icon" viewBox="0 0 12 16" version="1.1" width="12" height="16" aria-hidden="true"><path fill-rule="evenodd" d="M12 5l-8 8-4-4 1.5-1.5L4 10l6.5-6.5L12 5z"/></svg>
+              <span class="select-menu-item-text css-truncate-target" title="v3.4.0b2">
+                v3.4.0b2
+              </span>
+            </a>
+            <a class="select-menu-item js-navigation-item js-navigation-open "
+              href="/python/cpython/tree/v3.4.0b1"
+              data-name="v3.4.0b1"
+              data-skip-pjax="true"
+              rel="nofollow">
+              <svg class="octicon octicon-check select-menu-item-icon" viewBox="0 0 12 16" version="1.1" width="12" height="16" aria-hidden="true"><path fill-rule="evenodd" d="M12 5l-8 8-4-4 1.5-1.5L4 10l6.5-6.5L12 5z"/></svg>
+              <span class="select-menu-item-text css-truncate-target" title="v3.4.0b1">
+                v3.4.0b1
+              </span>
+            </a>
+            <a class="select-menu-item js-navigation-item js-navigation-open "
+              href="/python/cpython/tree/v3.4.0a4"
+              data-name="v3.4.0a4"
+              data-skip-pjax="true"
+              rel="nofollow">
+              <svg class="octicon octicon-check select-menu-item-icon" viewBox="0 0 12 16" version="1.1" width="12" height="16" aria-hidden="true"><path fill-rule="evenodd" d="M12 5l-8 8-4-4 1.5-1.5L4 10l6.5-6.5L12 5z"/></svg>
+              <span class="select-menu-item-text css-truncate-target" title="v3.4.0a4">
+                v3.4.0a4
+              </span>
+            </a>
+            <a class="select-menu-item js-navigation-item js-navigation-open "
+              href="/python/cpython/tree/v3.4.0a3"
+              data-name="v3.4.0a3"
+              data-skip-pjax="true"
+              rel="nofollow">
+              <svg class="octicon octicon-check select-menu-item-icon" viewBox="0 0 12 16" version="1.1" width="12" height="16" aria-hidden="true"><path fill-rule="evenodd" d="M12 5l-8 8-4-4 1.5-1.5L4 10l6.5-6.5L12 5z"/></svg>
+              <span class="select-menu-item-text css-truncate-target" title="v3.4.0a3">
+                v3.4.0a3
+              </span>
+            </a>
+            <a class="select-menu-item js-navigation-item js-navigation-open "
+              href="/python/cpython/tree/v3.4.0a2"
+              data-name="v3.4.0a2"
+              data-skip-pjax="true"
+              rel="nofollow">
+              <svg class="octicon octicon-check select-menu-item-icon" viewBox="0 0 12 16" version="1.1" width="12" height="16" aria-hidden="true"><path fill-rule="evenodd" d="M12 5l-8 8-4-4 1.5-1.5L4 10l6.5-6.5L12 5z"/></svg>
+              <span class="select-menu-item-text css-truncate-target" title="v3.4.0a2">
+                v3.4.0a2
+              </span>
+            </a>
+            <a class="select-menu-item js-navigation-item js-navigation-open "
+              href="/python/cpython/tree/v3.4.0a1"
+              data-name="v3.4.0a1"
+              data-skip-pjax="true"
+              rel="nofollow">
+              <svg class="octicon octicon-check select-menu-item-icon" viewBox="0 0 12 16" version="1.1" width="12" height="16" aria-hidden="true"><path fill-rule="evenodd" d="M12 5l-8 8-4-4 1.5-1.5L4 10l6.5-6.5L12 5z"/></svg>
+              <span class="select-menu-item-text css-truncate-target" title="v3.4.0a1">
+                v3.4.0a1
+              </span>
+            </a>
+            <a class="select-menu-item js-navigation-item js-navigation-open "
+              href="/python/cpython/tree/v3.3.7"
+              data-name="v3.3.7"
+              data-skip-pjax="true"
+              rel="nofollow">
+              <svg class="octicon octicon-check select-menu-item-icon" viewBox="0 0 12 16" version="1.1" width="12" height="16" aria-hidden="true"><path fill-rule="evenodd" d="M12 5l-8 8-4-4 1.5-1.5L4 10l6.5-6.5L12 5z"/></svg>
+              <span class="select-menu-item-text css-truncate-target" title="v3.3.7">
+                v3.3.7
+              </span>
+            </a>
+            <a class="select-menu-item js-navigation-item js-navigation-open "
+              href="/python/cpython/tree/v3.3.7rc1"
+              data-name="v3.3.7rc1"
+              data-skip-pjax="true"
+              rel="nofollow">
+              <svg class="octicon octicon-check select-menu-item-icon" viewBox="0 0 12 16" version="1.1" width="12" height="16" aria-hidden="true"><path fill-rule="evenodd" d="M12 5l-8 8-4-4 1.5-1.5L4 10l6.5-6.5L12 5z"/></svg>
+              <span class="select-menu-item-text css-truncate-target" title="v3.3.7rc1">
+                v3.3.7rc1
+              </span>
+            </a>
+            <a class="select-menu-item js-navigation-item js-navigation-open "
+              href="/python/cpython/tree/v3.3.6"
+              data-name="v3.3.6"
+              data-skip-pjax="true"
+              rel="nofollow">
+              <svg class="octicon octicon-check select-menu-item-icon" viewBox="0 0 12 16" version="1.1" width="12" height="16" aria-hidden="true"><path fill-rule="evenodd" d="M12 5l-8 8-4-4 1.5-1.5L4 10l6.5-6.5L12 5z"/></svg>
+              <span class="select-menu-item-text css-truncate-target" title="v3.3.6">
+                v3.3.6
+              </span>
+            </a>
+            <a class="select-menu-item js-navigation-item js-navigation-open "
+              href="/python/cpython/tree/v3.3.6rc1"
+              data-name="v3.3.6rc1"
+              data-skip-pjax="true"
+              rel="nofollow">
+              <svg class="octicon octicon-check select-menu-item-icon" viewBox="0 0 12 16" version="1.1" width="12" height="16" aria-hidden="true"><path fill-rule="evenodd" d="M12 5l-8 8-4-4 1.5-1.5L4 10l6.5-6.5L12 5z"/></svg>
+              <span class="select-menu-item-text css-truncate-target" title="v3.3.6rc1">
+                v3.3.6rc1
+              </span>
+            </a>
+            <a class="select-menu-item js-navigation-item js-navigation-open "
+              href="/python/cpython/tree/v3.3.5"
+              data-name="v3.3.5"
+              data-skip-pjax="true"
+              rel="nofollow">
+              <svg class="octicon octicon-check select-menu-item-icon" viewBox="0 0 12 16" version="1.1" width="12" height="16" aria-hidden="true"><path fill-rule="evenodd" d="M12 5l-8 8-4-4 1.5-1.5L4 10l6.5-6.5L12 5z"/></svg>
+              <span class="select-menu-item-text css-truncate-target" title="v3.3.5">
+                v3.3.5
+              </span>
+            </a>
+            <a class="select-menu-item js-navigation-item js-navigation-open "
+              href="/python/cpython/tree/v3.3.5rc2"
+              data-name="v3.3.5rc2"
+              data-skip-pjax="true"
+              rel="nofollow">
+              <svg class="octicon octicon-check select-menu-item-icon" viewBox="0 0 12 16" version="1.1" width="12" height="16" aria-hidden="true"><path fill-rule="evenodd" d="M12 5l-8 8-4-4 1.5-1.5L4 10l6.5-6.5L12 5z"/></svg>
+              <span class="select-menu-item-text css-truncate-target" title="v3.3.5rc2">
+                v3.3.5rc2
+              </span>
+            </a>
+            <a class="select-menu-item js-navigation-item js-navigation-open "
+              href="/python/cpython/tree/v3.3.5rc1"
+              data-name="v3.3.5rc1"
+              data-skip-pjax="true"
+              rel="nofollow">
+              <svg class="octicon octicon-check select-menu-item-icon" viewBox="0 0 12 16" version="1.1" width="12" height="16" aria-hidden="true"><path fill-rule="evenodd" d="M12 5l-8 8-4-4 1.5-1.5L4 10l6.5-6.5L12 5z"/></svg>
+              <span class="select-menu-item-text css-truncate-target" title="v3.3.5rc1">
+                v3.3.5rc1
+              </span>
+            </a>
+            <a class="select-menu-item js-navigation-item js-navigation-open "
+              href="/python/cpython/tree/v3.3.4"
+              data-name="v3.3.4"
+              data-skip-pjax="true"
+              rel="nofollow">
+              <svg class="octicon octicon-check select-menu-item-icon" viewBox="0 0 12 16" version="1.1" width="12" height="16" aria-hidden="true"><path fill-rule="evenodd" d="M12 5l-8 8-4-4 1.5-1.5L4 10l6.5-6.5L12 5z"/></svg>
+              <span class="select-menu-item-text css-truncate-target" title="v3.3.4">
+                v3.3.4
+              </span>
+            </a>
+            <a class="select-menu-item js-navigation-item js-navigation-open "
+              href="/python/cpython/tree/v3.3.4rc1"
+              data-name="v3.3.4rc1"
+              data-skip-pjax="true"
+              rel="nofollow">
+              <svg class="octicon octicon-check select-menu-item-icon" viewBox="0 0 12 16" version="1.1" width="12" height="16" aria-hidden="true"><path fill-rule="evenodd" d="M12 5l-8 8-4-4 1.5-1.5L4 10l6.5-6.5L12 5z"/></svg>
+              <span class="select-menu-item-text css-truncate-target" title="v3.3.4rc1">
+                v3.3.4rc1
+              </span>
+            </a>
+            <a class="select-menu-item js-navigation-item js-navigation-open "
+              href="/python/cpython/tree/v3.3.3"
+              data-name="v3.3.3"
+              data-skip-pjax="true"
+              rel="nofollow">
+              <svg class="octicon octicon-check select-menu-item-icon" viewBox="0 0 12 16" version="1.1" width="12" height="16" aria-hidden="true"><path fill-rule="evenodd" d="M12 5l-8 8-4-4 1.5-1.5L4 10l6.5-6.5L12 5z"/></svg>
+              <span class="select-menu-item-text css-truncate-target" title="v3.3.3">
+                v3.3.3
+              </span>
+            </a>
+            <a class="select-menu-item js-navigation-item js-navigation-open "
+              href="/python/cpython/tree/v3.3.3rc2"
+              data-name="v3.3.3rc2"
+              data-skip-pjax="true"
+              rel="nofollow">
+              <svg class="octicon octicon-check select-menu-item-icon" viewBox="0 0 12 16" version="1.1" width="12" height="16" aria-hidden="true"><path fill-rule="evenodd" d="M12 5l-8 8-4-4 1.5-1.5L4 10l6.5-6.5L12 5z"/></svg>
+              <span class="select-menu-item-text css-truncate-target" title="v3.3.3rc2">
+                v3.3.3rc2
+              </span>
+            </a>
+            <a class="select-menu-item js-navigation-item js-navigation-open "
+              href="/python/cpython/tree/v3.3.3rc1"
+              data-name="v3.3.3rc1"
+              data-skip-pjax="true"
+              rel="nofollow">
+              <svg class="octicon octicon-check select-menu-item-icon" viewBox="0 0 12 16" version="1.1" width="12" height="16" aria-hidden="true"><path fill-rule="evenodd" d="M12 5l-8 8-4-4 1.5-1.5L4 10l6.5-6.5L12 5z"/></svg>
+              <span class="select-menu-item-text css-truncate-target" title="v3.3.3rc1">
+                v3.3.3rc1
+              </span>
+            </a>
+            <a class="select-menu-item js-navigation-item js-navigation-open "
+              href="/python/cpython/tree/v3.3.2"
+              data-name="v3.3.2"
+              data-skip-pjax="true"
+              rel="nofollow">
+              <svg class="octicon octicon-check select-menu-item-icon" viewBox="0 0 12 16" version="1.1" width="12" height="16" aria-hidden="true"><path fill-rule="evenodd" d="M12 5l-8 8-4-4 1.5-1.5L4 10l6.5-6.5L12 5z"/></svg>
+              <span class="select-menu-item-text css-truncate-target" title="v3.3.2">
+                v3.3.2
+              </span>
+            </a>
+            <a class="select-menu-item js-navigation-item js-navigation-open "
+              href="/python/cpython/tree/v3.3.1"
+              data-name="v3.3.1"
+              data-skip-pjax="true"
+              rel="nofollow">
+              <svg class="octicon octicon-check select-menu-item-icon" viewBox="0 0 12 16" version="1.1" width="12" height="16" aria-hidden="true"><path fill-rule="evenodd" d="M12 5l-8 8-4-4 1.5-1.5L4 10l6.5-6.5L12 5z"/></svg>
+              <span class="select-menu-item-text css-truncate-target" title="v3.3.1">
+                v3.3.1
+              </span>
+            </a>
+            <a class="select-menu-item js-navigation-item js-navigation-open "
+              href="/python/cpython/tree/v3.3.1rc1"
+              data-name="v3.3.1rc1"
+              data-skip-pjax="true"
+              rel="nofollow">
+              <svg class="octicon octicon-check select-menu-item-icon" viewBox="0 0 12 16" version="1.1" width="12" height="16" aria-hidden="true"><path fill-rule="evenodd" d="M12 5l-8 8-4-4 1.5-1.5L4 10l6.5-6.5L12 5z"/></svg>
+              <span class="select-menu-item-text css-truncate-target" title="v3.3.1rc1">
+                v3.3.1rc1
+              </span>
+            </a>
+            <a class="select-menu-item js-navigation-item js-navigation-open "
+              href="/python/cpython/tree/v3.3.0"
+              data-name="v3.3.0"
+              data-skip-pjax="true"
+              rel="nofollow">
+              <svg class="octicon octicon-check select-menu-item-icon" viewBox="0 0 12 16" version="1.1" width="12" height="16" aria-hidden="true"><path fill-rule="evenodd" d="M12 5l-8 8-4-4 1.5-1.5L4 10l6.5-6.5L12 5z"/></svg>
+              <span class="select-menu-item-text css-truncate-target" title="v3.3.0">
+                v3.3.0
+              </span>
+            </a>
+            <a class="select-menu-item js-navigation-item js-navigation-open "
+              href="/python/cpython/tree/v3.3.0rc3"
+              data-name="v3.3.0rc3"
+              data-skip-pjax="true"
+              rel="nofollow">
+              <svg class="octicon octicon-check select-menu-item-icon" viewBox="0 0 12 16" version="1.1" width="12" height="16" aria-hidden="true"><path fill-rule="evenodd" d="M12 5l-8 8-4-4 1.5-1.5L4 10l6.5-6.5L12 5z"/></svg>
+              <span class="select-menu-item-text css-truncate-target" title="v3.3.0rc3">
+                v3.3.0rc3
+              </span>
+            </a>
+            <a class="select-menu-item js-navigation-item js-navigation-open "
+              href="/python/cpython/tree/v3.3.0rc2"
+              data-name="v3.3.0rc2"
+              data-skip-pjax="true"
+              rel="nofollow">
+              <svg class="octicon octicon-check select-menu-item-icon" viewBox="0 0 12 16" version="1.1" width="12" height="16" aria-hidden="true"><path fill-rule="evenodd" d="M12 5l-8 8-4-4 1.5-1.5L4 10l6.5-6.5L12 5z"/></svg>
+              <span class="select-menu-item-text css-truncate-target" title="v3.3.0rc2">
+                v3.3.0rc2
+              </span>
+            </a>
+            <a class="select-menu-item js-navigation-item js-navigation-open "
+              href="/python/cpython/tree/v3.3.0rc1"
+              data-name="v3.3.0rc1"
+              data-skip-pjax="true"
+              rel="nofollow">
+              <svg class="octicon octicon-check select-menu-item-icon" viewBox="0 0 12 16" version="1.1" width="12" height="16" aria-hidden="true"><path fill-rule="evenodd" d="M12 5l-8 8-4-4 1.5-1.5L4 10l6.5-6.5L12 5z"/></svg>
+              <span class="select-menu-item-text css-truncate-target" title="v3.3.0rc1">
+                v3.3.0rc1
+              </span>
+            </a>
+            <a class="select-menu-item js-navigation-item js-navigation-open "
+              href="/python/cpython/tree/v3.3.0b2"
+              data-name="v3.3.0b2"
+              data-skip-pjax="true"
+              rel="nofollow">
+              <svg class="octicon octicon-check select-menu-item-icon" viewBox="0 0 12 16" version="1.1" width="12" height="16" aria-hidden="true"><path fill-rule="evenodd" d="M12 5l-8 8-4-4 1.5-1.5L4 10l6.5-6.5L12 5z"/></svg>
+              <span class="select-menu-item-text css-truncate-target" title="v3.3.0b2">
+                v3.3.0b2
+              </span>
+            </a>
+        </div>
+
+        <div class="select-menu-no-results">Nothing to show</div>
+      </div>
+
+    </div>
+  </div>
+</div>
+
+
+        <button type="button" class="btn btn-sm disabled tooltipped tooltipped-n new-pull-request-btn" aria-label="You must be signed in to create a pull request">
+          New pull request
+        </button>
+
+  <div class="breadcrumb flex-auto">
+    
+  </div>
+
+  <div class="BtnGroup">
+
+    <a href="/python/cpython/find/master"
+      class="btn btn-sm empty-icon float-right BtnGroup-item"
+      data-pjax
+      data-hotkey="t"
+      data-ga-click="Repository, find file, location:repo overview">
+      Find file
+    </a>
+  </div>
+  
+
+    <details class="get-repo-select-menu js-get-repo-select-menu position-relative dropdown-details details-reset">
+  <summary class="btn btn-sm btn-primary">
+    Clone or download
+    <span class="dropdown-caret"></span>
+  </summary>
+  <div class="position-relative">
+    <div class="get-repo-modal dropdown-menu dropdown-menu-sw pb-0 js-toggler-container  js-get-repo-modal">
+
+      <div class="get-repo-modal-options">
+          <div class="clone-options https-clone-options">
+
+            <h4 class="mb-1">
+              Clone with HTTPS
+              <a class="muted-link" href="https://help.github.com/articles/which-remote-url-should-i-use" target="_blank" title="Which remote URL should I use?">
+                <svg class="octicon octicon-question" viewBox="0 0 14 16" version="1.1" width="14" height="16" aria-hidden="true"><path fill-rule="evenodd" d="M6 10h2v2H6v-2zm4-3.5C10 8.64 8 9 8 9H6c0-.55.45-1 1-1h.5c.28 0 .5-.22.5-.5v-1c0-.28-.22-.5-.5-.5h-1c-.28 0-.5.22-.5.5V7H4c0-1.5 1.5-3 3-3s3 1 3 2.5zM7 2.3c3.14 0 5.7 2.56 5.7 5.7s-2.56 5.7-5.7 5.7A5.71 5.71 0 0 1 1.3 8c0-3.14 2.56-5.7 5.7-5.7zM7 1C3.14 1 0 4.14 0 8s3.14 7 7 7 7-3.14 7-7-3.14-7-7-7z"/></svg>
+              </a>
+            </h4>
+            <p class="mb-2 get-repo-decription-text">
+              Use Git or checkout with SVN using the web URL.
+            </p>
+
+            <div class="input-group">
+  <input type="text" class="form-control input-monospace input-sm js-url-field" value="https://github.com/python/cpython.git" aria-label="Clone this repository at https://github.com/python/cpython.git" readonly>
+  <div class="input-group-button">
+    <clipboard-copy value="https://github.com/python/cpython.git" aria-label="Copy to clipboard" class="btn btn-sm">
+      <svg class="octicon octicon-clippy" viewBox="0 0 14 16" version="1.1" width="14" height="16" aria-hidden="true"><path fill-rule="evenodd" d="M2 13h4v1H2v-1zm5-6H2v1h5V7zm2 3V8l-3 3 3 3v-2h5v-2H9zM4.5 9H2v1h2.5V9zM2 12h2.5v-1H2v1zm9 1h1v2c-.02.28-.11.52-.3.7-.19.18-.42.28-.7.3H1c-.55 0-1-.45-1-1V4c0-.55.45-1 1-1h3c0-1.11.89-2 2-2 1.11 0 2 .89 2 2h3c.55 0 1 .45 1 1v5h-1V6H1v9h10v-2zM2 5h8c0-.55-.45-1-1-1H8c-.55 0-1-.45-1-1s-.45-1-1-1-1 .45-1 1-.45 1-1 1H3c-.55 0-1 .45-1 1z"/></svg>
+    </clipboard-copy>
+  </div>
+</div>
+
+          </div>
+
+        <div class="mt-2">
+          
+<a href="/python/cpython/archive/master.zip"
+   class="btn btn-outline get-repo-btn
+"
+   rel="nofollow"
+   data-ga-click="Repository, download zip, location:repo overview">
+  Download ZIP
+</a>
+
+        </div>
+      </div>
+
+      <div class="js-modal-download-mac py-2 px-3 d-none">
+        <h4 class="lh-condensed mb-3">Launching GitHub Desktop<span class="animated-ellipsis-container"><span class="animated-ellipsis">...</span></span></h4>
+        <p class="text-gray">If nothing happens, <a href="https://desktop.github.com/">download GitHub Desktop</a> and try again.</p>
+        <p><button class="btn-link js-get-repo-modal-download-back">Go back</button></p>
+      </div>
+
+      <div class="js-modal-download-windows py-2 px-3 d-none">
+        <h4 class="lh-condensed mb-3">Launching GitHub Desktop<span class="animated-ellipsis-container"><span class="animated-ellipsis">...</span></span></h4>
+        <p class="text-gray">If nothing happens, <a href="https://desktop.github.com/">download GitHub Desktop</a> and try again.</p>
+        <p><button class="btn-link js-get-repo-modal-download-back">Go back</button></p>
+      </div>
+
+      <div class="js-modal-download-xcode py-2 px-3 d-none">
+        <h4 class="lh-condensed mb-3">Launching Xcode<span class="animated-ellipsis-container"><span class="animated-ellipsis">...</span></span></h4>
+        <p class="text-gray">If nothing happens, <a href="https://developer.apple.com/xcode/">download Xcode</a> and try again.</p>
+        <p><button class="btn-link js-get-repo-modal-download-back">Go back</button></p>
+      </div>
+
+      <div class="js-modal-download-visual-studio py-2 px-3 d-none">
+        <h4 class="lh-condensed mb-3">Launching Visual Studio<span class="animated-ellipsis-container"><span class="animated-ellipsis">...</span></span></h4>
+        <p class="text-gray">If nothing happens, <a href="https://visualstudio.github.com/">download the GitHub extension for Visual Studio</a> and try again.</p>
+        <p><button class="btn-link js-get-repo-modal-download-back">Go back</button></p>
+      </div>
+
+    </div>
+  </div>
+</details>
+
+</div>
+
+
+  
+
+<include-fragment src="/python/cpython/tree-commit/3059042410dce69806b94be72d5c8055d616f3a3" class="commit-tease commit-loader">
+  <div class="blank">
+    <img alt="" class="loader" src="https://assets-cdn.github.com/images/spinners/octocat-spinner-32-EAF2F5.gif" width="16" height="16" />
+    Fetching latest commit…
+  </div>
+  <div class="loader-error">
+    Cannot retrieve the latest commit at this time.
+  </div>
+</include-fragment>
+
+
+<div class="file-wrap">
+
+  <a class="d-none js-permalink-shortcut" data-hotkey="y" href="/python/cpython/tree/3059042410dce69806b94be72d5c8055d616f3a3">Permalink</a>
+
+  <table class="files js-navigation-container js-active-navigation-container" data-pjax>
+
+
+    <tbody>
+      <tr class="warning include-fragment-error">
+        <td class="icon"><svg class="octicon octicon-alert" viewBox="0 0 16 16" version="1.1" width="16" height="16" aria-hidden="true"><path fill-rule="evenodd" d="M8.893 1.5c-.183-.31-.52-.5-.887-.5s-.703.19-.886.5L.138 13.499a.98.98 0 0 0 0 1.001c.193.31.53.501.886.501h13.964c.367 0 .704-.19.877-.5a1.03 1.03 0 0 0 .01-1.002L8.893 1.5zm.133 11.497H6.987v-2.003h2.039v2.003zm0-3.004H6.987V5.987h2.039v4.006z"/></svg></td>
+        <td class="content" colspan="3">Failed to load latest commit information.</td>
+      </tr>
+
+        <tr class="js-navigation-item">
+          <td class="icon">
+            <svg class="octicon octicon-file-directory" viewBox="0 0 14 16" version="1.1" width="14" height="16" aria-hidden="true"><path fill-rule="evenodd" d="M13 4H7V3c0-.66-.31-1-1-1H1c-.55 0-1 .45-1 1v10c0 .55.45 1 1 1h12c.55 0 1-.45 1-1V5c0-.55-.45-1-1-1zM6 4H1V3h5v1z"/></svg>
+            <img width="16" height="16" class="spinner" alt="" src="https://assets-cdn.github.com/images/spinners/octocat-spinner-32.gif" />
+          </td>
+          <td class="content">
+            <span class="css-truncate css-truncate-target"><a class="js-navigation-open" title=".github" id="01777e4a9846fea5f3fcc8fe40d44680-15c10a43948b89fe9fbb6dbad9d7818f6625e982" href="/python/cpython/tree/master/.github">.github</a></span>
+          </td>
+          <td class="message">
+            <span class="css-truncate css-truncate-target">
+                  <a data-pjax="true" title="bpo-33488: Satisfy markdownlint for the pull request template. (GH-6786)
+
+./.github/PULL_REQUEST_TEMPLATE.md:8: MD031 Fenced code blocks should be
+surrounded by blank lines
+./.github/PULL_REQUEST_TEMPLATE.md:10: MD031 Fenced code blocks should
+be surrounded by blank lines
+./.github/PULL_REQUEST_TEMPLATE.md:19: MD031 Fenced code blocks should
+be surrounded by blank lines
+./.github/PULL_REQUEST_TEMPLATE.md:21: MD031 Fenced code blocks should
+be surrounded by blank lines" class="message" href="/python/cpython/commit/5cd22cf2097a6dd209999cf97858d54564a3be87">bpo-33488: Satisfy markdownlint for the pull request template. (</a><a class="issue-link js-issue-link" data-error-text="Failed to load issue title" data-id="322641666" data-permission-text="Issue title is private" data-url="https://github.com/python/cpython/issues/6786" href="https://github.com/python/cpython/pull/6786">GH-6786</a><a data-pjax="true" title="bpo-33488: Satisfy markdownlint for the pull request template. (GH-6786)
+
+./.github/PULL_REQUEST_TEMPLATE.md:8: MD031 Fenced code blocks should be
+surrounded by blank lines
+./.github/PULL_REQUEST_TEMPLATE.md:10: MD031 Fenced code blocks should
+be surrounded by blank lines
+./.github/PULL_REQUEST_TEMPLATE.md:19: MD031 Fenced code blocks should
+be surrounded by blank lines
+./.github/PULL_REQUEST_TEMPLATE.md:21: MD031 Fenced code blocks should
+be surrounded by blank lines" class="message" href="/python/cpython/commit/5cd22cf2097a6dd209999cf97858d54564a3be87">)</a>
+            </span>
+          </td>
+          <td class="age">
+            <span class="css-truncate css-truncate-target"><time-ago datetime="2018-05-14T00:55:35Z">May 14, 2018</time-ago></span>
+          </td>
+        </tr>
+        <tr class="js-navigation-item">
+          <td class="icon">
+            <svg class="octicon octicon-file-directory" viewBox="0 0 14 16" version="1.1" width="14" height="16" aria-hidden="true"><path fill-rule="evenodd" d="M13 4H7V3c0-.66-.31-1-1-1H1c-.55 0-1 .45-1 1v10c0 .55.45 1 1 1h12c.55 0 1-.45 1-1V5c0-.55-.45-1-1-1zM6 4H1V3h5v1z"/></svg>
+            <img width="16" height="16" class="spinner" alt="" src="https://assets-cdn.github.com/images/spinners/octocat-spinner-32.gif" />
+          </td>
+          <td class="content">
+            <span class="css-truncate css-truncate-target"><a class="js-navigation-open" title="Doc" id="7a48ae1b7387f8a8159c488fbd850021-98562d288add13b48597ca2123da8895a648124f" href="/python/cpython/tree/master/Doc">Doc</a></span>
+          </td>
+          <td class="message">
+            <span class="css-truncate css-truncate-target">
+                  <a data-pjax="true" title="bpo-32769: Write annotation entry for glossary (GH-6657)
+
+https://bugs.python.org/issue32769" class="message" href="/python/cpython/commit/f2290fb19a9b1a5fbeef0971016f72683e8cd1ad">bpo-32769: Write annotation entry for glossary (</a><a class="issue-link js-issue-link" data-error-text="Failed to load issue title" data-id="318964530" data-permission-text="Issue title is private" data-url="https://github.com/python/cpython/issues/6657" href="https://github.com/python/cpython/pull/6657">GH-6657</a><a data-pjax="true" title="bpo-32769: Write annotation entry for glossary (GH-6657)
+
+https://bugs.python.org/issue32769" class="message" href="/python/cpython/commit/f2290fb19a9b1a5fbeef0971016f72683e8cd1ad">)</a>
+            </span>
+          </td>
+          <td class="age">
+            <span class="css-truncate css-truncate-target"><time-ago datetime="2018-05-14T19:04:55Z">May 14, 2018</time-ago></span>
+          </td>
+        </tr>
+        <tr class="js-navigation-item">
+          <td class="icon">
+            <svg class="octicon octicon-file-directory" viewBox="0 0 14 16" version="1.1" width="14" height="16" aria-hidden="true"><path fill-rule="evenodd" d="M13 4H7V3c0-.66-.31-1-1-1H1c-.55 0-1 .45-1 1v10c0 .55.45 1 1 1h12c.55 0 1-.45 1-1V5c0-.55-.45-1-1-1zM6 4H1V3h5v1z"/></svg>
+            <img width="16" height="16" class="spinner" alt="" src="https://assets-cdn.github.com/images/spinners/octocat-spinner-32.gif" />
+          </td>
+          <td class="content">
+            <span class="css-truncate css-truncate-target"><a class="js-navigation-open" title="Grammar" id="d305bbe79fb9dd87a3fda339c8b601b6-d2f6dbfb78af3bff010aa0816dc2bb20330c4966" href="/python/cpython/tree/master/Grammar">Grammar</a></span>
+          </td>
+          <td class="message">
+            <span class="css-truncate css-truncate-target">
+                  <a data-pjax="true" title="bpo-30406: Make async and await proper keywords (#1669)
+
+Per PEP 492, 'async' and 'await' should become proper keywords in 3.7." class="message" href="/python/cpython/commit/ac317700ce7439e38a8b420218d9a5035bba92ed">bpo-30406: Make async and await proper keywords (</a><a href="https://github.com/python/cpython/pull/1669" class="issue-link js-issue-link" data-error-text="Failed to load issue title" data-id="230094716" data-permission-text="Issue title is private" data-url="https://github.com/python/cpython/issues/1669">#1669</a><a data-pjax="true" title="bpo-30406: Make async and await proper keywords (#1669)
+
+Per PEP 492, 'async' and 'await' should become proper keywords in 3.7." class="message" href="/python/cpython/commit/ac317700ce7439e38a8b420218d9a5035bba92ed">)</a>
+            </span>
+          </td>
+          <td class="age">
+            <span class="css-truncate css-truncate-target"><time-ago datetime="2017-10-06T03:24:46Z">Oct 6, 2017</time-ago></span>
+          </td>
+        </tr>
+        <tr class="js-navigation-item">
+          <td class="icon">
+            <svg class="octicon octicon-file-directory" viewBox="0 0 14 16" version="1.1" width="14" height="16" aria-hidden="true"><path fill-rule="evenodd" d="M13 4H7V3c0-.66-.31-1-1-1H1c-.55 0-1 .45-1 1v10c0 .55.45 1 1 1h12c.55 0 1-.45 1-1V5c0-.55-.45-1-1-1zM6 4H1V3h5v1z"/></svg>
+            <img width="16" height="16" class="spinner" alt="" src="https://assets-cdn.github.com/images/spinners/octocat-spinner-32.gif" />
+          </td>
+          <td class="content">
+            <span class="css-truncate css-truncate-target"><a class="js-navigation-open" title="Include" id="f4d72a64acd8929c0cc9ed96a7a336cc-aca65d9e5abdbbc5db4a2e8612d7241b8b3c0cd4" href="/python/cpython/tree/master/Include">Include</a></span>
+          </td>
+          <td class="message">
+            <span class="css-truncate css-truncate-target">
+                  <a data-pjax="true" title="bpo-20171: Convert the _curses and _curses_panel modules to Argument Clinic. (GH-4251)" class="message" href="/python/cpython/commit/b00854caa080cec613496d3a5e1b0891c9ff83e6">bpo-20171: Convert the _curses and _curses_panel modules to Argument …</a>
+            </span>
+          </td>
+          <td class="age">
+            <span class="css-truncate css-truncate-target"><time-ago datetime="2018-05-10T08:27:23Z">May 10, 2018</time-ago></span>
+          </td>
+        </tr>
+        <tr class="js-navigation-item">
+          <td class="icon">
+            <svg class="octicon octicon-file-directory" viewBox="0 0 14 16" version="1.1" width="14" height="16" aria-hidden="true"><path fill-rule="evenodd" d="M13 4H7V3c0-.66-.31-1-1-1H1c-.55 0-1 .45-1 1v10c0 .55.45 1 1 1h12c.55 0 1-.45 1-1V5c0-.55-.45-1-1-1zM6 4H1V3h5v1z"/></svg>
+            <img width="16" height="16" class="spinner" alt="" src="https://assets-cdn.github.com/images/spinners/octocat-spinner-32.gif" />
+          </td>
+          <td class="content">
+            <span class="css-truncate css-truncate-target"><a class="js-navigation-open" title="Lib" id="043d23e54edc5360a7785ae212d1b806-b8ddd9e16967102ee42b49b7efe5b28afa16986c" href="/python/cpython/tree/master/Lib">Lib</a></span>
+          </td>
+          <td class="message">
+            <span class="css-truncate css-truncate-target">
+                  <a data-pjax="true" title="bpo-33502: dataclass._Dataclassparams repr: use repr of each member. (GH-6812)" class="message" href="/python/cpython/commit/3059042410dce69806b94be72d5c8055d616f3a3">bpo-33502: dataclass._Dataclassparams repr: use repr of each member. (</a><a class="issue-link js-issue-link" data-error-text="Failed to load issue title" data-id="322916350" data-permission-text="Issue title is private" data-url="https://github.com/python/cpython/issues/6812" href="https://github.com/python/cpython/pull/6812">G…</a>
+            </span>
+          </td>
+          <td class="age">
+            <span class="css-truncate css-truncate-target"><time-ago datetime="2018-05-14T21:16:52Z">May 14, 2018</time-ago></span>
+          </td>
+        </tr>
+        <tr class="js-navigation-item">
+          <td class="icon">
+            <svg class="octicon octicon-file-directory" viewBox="0 0 14 16" version="1.1" width="14" height="16" aria-hidden="true"><path fill-rule="evenodd" d="M13 4H7V3c0-.66-.31-1-1-1H1c-.55 0-1 .45-1 1v10c0 .55.45 1 1 1h12c.55 0 1-.45 1-1V5c0-.55-.45-1-1-1zM6 4H1V3h5v1z"/></svg>
+            <img width="16" height="16" class="spinner" alt="" src="https://assets-cdn.github.com/images/spinners/octocat-spinner-32.gif" />
+          </td>
+          <td class="content">
+            <span class="css-truncate css-truncate-target"><a class="js-navigation-open" title="Mac" id="1748c0644a50090814d3e170723ccc5c-b7808a7a8b3737b6c1570ebdf8e021c700a0177f" href="/python/cpython/tree/master/Mac">Mac</a></span>
+          </td>
+          <td class="message">
+            <span class="css-truncate css-truncate-target">
+                  <a data-pjax="true" title="Mitigate macOS race condition in installer build (GH-6686)" class="message" href="/python/cpython/commit/fc6aa28bfd0502d994cec30bd3679b7def3be2af">Mitigate macOS race condition in installer build (</a><a class="issue-link js-issue-link" data-error-text="Failed to load issue title" data-id="319415999" data-permission-text="Issue title is private" data-url="https://github.com/python/cpython/issues/6686" href="https://github.com/python/cpython/pull/6686">GH-6686</a><a data-pjax="true" title="Mitigate macOS race condition in installer build (GH-6686)" class="message" href="/python/cpython/commit/fc6aa28bfd0502d994cec30bd3679b7def3be2af">)</a>
+            </span>
+          </td>
+          <td class="age">
+            <span class="css-truncate css-truncate-target"><time-ago datetime="2018-05-02T05:41:15Z">May 2, 2018</time-ago></span>
+          </td>
+        </tr>
+        <tr class="js-navigation-item">
+          <td class="icon">
+            <svg class="octicon octicon-file-directory" viewBox="0 0 14 16" version="1.1" width="14" height="16" aria-hidden="true"><path fill-rule="evenodd" d="M13 4H7V3c0-.66-.31-1-1-1H1c-.55 0-1 .45-1 1v10c0 .55.45 1 1 1h12c.55 0 1-.45 1-1V5c0-.55-.45-1-1-1zM6 4H1V3h5v1z"/></svg>
+            <img width="16" height="16" class="spinner" alt="" src="https://assets-cdn.github.com/images/spinners/octocat-spinner-32.gif" />
+          </td>
+          <td class="content">
+            <span class="css-truncate css-truncate-target"><a class="js-navigation-open" title="Misc" id="74248c725e00bf9fe04df4e35b249a19-7badfada3bb23bc7c7410b65f0dd8cad7b385e9e" href="/python/cpython/tree/master/Misc">Misc</a></span>
+          </td>
+          <td class="message">
+            <span class="css-truncate css-truncate-target">
+                  <a data-pjax="true" title="bpo-33494: Change dataclasses.Fields repr to use the repr of each of its members (GH-6798)" class="message" href="/python/cpython/commit/2473eea65d592a80a5362a00362738a33196aba1">bpo-33494: Change dataclasses.Fields repr to use the repr of each of …</a>
+            </span>
+          </td>
+          <td class="age">
+            <span class="css-truncate css-truncate-target"><time-ago datetime="2018-05-14T15:37:28Z">May 14, 2018</time-ago></span>
+          </td>
+        </tr>
+        <tr class="js-navigation-item">
+          <td class="icon">
+            <svg class="octicon octicon-file-directory" viewBox="0 0 14 16" version="1.1" width="14" height="16" aria-hidden="true"><path fill-rule="evenodd" d="M13 4H7V3c0-.66-.31-1-1-1H1c-.55 0-1 .45-1 1v10c0 .55.45 1 1 1h12c.55 0 1-.45 1-1V5c0-.55-.45-1-1-1zM6 4H1V3h5v1z"/></svg>
+            <img width="16" height="16" class="spinner" alt="" src="https://assets-cdn.github.com/images/spinners/octocat-spinner-32.gif" />
+          </td>
+          <td class="content">
+            <span class="css-truncate css-truncate-target"><a class="js-navigation-open" title="Modules" id="bf17ac149e2e7a530c677e9bd51d3fd2-fd0f5cbee462a49239fd762b864d8cdfe2d1f02f" href="/python/cpython/tree/master/Modules">Modules</a></span>
+          </td>
+          <td class="message">
+            <span class="css-truncate css-truncate-target">
+                  <a data-pjax="true" title="Fixed an unused variable warning introduced in GH-6800 (GH-6816)" class="message" href="/python/cpython/commit/00717a46a120dd8c8c74970fd75d201a5f42ab18">Fixed an unused variable warning introduced in</a> <a class="issue-link js-issue-link" data-error-text="Failed to load issue title" data-id="322845454" data-permission-text="Issue title is private" data-url="https://github.com/python/cpython/issues/6800" href="https://github.com/python/cpython/pull/6800">GH-6800</a> <a data-pjax="true" title="Fixed an unused variable warning introduced in GH-6800 (GH-6816)" class="message" href="/python/cpython/commit/00717a46a120dd8c8c74970fd75d201a5f42ab18">(</a><a class="issue-link js-issue-link" data-error-text="Failed to load issue title" data-id="322927845" data-permission-text="Issue title is private" data-url="https://github.com/python/cpython/issues/6816" href="https://github.com/python/cpython/pull/6816">GH-6816</a><a data-pjax="true" title="Fixed an unused variable warning introduced in GH-6800 (GH-6816)" class="message" href="/python/cpython/commit/00717a46a120dd8c8c74970fd75d201a5f42ab18">)</a>
+            </span>
+          </td>
+          <td class="age">
+            <span class="css-truncate css-truncate-target"><time-ago datetime="2018-05-14T20:48:14Z">May 14, 2018</time-ago></span>
+          </td>
+        </tr>
+        <tr class="js-navigation-item">
+          <td class="icon">
+            <svg class="octicon octicon-file-directory" viewBox="0 0 14 16" version="1.1" width="14" height="16" aria-hidden="true"><path fill-rule="evenodd" d="M13 4H7V3c0-.66-.31-1-1-1H1c-.55 0-1 .45-1 1v10c0 .55.45 1 1 1h12c.55 0 1-.45 1-1V5c0-.55-.45-1-1-1zM6 4H1V3h5v1z"/></svg>
+            <img width="16" height="16" class="spinner" alt="" src="https://assets-cdn.github.com/images/spinners/octocat-spinner-32.gif" />
+          </td>
+          <td class="content">
+            <span class="css-truncate css-truncate-target"><a class="js-navigation-open" title="Objects" id="c8308b1eba7ba926a61b8fd802194386-af99d29cf215bf3f32156fe40c96cfbd35caa957" href="/python/cpython/tree/master/Objects">Objects</a></span>
+          </td>
+          <td class="message">
+            <span class="css-truncate css-truncate-target">
+                  <a data-pjax="true" title="Fix typo in __mul__ and __rmul__ docstring (GH-6674)" class="message" href="/python/cpython/commit/0904f766e116c269675317e11368a4d29eef0bc6">Fix typo in __mul__ and __rmul__ docstring (</a><a class="issue-link js-issue-link" data-error-text="Failed to load issue title" data-id="319260646" data-permission-text="Issue title is private" data-url="https://github.com/python/cpython/issues/6674" href="https://github.com/python/cpython/pull/6674">GH-6674</a><a data-pjax="true" title="Fix typo in __mul__ and __rmul__ docstring (GH-6674)" class="message" href="/python/cpython/commit/0904f766e116c269675317e11368a4d29eef0bc6">)</a>
+            </span>
+          </td>
+          <td class="age">
+            <span class="css-truncate css-truncate-target"><time-ago datetime="2018-05-08T22:00:19Z">May 8, 2018</time-ago></span>
+          </td>
+        </tr>
+        <tr class="js-navigation-item">
+          <td class="icon">
+            <svg class="octicon octicon-file-directory" viewBox="0 0 14 16" version="1.1" width="14" height="16" aria-hidden="true"><path fill-rule="evenodd" d="M13 4H7V3c0-.66-.31-1-1-1H1c-.55 0-1 .45-1 1v10c0 .55.45 1 1 1h12c.55 0 1-.45 1-1V5c0-.55-.45-1-1-1zM6 4H1V3h5v1z"/></svg>
+            <img width="16" height="16" class="spinner" alt="" src="https://assets-cdn.github.com/images/spinners/octocat-spinner-32.gif" />
+          </td>
+          <td class="content">
+            <span class="css-truncate css-truncate-target"><a class="js-navigation-open" title="PC" id="88dba0c4e2af76447df43d1e31331a3d-bc3b16ca18ca111e0c1b41ec237a4ddfef6dacea" href="/python/cpython/tree/master/PC">PC</a></span>
+          </td>
+          <td class="message">
+            <span class="css-truncate css-truncate-target">
+                  <a data-pjax="true" title="bpo-33012: Fix invalid function cast warnings with gcc 8 for METH_NOARGS. (GH-6030)
+
+METH_NOARGS functions need only a single argument but they are cast
+into a PyCFunction, which takes two arguments.  This triggers an
+invalid function cast warning in gcc8 due to the argument mismatch.
+Fix this by adding a dummy unused argument." class="message" href="/python/cpython/commit/55edd0c185ad2d895b5d73e47d67049bc156b654">bpo-33012: Fix invalid function cast warnings with gcc 8 for METH_NOA…</a>
+            </span>
+          </td>
+          <td class="age">
+            <span class="css-truncate css-truncate-target"><time-ago datetime="2018-04-29T18:59:33Z">Apr 29, 2018</time-ago></span>
+          </td>
+        </tr>
+        <tr class="js-navigation-item">
+          <td class="icon">
+            <svg class="octicon octicon-file-directory" viewBox="0 0 14 16" version="1.1" width="14" height="16" aria-hidden="true"><path fill-rule="evenodd" d="M13 4H7V3c0-.66-.31-1-1-1H1c-.55 0-1 .45-1 1v10c0 .55.45 1 1 1h12c.55 0 1-.45 1-1V5c0-.55-.45-1-1-1zM6 4H1V3h5v1z"/></svg>
+            <img width="16" height="16" class="spinner" alt="" src="https://assets-cdn.github.com/images/spinners/octocat-spinner-32.gif" />
+          </td>
+          <td class="content">
+            <span class="css-truncate css-truncate-target"><a class="js-navigation-open" title="PCbuild" id="f7fc95897d1cd09cba0681a592bf3bcc-d9a6805b76865b683aceaa45b73b8f29e391ec2e" href="/python/cpython/tree/master/PCbuild">PCbuild</a></span>
+          </td>
+          <td class="message">
+            <span class="css-truncate css-truncate-target">
+                  <a data-pjax="true" title="bpo-33184: Update Windows installer to OpenSSL 1.1.0h (GH-6463)" class="message" href="/python/cpython/commit/b1dc07509f78b354e83f5f4a902f1ff80c7bb05d">bpo-33184: Update Windows installer to OpenSSL 1.1.0h (</a><a class="issue-link js-issue-link" data-error-text="Failed to load issue title" data-id="314209881" data-permission-text="Issue title is private" data-url="https://github.com/python/cpython/issues/6463" href="https://github.com/python/cpython/pull/6463">GH-6463</a><a data-pjax="true" title="bpo-33184: Update Windows installer to OpenSSL 1.1.0h (GH-6463)" class="message" href="/python/cpython/commit/b1dc07509f78b354e83f5f4a902f1ff80c7bb05d">)</a>
+            </span>
+          </td>
+          <td class="age">
+            <span class="css-truncate css-truncate-target"><time-ago datetime="2018-04-14T00:30:34Z">Apr 14, 2018</time-ago></span>
+          </td>
+        </tr>
+        <tr class="js-navigation-item">
+          <td class="icon">
+            <svg class="octicon octicon-file-directory" viewBox="0 0 14 16" version="1.1" width="14" height="16" aria-hidden="true"><path fill-rule="evenodd" d="M13 4H7V3c0-.66-.31-1-1-1H1c-.55 0-1 .45-1 1v10c0 .55.45 1 1 1h12c.55 0 1-.45 1-1V5c0-.55-.45-1-1-1zM6 4H1V3h5v1z"/></svg>
+            <img width="16" height="16" class="spinner" alt="" src="https://assets-cdn.github.com/images/spinners/octocat-spinner-32.gif" />
+          </td>
+          <td class="content">
+            <span class="css-truncate css-truncate-target"><a class="js-navigation-open" title="Parser" id="9a83ab0d60fed7c37d928ccb30d1b6ae-7a2796032f2ec12989a2edc0ad13e6ab3a49b4a1" href="/python/cpython/tree/master/Parser">Parser</a></span>
+          </td>
+          <td class="message">
+            <span class="css-truncate css-truncate-target">
+                  <a data-pjax="true" title=" bpo-32571: Avoid raising unneeded AttributeError and silencing it in C code (GH-5222)
+
+Add two new private APIs: _PyObject_LookupAttr() and _PyObject_LookupAttrId()" class="message" href="/python/cpython/commit/f320be77ffb73e3b9e7fc98c37b8df3975d84b40"> bpo-32571: Avoid raising unneeded AttributeError and silencing it in…</a>
+            </span>
+          </td>
+          <td class="age">
+            <span class="css-truncate css-truncate-target"><time-ago datetime="2018-01-25T08:49:40Z">Jan 25, 2018</time-ago></span>
+          </td>
+        </tr>
+        <tr class="js-navigation-item">
+          <td class="icon">
+            <svg class="octicon octicon-file-directory" viewBox="0 0 14 16" version="1.1" width="14" height="16" aria-hidden="true"><path fill-rule="evenodd" d="M13 4H7V3c0-.66-.31-1-1-1H1c-.55 0-1 .45-1 1v10c0 .55.45 1 1 1h12c.55 0 1-.45 1-1V5c0-.55-.45-1-1-1zM6 4H1V3h5v1z"/></svg>
+            <img width="16" height="16" class="spinner" alt="" src="https://assets-cdn.github.com/images/spinners/octocat-spinner-32.gif" />
+          </td>
+          <td class="content">
+            <span class="css-truncate css-truncate-target"><a class="js-navigation-open" title="Programs" id="975d1c13e7672fe6f144e3439bba958b-fb20bd566027786eeeccd210af1da77c00bc8de1" href="/python/cpython/tree/master/Programs">Programs</a></span>
+          </td>
+          <td class="message">
+            <span class="css-truncate css-truncate-target">
+                  <a data-pjax="true" title="bpo-33182: Fix pointer types in _testembed (GH-6310)" class="message" href="/python/cpython/commit/69f5c73311a61b05485b19626935bf240ad31c5b">bpo-33182: Fix pointer types in _testembed (</a><a class="issue-link js-issue-link" data-error-text="Failed to load issue title" data-id="309974640" data-permission-text="Issue title is private" data-url="https://github.com/python/cpython/issues/6310" href="https://github.com/python/cpython/pull/6310">GH-6310</a><a data-pjax="true" title="bpo-33182: Fix pointer types in _testembed (GH-6310)" class="message" href="/python/cpython/commit/69f5c73311a61b05485b19626935bf240ad31c5b">)</a>
+            </span>
+          </td>
+          <td class="age">
+            <span class="css-truncate css-truncate-target"><time-ago datetime="2018-03-30T05:36:42Z">Mar 30, 2018</time-ago></span>
+          </td>
+        </tr>
+        <tr class="js-navigation-item">
+          <td class="icon">
+            <svg class="octicon octicon-file-directory" viewBox="0 0 14 16" version="1.1" width="14" height="16" aria-hidden="true"><path fill-rule="evenodd" d="M13 4H7V3c0-.66-.31-1-1-1H1c-.55 0-1 .45-1 1v10c0 .55.45 1 1 1h12c.55 0 1-.45 1-1V5c0-.55-.45-1-1-1zM6 4H1V3h5v1z"/></svg>
+            <img width="16" height="16" class="spinner" alt="" src="https://assets-cdn.github.com/images/spinners/octocat-spinner-32.gif" />
+          </td>
+          <td class="content">
+            <span class="css-truncate css-truncate-target"><a class="js-navigation-open" title="Python" id="a7f5f35426b927411fc9231b56382173-0479750e2c8bcd409b9ccd62db83a28ed2fed3f4" href="/python/cpython/tree/master/Python">Python</a></span>
+          </td>
+          <td class="message">
+            <span class="css-truncate css-truncate-target">
+                  <a data-pjax="true" title="bpo-33443 Fix typo in Python/import.c (GH-6722)" class="message" href="/python/cpython/commit/5e6312c39e1fc32ecef18d340bcd5f7e314170e1">bpo-33443 Fix typo in Python/import.c (</a><a class="issue-link js-issue-link" data-error-text="Failed to load issue title" data-id="320849799" data-permission-text="Issue title is private" data-url="https://github.com/python/cpython/issues/6722" href="https://github.com/python/cpython/pull/6722">GH-6722</a><a data-pjax="true" title="bpo-33443 Fix typo in Python/import.c (GH-6722)" class="message" href="/python/cpython/commit/5e6312c39e1fc32ecef18d340bcd5f7e314170e1">)</a>
+            </span>
+          </td>
+          <td class="age">
+            <span class="css-truncate css-truncate-target"><time-ago datetime="2018-05-14T19:10:52Z">May 14, 2018</time-ago></span>
+          </td>
+        </tr>
+        <tr class="js-navigation-item">
+          <td class="icon">
+            <svg class="octicon octicon-file-directory" viewBox="0 0 14 16" version="1.1" width="14" height="16" aria-hidden="true"><path fill-rule="evenodd" d="M13 4H7V3c0-.66-.31-1-1-1H1c-.55 0-1 .45-1 1v10c0 .55.45 1 1 1h12c.55 0 1-.45 1-1V5c0-.55-.45-1-1-1zM6 4H1V3h5v1z"/></svg>
+            <img width="16" height="16" class="spinner" alt="" src="https://assets-cdn.github.com/images/spinners/octocat-spinner-32.gif" />
+          </td>
+          <td class="content">
+            <span class="css-truncate css-truncate-target"><a class="js-navigation-open" title="Tools" id="8625e1de7be14c39b1d14dc03d822497-664f1c265c301d72968b404246c8aea9a8123b79" href="/python/cpython/tree/master/Tools">Tools</a></span>
+          </td>
+          <td class="message">
+            <span class="css-truncate css-truncate-target">
+                  <a data-pjax="true" title="Remove mojibake in the locale aliases mapping. (GH-6716)" class="message" href="/python/cpython/commit/a3f19c3f52ddff85dd52eaa01b77b2d50cc9af3f">Remove mojibake in the locale aliases mapping. (</a><a class="issue-link js-issue-link" data-error-text="Failed to load issue title" data-id="320567851" data-permission-text="Issue title is private" data-url="https://github.com/python/cpython/issues/6716" href="https://github.com/python/cpython/pull/6716">GH-6716</a><a data-pjax="true" title="Remove mojibake in the locale aliases mapping. (GH-6716)" class="message" href="/python/cpython/commit/a3f19c3f52ddff85dd52eaa01b77b2d50cc9af3f">)</a>
+            </span>
+          </td>
+          <td class="age">
+            <span class="css-truncate css-truncate-target"><time-ago datetime="2018-05-06T07:52:38Z">May 6, 2018</time-ago></span>
+          </td>
+        </tr>
+        <tr class="js-navigation-item">
+          <td class="icon">
+            <svg class="octicon octicon-file-directory" viewBox="0 0 14 16" version="1.1" width="14" height="16" aria-hidden="true"><path fill-rule="evenodd" d="M13 4H7V3c0-.66-.31-1-1-1H1c-.55 0-1 .45-1 1v10c0 .55.45 1 1 1h12c.55 0 1-.45 1-1V5c0-.55-.45-1-1-1zM6 4H1V3h5v1z"/></svg>
+            <img width="16" height="16" class="spinner" alt="" src="https://assets-cdn.github.com/images/spinners/octocat-spinner-32.gif" />
+          </td>
+          <td class="content">
+            <span class="css-truncate css-truncate-target"><a class="js-navigation-open" title="m4" id="fd6b6fc9220b72d21683ae8e4f50a210-909690a04f590d678f4377d636918d655184f3b4" href="/python/cpython/tree/master/m4">m4</a></span>
+          </td>
+          <td class="message">
+            <span class="css-truncate css-truncate-target">
+                  <a data-pjax="true" title="bpo-32598: Use autoconf to detect usable OpenSSL (#5242)
+
+Add https://www.gnu.org/software/autoconf-archive/ax_check_openssl.html
+to auto-detect compiler flags, linker flags and libraries to compile
+OpenSSL extensions. The M4 macro uses pkg-config and falls back to
+manual detection.
+
+Add autoconf magic to detect usable X509_VERIFY_PARAM_set1_host()
+and related functions.
+
+Refactor setup.py to use new config vars to compile _ssl and _hashlib
+modules.
+
+Signed-off-by: Christian Heimes &lt;christian@python.org&gt;" class="message" href="/python/cpython/commit/ff5be6e8100276647e0077e80869fc022d1bb53f">bpo-32598: Use autoconf to detect usable OpenSSL (</a><a href="https://github.com/python/cpython/pull/5242" class="issue-link js-issue-link" data-error-text="Failed to load issue title" data-id="289948760" data-permission-text="Issue title is private" data-url="https://github.com/python/cpython/issues/5242">#5242</a><a data-pjax="true" title="bpo-32598: Use autoconf to detect usable OpenSSL (#5242)
+
+Add https://www.gnu.org/software/autoconf-archive/ax_check_openssl.html
+to auto-detect compiler flags, linker flags and libraries to compile
+OpenSSL extensions. The M4 macro uses pkg-config and falls back to
+manual detection.
+
+Add autoconf magic to detect usable X509_VERIFY_PARAM_set1_host()
+and related functions.
+
+Refactor setup.py to use new config vars to compile _ssl and _hashlib
+modules.
+
+Signed-off-by: Christian Heimes &lt;christian@python.org&gt;" class="message" href="/python/cpython/commit/ff5be6e8100276647e0077e80869fc022d1bb53f">)</a>
+            </span>
+          </td>
+          <td class="age">
+            <span class="css-truncate css-truncate-target"><time-ago datetime="2018-01-20T12:19:21Z">Jan 20, 2018</time-ago></span>
+          </td>
+        </tr>
+        <tr class="js-navigation-item">
+          <td class="icon">
+            <svg class="octicon octicon-file" viewBox="0 0 12 16" version="1.1" width="12" height="16" aria-hidden="true"><path fill-rule="evenodd" d="M6 5H2V4h4v1zM2 8h7V7H2v1zm0 2h7V9H2v1zm0 2h7v-1H2v1zm10-7.5V14c0 .55-.45 1-1 1H1c-.55 0-1-.45-1-1V2c0-.55.45-1 1-1h7.5L12 4.5zM11 5L8 2H1v12h10V5z"/></svg>
+            <img width="16" height="16" class="spinner" alt="" src="https://assets-cdn.github.com/images/spinners/octocat-spinner-32.gif" />
+          </td>
+          <td class="content">
+            <span class="css-truncate css-truncate-target"><a class="js-navigation-open" title=".gitattributes" id="fc723d30b02a4cca7a534518111c1a66-0a998a5369fff949d212b6f0c325b64d70f85f45" href="/python/cpython/blob/master/.gitattributes">.gitattributes</a></span>
+          </td>
+          <td class="message">
+            <span class="css-truncate css-truncate-target">
+                  <a data-pjax="true" title="Fix Git attributes of test_importlib data files (#5209)
+
+bpo-32248: Make sure that Git checks out data files with Unix line
+ending on Windows as well." class="message" href="/python/cpython/commit/44a70e9336765404057b12345465844dc291297a">Fix Git attributes of test_importlib data files (</a><a href="https://github.com/python/cpython/pull/5209" class="issue-link js-issue-link" data-error-text="Failed to load issue title" data-id="289080486" data-permission-text="Issue title is private" data-url="https://github.com/python/cpython/issues/5209">#5209</a><a data-pjax="true" title="Fix Git attributes of test_importlib data files (#5209)
+
+bpo-32248: Make sure that Git checks out data files with Unix line
+ending on Windows as well." class="message" href="/python/cpython/commit/44a70e9336765404057b12345465844dc291297a">)</a>
+            </span>
+          </td>
+          <td class="age">
+            <span class="css-truncate css-truncate-target"><time-ago datetime="2018-01-17T09:26:03Z">Jan 17, 2018</time-ago></span>
+          </td>
+        </tr>
+        <tr class="js-navigation-item">
+          <td class="icon">
+            <svg class="octicon octicon-file" viewBox="0 0 12 16" version="1.1" width="12" height="16" aria-hidden="true"><path fill-rule="evenodd" d="M6 5H2V4h4v1zM2 8h7V7H2v1zm0 2h7V9H2v1zm0 2h7v-1H2v1zm10-7.5V14c0 .55-.45 1-1 1H1c-.55 0-1-.45-1-1V2c0-.55.45-1 1-1h7.5L12 4.5zM11 5L8 2H1v12h10V5z"/></svg>
+            <img width="16" height="16" class="spinner" alt="" src="https://assets-cdn.github.com/images/spinners/octocat-spinner-32.gif" />
+          </td>
+          <td class="content">
+            <span class="css-truncate css-truncate-target"><a class="js-navigation-open" title=".gitignore" id="a084b794bc0759e7a6b77810e01874f2-215d7f526f465c9fff5a4a51aea04780c0dd78e3" href="/python/cpython/blob/master/.gitignore">.gitignore</a></span>
+          </td>
+          <td class="message">
+            <span class="css-truncate css-truncate-target">
+                  <a data-pjax="true" title="Add mypy cache to gitignore (GH-6614)" class="message" href="/python/cpython/commit/5a49ca61d2f00941c304b2390af8a927bf1c4a77">Add mypy cache to gitignore (</a><a class="issue-link js-issue-link" data-error-text="Failed to load issue title" data-id="318230487" data-permission-text="Issue title is private" data-url="https://github.com/python/cpython/issues/6614" href="https://github.com/python/cpython/pull/6614">GH-6614</a><a data-pjax="true" title="Add mypy cache to gitignore (GH-6614)" class="message" href="/python/cpython/commit/5a49ca61d2f00941c304b2390af8a927bf1c4a77">)</a>
+            </span>
+          </td>
+          <td class="age">
+            <span class="css-truncate css-truncate-target"><time-ago datetime="2018-04-30T19:10:45Z">Apr 30, 2018</time-ago></span>
+          </td>
+        </tr>
+        <tr class="js-navigation-item">
+          <td class="icon">
+            <svg class="octicon octicon-file" viewBox="0 0 12 16" version="1.1" width="12" height="16" aria-hidden="true"><path fill-rule="evenodd" d="M6 5H2V4h4v1zM2 8h7V7H2v1zm0 2h7V9H2v1zm0 2h7v-1H2v1zm10-7.5V14c0 .55-.45 1-1 1H1c-.55 0-1-.45-1-1V2c0-.55.45-1 1-1h7.5L12 4.5zM11 5L8 2H1v12h10V5z"/></svg>
+            <img width="16" height="16" class="spinner" alt="" src="https://assets-cdn.github.com/images/spinners/octocat-spinner-32.gif" />
+          </td>
+          <td class="content">
+            <span class="css-truncate css-truncate-target"><a class="js-navigation-open" title=".travis.yml" id="354f30a63fb0907d4ad57269548329e3-fecad290d8bb7ad025fb9301627b9714a81fdfa8" href="/python/cpython/blob/master/.travis.yml">.travis.yml</a></span>
+          </td>
+          <td class="message">
+            <span class="css-truncate css-truncate-target">
+                  <a data-pjax="true" title="Add a webhook for Zulip to the Travis configuration (GH-6379)" class="message" href="/python/cpython/commit/0876505bd32b5ab3a14fa4cc0528d763916440a8">Add a webhook for Zulip to the Travis configuration (</a><a class="issue-link js-issue-link" data-error-text="Failed to load issue title" data-id="311436465" data-permission-text="Issue title is private" data-url="https://github.com/python/cpython/issues/6379" href="https://github.com/python/cpython/pull/6379">GH-6379</a><a data-pjax="true" title="Add a webhook for Zulip to the Travis configuration (GH-6379)" class="message" href="/python/cpython/commit/0876505bd32b5ab3a14fa4cc0528d763916440a8">)</a>
+            </span>
+          </td>
+          <td class="age">
+            <span class="css-truncate css-truncate-target"><time-ago datetime="2018-04-05T02:12:39Z">Apr 5, 2018</time-ago></span>
+          </td>
+        </tr>
+        <tr class="js-navigation-item">
+          <td class="icon">
+            <svg class="octicon octicon-file" viewBox="0 0 12 16" version="1.1" width="12" height="16" aria-hidden="true"><path fill-rule="evenodd" d="M6 5H2V4h4v1zM2 8h7V7H2v1zm0 2h7V9H2v1zm0 2h7v-1H2v1zm10-7.5V14c0 .55-.45 1-1 1H1c-.55 0-1-.45-1-1V2c0-.55.45-1 1-1h7.5L12 4.5zM11 5L8 2H1v12h10V5z"/></svg>
+            <img width="16" height="16" class="spinner" alt="" src="https://assets-cdn.github.com/images/spinners/octocat-spinner-32.gif" />
+          </td>
+          <td class="content">
+            <span class="css-truncate css-truncate-target"><a class="js-navigation-open" title="LICENSE" id="9879d6db96fd29134fc802214163b95a-1afbedba92b33c6b418c343f7b4c6948318eb197" itemprop="license" href="/python/cpython/blob/master/LICENSE">LICENSE</a></span>
+          </td>
+          <td class="message">
+            <span class="css-truncate css-truncate-target">
+                  <a data-pjax="true" title="advance copyright years to 2018 (#5094)" class="message" href="/python/cpython/commit/65f2a6dcc2bc28a8566b74c8e9273f982331ec48">advance copyright years to 2018 (</a><a href="https://github.com/python/cpython/pull/5094" class="issue-link js-issue-link" data-error-text="Failed to load issue title" data-id="285906148" data-permission-text="Issue title is private" data-url="https://github.com/python/cpython/issues/5094">#5094</a><a data-pjax="true" title="advance copyright years to 2018 (#5094)" class="message" href="/python/cpython/commit/65f2a6dcc2bc28a8566b74c8e9273f982331ec48">)</a>
+            </span>
+          </td>
+          <td class="age">
+            <span class="css-truncate css-truncate-target"><time-ago datetime="2018-01-05T06:34:19Z">Jan 5, 2018</time-ago></span>
+          </td>
+        </tr>
+        <tr class="js-navigation-item">
+          <td class="icon">
+            <svg class="octicon octicon-file" viewBox="0 0 12 16" version="1.1" width="12" height="16" aria-hidden="true"><path fill-rule="evenodd" d="M6 5H2V4h4v1zM2 8h7V7H2v1zm0 2h7V9H2v1zm0 2h7v-1H2v1zm10-7.5V14c0 .55-.45 1-1 1H1c-.55 0-1-.45-1-1V2c0-.55.45-1 1-1h7.5L12 4.5zM11 5L8 2H1v12h10V5z"/></svg>
+            <img width="16" height="16" class="spinner" alt="" src="https://assets-cdn.github.com/images/spinners/octocat-spinner-32.gif" />
+          </td>
+          <td class="content">
+            <span class="css-truncate css-truncate-target"><a class="js-navigation-open" title="Makefile.pre.in" id="45e8b91057f0c5b60efcb5944125b585-0ed2cdf079a43a8c28d4f2c4ea0213728ae7458b" href="/python/cpython/blob/master/Makefile.pre.in">Makefile.pre.in</a></span>
+          </td>
+          <td class="message">
+            <span class="css-truncate css-truncate-target">
+                  <a data-pjax="true" title="Enable the verbose build for extension modules with GNU make (#6659)" class="message" href="/python/cpython/commit/10f715d71218ece737f990fa55027b8e1120cc3a">Enable the verbose build for extension modules with GNU make (</a><a class="issue-link js-issue-link" data-error-text="Failed to load issue title" data-id="318973770" data-permission-text="Issue title is private" data-url="https://github.com/python/cpython/issues/6659" href="https://github.com/python/cpython/pull/6659">#6659</a><a data-pjax="true" title="Enable the verbose build for extension modules with GNU make (#6659)" class="message" href="/python/cpython/commit/10f715d71218ece737f990fa55027b8e1120cc3a">)</a>
+            </span>
+          </td>
+          <td class="age">
+            <span class="css-truncate css-truncate-target"><time-ago datetime="2018-04-30T18:07:55Z">Apr 30, 2018</time-ago></span>
+          </td>
+        </tr>
+        <tr class="js-navigation-item">
+          <td class="icon">
+            <svg class="octicon octicon-file" viewBox="0 0 12 16" version="1.1" width="12" height="16" aria-hidden="true"><path fill-rule="evenodd" d="M6 5H2V4h4v1zM2 8h7V7H2v1zm0 2h7V9H2v1zm0 2h7v-1H2v1zm10-7.5V14c0 .55-.45 1-1 1H1c-.55 0-1-.45-1-1V2c0-.55.45-1 1-1h7.5L12 4.5zM11 5L8 2H1v12h10V5z"/></svg>
+            <img width="16" height="16" class="spinner" alt="" src="https://assets-cdn.github.com/images/spinners/octocat-spinner-32.gif" />
+          </td>
+          <td class="content">
+            <span class="css-truncate css-truncate-target"><a class="js-navigation-open" title="README.rst" id="88b99bb28683bd5b7e3a204826ead112-5420558f0dcaadc2cea2f1c98f8d19494012f468" href="/python/cpython/blob/master/README.rst">README.rst</a></span>
+          </td>
+          <td class="message">
+            <span class="css-truncate css-truncate-target">
+                  <a data-pjax="true" title="Clean up the readme text around PGO a bit. (GH-6538)" class="message" href="/python/cpython/commit/b87c1c92fc93c5733cd3d8606ab2301ca6ba208f">Clean up the readme text around PGO a bit. (</a><a class="issue-link js-issue-link" data-error-text="Failed to load issue title" data-id="315934881" data-permission-text="Issue title is private" data-url="https://github.com/python/cpython/issues/6538" href="https://github.com/python/cpython/pull/6538">GH-6538</a><a data-pjax="true" title="Clean up the readme text around PGO a bit. (GH-6538)" class="message" href="/python/cpython/commit/b87c1c92fc93c5733cd3d8606ab2301ca6ba208f">)</a>
+            </span>
+          </td>
+          <td class="age">
+            <span class="css-truncate css-truncate-target"><time-ago datetime="2018-04-19T15:58:17Z">Apr 19, 2018</time-ago></span>
+          </td>
+        </tr>
+        <tr class="js-navigation-item">
+          <td class="icon">
+            <svg class="octicon octicon-file" viewBox="0 0 12 16" version="1.1" width="12" height="16" aria-hidden="true"><path fill-rule="evenodd" d="M6 5H2V4h4v1zM2 8h7V7H2v1zm0 2h7V9H2v1zm0 2h7v-1H2v1zm10-7.5V14c0 .55-.45 1-1 1H1c-.55 0-1-.45-1-1V2c0-.55.45-1 1-1h7.5L12 4.5zM11 5L8 2H1v12h10V5z"/></svg>
+            <img width="16" height="16" class="spinner" alt="" src="https://assets-cdn.github.com/images/spinners/octocat-spinner-32.gif" />
+          </td>
+          <td class="content">
+            <span class="css-truncate css-truncate-target"><a class="js-navigation-open" title="aclocal.m4" id="9ceb48203b3fd0a963276aeb22265658-69205776ed4c960873f9d6868cddd30aecb7e2d9" href="/python/cpython/blob/master/aclocal.m4">aclocal.m4</a></span>
+          </td>
+          <td class="message">
+            <span class="css-truncate css-truncate-target">
+                  <a data-pjax="true" title="bpo-33332: Add signal.valid_signals() (GH-6581)" class="message" href="/python/cpython/commit/9d3627e311211a1b4abcda29c36fe4afe2c46532">bpo-33332: Add signal.valid_signals() (</a><a class="issue-link js-issue-link" data-error-text="Failed to load issue title" data-id="316956585" data-permission-text="Issue title is private" data-url="https://github.com/python/cpython/issues/6581" href="https://github.com/python/cpython/pull/6581">GH-6581</a><a data-pjax="true" title="bpo-33332: Add signal.valid_signals() (GH-6581)" class="message" href="/python/cpython/commit/9d3627e311211a1b4abcda29c36fe4afe2c46532">)</a>
+            </span>
+          </td>
+          <td class="age">
+            <span class="css-truncate css-truncate-target"><time-ago datetime="2018-05-04T11:00:50Z">May 4, 2018</time-ago></span>
+          </td>
+        </tr>
+        <tr class="js-navigation-item">
+          <td class="icon">
+            <svg class="octicon octicon-file" viewBox="0 0 12 16" version="1.1" width="12" height="16" aria-hidden="true"><path fill-rule="evenodd" d="M6 5H2V4h4v1zM2 8h7V7H2v1zm0 2h7V9H2v1zm0 2h7v-1H2v1zm10-7.5V14c0 .55-.45 1-1 1H1c-.55 0-1-.45-1-1V2c0-.55.45-1 1-1h7.5L12 4.5zM11 5L8 2H1v12h10V5z"/></svg>
+            <img width="16" height="16" class="spinner" alt="" src="https://assets-cdn.github.com/images/spinners/octocat-spinner-32.gif" />
+          </td>
+          <td class="content">
+            <span class="css-truncate css-truncate-target"><a class="js-navigation-open" title="config.guess" id="41e7d4fbb64f67f0225a7aa81731c241-256083a70d35921d544b15f4f51749af89d18b89" href="/python/cpython/blob/master/config.guess">config.guess</a></span>
+          </td>
+          <td class="message">
+            <span class="css-truncate css-truncate-target">
+                  <a data-pjax="true" title="bpo-33393: Update config.guess and config.sub files (#6658)" class="message" href="/python/cpython/commit/7e3545c70cdecd86ffa8fcbffd79b4f78560679f">bpo-33393: Update config.guess and config.sub files (</a><a class="issue-link js-issue-link" data-error-text="Failed to load issue title" data-id="318968602" data-permission-text="Issue title is private" data-url="https://github.com/python/cpython/issues/6658" href="https://github.com/python/cpython/pull/6658">#6658</a><a data-pjax="true" title="bpo-33393: Update config.guess and config.sub files (#6658)" class="message" href="/python/cpython/commit/7e3545c70cdecd86ffa8fcbffd79b4f78560679f">)</a>
+            </span>
+          </td>
+          <td class="age">
+            <span class="css-truncate css-truncate-target"><time-ago datetime="2018-04-30T18:07:35Z">Apr 30, 2018</time-ago></span>
+          </td>
+        </tr>
+        <tr class="js-navigation-item">
+          <td class="icon">
+            <svg class="octicon octicon-file" viewBox="0 0 12 16" version="1.1" width="12" height="16" aria-hidden="true"><path fill-rule="evenodd" d="M6 5H2V4h4v1zM2 8h7V7H2v1zm0 2h7V9H2v1zm0 2h7v-1H2v1zm10-7.5V14c0 .55-.45 1-1 1H1c-.55 0-1-.45-1-1V2c0-.55.45-1 1-1h7.5L12 4.5zM11 5L8 2H1v12h10V5z"/></svg>
+            <img width="16" height="16" class="spinner" alt="" src="https://assets-cdn.github.com/images/spinners/octocat-spinner-32.gif" />
+          </td>
+          <td class="content">
+            <span class="css-truncate css-truncate-target"><a class="js-navigation-open" title="config.sub" id="fcba243ec4f703c712b74985ab353fbb-ba37cf99e26b9dbb70683696a42545bc548418a6" href="/python/cpython/blob/master/config.sub">config.sub</a></span>
+          </td>
+          <td class="message">
+            <span class="css-truncate css-truncate-target">
+                  <a data-pjax="true" title="bpo-33393: Update config.guess and config.sub files (#6658)" class="message" href="/python/cpython/commit/7e3545c70cdecd86ffa8fcbffd79b4f78560679f">bpo-33393: Update config.guess and config.sub files (</a><a class="issue-link js-issue-link" data-error-text="Failed to load issue title" data-id="318968602" data-permission-text="Issue title is private" data-url="https://github.com/python/cpython/issues/6658" href="https://github.com/python/cpython/pull/6658">#6658</a><a data-pjax="true" title="bpo-33393: Update config.guess and config.sub files (#6658)" class="message" href="/python/cpython/commit/7e3545c70cdecd86ffa8fcbffd79b4f78560679f">)</a>
+            </span>
+          </td>
+          <td class="age">
+            <span class="css-truncate css-truncate-target"><time-ago datetime="2018-04-30T18:07:35Z">Apr 30, 2018</time-ago></span>
+          </td>
+        </tr>
+        <tr class="js-navigation-item">
+          <td class="icon">
+            <svg class="octicon octicon-file" viewBox="0 0 12 16" version="1.1" width="12" height="16" aria-hidden="true"><path fill-rule="evenodd" d="M6 5H2V4h4v1zM2 8h7V7H2v1zm0 2h7V9H2v1zm0 2h7v-1H2v1zm10-7.5V14c0 .55-.45 1-1 1H1c-.55 0-1-.45-1-1V2c0-.55.45-1 1-1h7.5L12 4.5zM11 5L8 2H1v12h10V5z"/></svg>
+            <img width="16" height="16" class="spinner" alt="" src="https://assets-cdn.github.com/images/spinners/octocat-spinner-32.gif" />
+          </td>
+          <td class="content">
+            <span class="css-truncate css-truncate-target"><a class="js-navigation-open" title="configure" id="e2d5a00791bce9a01f99bc6fd613a39d-adf8cf3ab9c19630e6e6f43fe374084678550be4" href="/python/cpython/blob/master/configure">configure</a></span>
+          </td>
+          <td class="message">
+            <span class="css-truncate css-truncate-target">
+                  <a data-pjax="true" title="bpo-33332: Add signal.valid_signals() (GH-6581)" class="message" href="/python/cpython/commit/9d3627e311211a1b4abcda29c36fe4afe2c46532">bpo-33332: Add signal.valid_signals() (</a><a class="issue-link js-issue-link" data-error-text="Failed to load issue title" data-id="316956585" data-permission-text="Issue title is private" data-url="https://github.com/python/cpython/issues/6581" href="https://github.com/python/cpython/pull/6581">GH-6581</a><a data-pjax="true" title="bpo-33332: Add signal.valid_signals() (GH-6581)" class="message" href="/python/cpython/commit/9d3627e311211a1b4abcda29c36fe4afe2c46532">)</a>
+            </span>
+          </td>
+          <td class="age">
+            <span class="css-truncate css-truncate-target"><time-ago datetime="2018-05-04T11:00:50Z">May 4, 2018</time-ago></span>
+          </td>
+        </tr>
+        <tr class="js-navigation-item">
+          <td class="icon">
+            <svg class="octicon octicon-file" viewBox="0 0 12 16" version="1.1" width="12" height="16" aria-hidden="true"><path fill-rule="evenodd" d="M6 5H2V4h4v1zM2 8h7V7H2v1zm0 2h7V9H2v1zm0 2h7v-1H2v1zm10-7.5V14c0 .55-.45 1-1 1H1c-.55 0-1-.45-1-1V2c0-.55.45-1 1-1h7.5L12 4.5zM11 5L8 2H1v12h10V5z"/></svg>
+            <img width="16" height="16" class="spinner" alt="" src="https://assets-cdn.github.com/images/spinners/octocat-spinner-32.gif" />
+          </td>
+          <td class="content">
+            <span class="css-truncate css-truncate-target"><a class="js-navigation-open" title="configure.ac" id="67e997bcfdac55191033d57a16d1408a-b52247356d7537969692055b98a873f7d11f2e4f" href="/python/cpython/blob/master/configure.ac">configure.ac</a></span>
+          </td>
+          <td class="message">
+            <span class="css-truncate css-truncate-target">
+                  <a data-pjax="true" title="bpo-33332: Add signal.valid_signals() (GH-6581)" class="message" href="/python/cpython/commit/9d3627e311211a1b4abcda29c36fe4afe2c46532">bpo-33332: Add signal.valid_signals() (</a><a class="issue-link js-issue-link" data-error-text="Failed to load issue title" data-id="316956585" data-permission-text="Issue title is private" data-url="https://github.com/python/cpython/issues/6581" href="https://github.com/python/cpython/pull/6581">GH-6581</a><a data-pjax="true" title="bpo-33332: Add signal.valid_signals() (GH-6581)" class="message" href="/python/cpython/commit/9d3627e311211a1b4abcda29c36fe4afe2c46532">)</a>
+            </span>
+          </td>
+          <td class="age">
+            <span class="css-truncate css-truncate-target"><time-ago datetime="2018-05-04T11:00:50Z">May 4, 2018</time-ago></span>
+          </td>
+        </tr>
+        <tr class="js-navigation-item">
+          <td class="icon">
+            <svg class="octicon octicon-file" viewBox="0 0 12 16" version="1.1" width="12" height="16" aria-hidden="true"><path fill-rule="evenodd" d="M6 5H2V4h4v1zM2 8h7V7H2v1zm0 2h7V9H2v1zm0 2h7v-1H2v1zm10-7.5V14c0 .55-.45 1-1 1H1c-.55 0-1-.45-1-1V2c0-.55.45-1 1-1h7.5L12 4.5zM11 5L8 2H1v12h10V5z"/></svg>
+            <img width="16" height="16" class="spinner" alt="" src="https://assets-cdn.github.com/images/spinners/octocat-spinner-32.gif" />
+          </td>
+          <td class="content">
+            <span class="css-truncate css-truncate-target"><a class="js-navigation-open" title="f.py" id="41418969e893a9c1bf33cc747e0b645f-02a3668c10cac01787fad5fe79377ab6e43f4c5f" href="/python/cpython/blob/master/f.py">f.py</a></span>
+          </td>
+          <td class="message">
+            <span class="css-truncate css-truncate-target">
+                  <a data-pjax="true" title="bpo-33502: dataclass._Dataclassparams repr: use repr of each member. (GH-6812)" class="message" href="/python/cpython/commit/3059042410dce69806b94be72d5c8055d616f3a3">bpo-33502: dataclass._Dataclassparams repr: use repr of each member. (</a><a class="issue-link js-issue-link" data-error-text="Failed to load issue title" data-id="322916350" data-permission-text="Issue title is private" data-url="https://github.com/python/cpython/issues/6812" href="https://github.com/python/cpython/pull/6812">G…</a>
+            </span>
+          </td>
+          <td class="age">
+            <span class="css-truncate css-truncate-target"><time-ago datetime="2018-05-14T21:16:52Z">May 14, 2018</time-ago></span>
+          </td>
+        </tr>
+        <tr class="js-navigation-item">
+          <td class="icon">
+            <svg class="octicon octicon-file" viewBox="0 0 12 16" version="1.1" width="12" height="16" aria-hidden="true"><path fill-rule="evenodd" d="M6 5H2V4h4v1zM2 8h7V7H2v1zm0 2h7V9H2v1zm0 2h7v-1H2v1zm10-7.5V14c0 .55-.45 1-1 1H1c-.55 0-1-.45-1-1V2c0-.55.45-1 1-1h7.5L12 4.5zM11 5L8 2H1v12h10V5z"/></svg>
+            <img width="16" height="16" class="spinner" alt="" src="https://assets-cdn.github.com/images/spinners/octocat-spinner-32.gif" />
+          </td>
+          <td class="content">
+            <span class="css-truncate css-truncate-target"><a class="js-navigation-open" title="install-sh" id="1f8fb5aabca99ab0d27adde4f139c18d-0ec27bcd488da5cad6ead13d70accbdbc40d31ef" href="/python/cpython/blob/master/install-sh">install-sh</a></span>
+          </td>
+          <td class="message">
+            <span class="css-truncate css-truncate-target">
+                  <a data-pjax="true" title="Patch #746366: Update to current automake install-sh. Will backport to 2.2." class="message" href="/python/cpython/commit/c1aa8dceb74b82610df1dcd9f4a8215c3c1d6117">Patch #746366: Update to current automake install-sh. Will backport t…</a>
+            </span>
+          </td>
+          <td class="age">
+            <span class="css-truncate css-truncate-target"><time-ago datetime="2003-06-14T06:58:32Z">Jun 14, 2003</time-ago></span>
+          </td>
+        </tr>
+        <tr class="js-navigation-item">
+          <td class="icon">
+            <svg class="octicon octicon-file" viewBox="0 0 12 16" version="1.1" width="12" height="16" aria-hidden="true"><path fill-rule="evenodd" d="M6 5H2V4h4v1zM2 8h7V7H2v1zm0 2h7V9H2v1zm0 2h7v-1H2v1zm10-7.5V14c0 .55-.45 1-1 1H1c-.55 0-1-.45-1-1V2c0-.55.45-1 1-1h7.5L12 4.5zM11 5L8 2H1v12h10V5z"/></svg>
+            <img width="16" height="16" class="spinner" alt="" src="https://assets-cdn.github.com/images/spinners/octocat-spinner-32.gif" />
+          </td>
+          <td class="content">
+            <span class="css-truncate css-truncate-target"><a class="js-navigation-open" title="j.py" id="1188ba38d25a0d3edcca3bd812c2a9b2-9551702cfe9c41e88e8eed6f5e190da162024e1b" href="/python/cpython/blob/master/j.py">j.py</a></span>
+          </td>
+          <td class="message">
+            <span class="css-truncate css-truncate-target">
+                  <a data-pjax="true" title="bpo-33502: dataclass._Dataclassparams repr: use repr of each member. (GH-6812)" class="message" href="/python/cpython/commit/3059042410dce69806b94be72d5c8055d616f3a3">bpo-33502: dataclass._Dataclassparams repr: use repr of each member. (</a><a class="issue-link js-issue-link" data-error-text="Failed to load issue title" data-id="322916350" data-permission-text="Issue title is private" data-url="https://github.com/python/cpython/issues/6812" href="https://github.com/python/cpython/pull/6812">G…</a>
+            </span>
+          </td>
+          <td class="age">
+            <span class="css-truncate css-truncate-target"><time-ago datetime="2018-05-14T21:16:52Z">May 14, 2018</time-ago></span>
+          </td>
+        </tr>
+        <tr class="js-navigation-item">
+          <td class="icon">
+            <svg class="octicon octicon-file" viewBox="0 0 12 16" version="1.1" width="12" height="16" aria-hidden="true"><path fill-rule="evenodd" d="M6 5H2V4h4v1zM2 8h7V7H2v1zm0 2h7V9H2v1zm0 2h7v-1H2v1zm10-7.5V14c0 .55-.45 1-1 1H1c-.55 0-1-.45-1-1V2c0-.55.45-1 1-1h7.5L12 4.5zM11 5L8 2H1v12h10V5z"/></svg>
+            <img width="16" height="16" class="spinner" alt="" src="https://assets-cdn.github.com/images/spinners/octocat-spinner-32.gif" />
+          </td>
+          <td class="content">
+            <span class="css-truncate css-truncate-target"><a class="js-navigation-open" title="pyconfig.h.in" id="0ae6bfbc29c7b259a3017aca6d75b505-848872a7dca3d9071743612457057251bd7c95e4" href="/python/cpython/blob/master/pyconfig.h.in">pyconfig.h.in</a></span>
+          </td>
+          <td class="message">
+            <span class="css-truncate css-truncate-target">
+                  <a data-pjax="true" title="bpo-33332: Add signal.valid_signals() (GH-6581)" class="message" href="/python/cpython/commit/9d3627e311211a1b4abcda29c36fe4afe2c46532">bpo-33332: Add signal.valid_signals() (</a><a class="issue-link js-issue-link" data-error-text="Failed to load issue title" data-id="316956585" data-permission-text="Issue title is private" data-url="https://github.com/python/cpython/issues/6581" href="https://github.com/python/cpython/pull/6581">GH-6581</a><a data-pjax="true" title="bpo-33332: Add signal.valid_signals() (GH-6581)" class="message" href="/python/cpython/commit/9d3627e311211a1b4abcda29c36fe4afe2c46532">)</a>
+            </span>
+          </td>
+          <td class="age">
+            <span class="css-truncate css-truncate-target"><time-ago datetime="2018-05-04T11:00:50Z">May 4, 2018</time-ago></span>
+          </td>
+        </tr>
+        <tr class="js-navigation-item">
+          <td class="icon">
+            <svg class="octicon octicon-file" viewBox="0 0 12 16" version="1.1" width="12" height="16" aria-hidden="true"><path fill-rule="evenodd" d="M6 5H2V4h4v1zM2 8h7V7H2v1zm0 2h7V9H2v1zm0 2h7v-1H2v1zm10-7.5V14c0 .55-.45 1-1 1H1c-.55 0-1-.45-1-1V2c0-.55.45-1 1-1h7.5L12 4.5zM11 5L8 2H1v12h10V5z"/></svg>
+            <img width="16" height="16" class="spinner" alt="" src="https://assets-cdn.github.com/images/spinners/octocat-spinner-32.gif" />
+          </td>
+          <td class="content">
+            <span class="css-truncate css-truncate-target"><a class="js-navigation-open" title="setup.py" id="2eeaed663bd0d25b7e608891384b7298-170ade81c4f80a9e1893f7212cf3349a2c58919b" href="/python/cpython/blob/master/setup.py">setup.py</a></span>
+          </td>
+          <td class="message">
+            <span class="css-truncate css-truncate-target">
+                  <a data-pjax="true" title="bpo-25427: Remove pyvenv (GH-5962)" class="message" href="/python/cpython/commit/a8c342465b977115b88a4f130833a2fd4c4e7356">bpo-25427: Remove pyvenv (</a><a class="issue-link js-issue-link" data-error-text="Failed to load issue title" data-id="301947912" data-permission-text="Issue title is private" data-url="https://github.com/python/cpython/issues/5962" href="https://github.com/python/cpython/pull/5962">GH-5962</a><a data-pjax="true" title="bpo-25427: Remove pyvenv (GH-5962)" class="message" href="/python/cpython/commit/a8c342465b977115b88a4f130833a2fd4c4e7356">)</a>
+            </span>
+          </td>
+          <td class="age">
+            <span class="css-truncate css-truncate-target"><time-ago datetime="2018-04-20T21:15:40Z">Apr 20, 2018</time-ago></span>
+          </td>
+        </tr>
+        <tr class="js-navigation-item">
+          <td class="icon">
+            <svg class="octicon octicon-file" viewBox="0 0 12 16" version="1.1" width="12" height="16" aria-hidden="true"><path fill-rule="evenodd" d="M6 5H2V4h4v1zM2 8h7V7H2v1zm0 2h7V9H2v1zm0 2h7v-1H2v1zm10-7.5V14c0 .55-.45 1-1 1H1c-.55 0-1-.45-1-1V2c0-.55.45-1 1-1h7.5L12 4.5zM11 5L8 2H1v12h10V5z"/></svg>
+            <img width="16" height="16" class="spinner" alt="" src="https://assets-cdn.github.com/images/spinners/octocat-spinner-32.gif" />
+          </td>
+          <td class="content">
+            <span class="css-truncate css-truncate-target"><a class="js-navigation-open" title="t.py" id="69dcfde7827cdc5ce4b1857fd8d1797c-7484cf9758b32687e6bf328b39590f2238ef2212" href="/python/cpython/blob/master/t.py">t.py</a></span>
+          </td>
+          <td class="message">
+            <span class="css-truncate css-truncate-target">
+                  <a data-pjax="true" title="bpo-33502: dataclass._Dataclassparams repr: use repr of each member. (GH-6812)" class="message" href="/python/cpython/commit/3059042410dce69806b94be72d5c8055d616f3a3">bpo-33502: dataclass._Dataclassparams repr: use repr of each member. (</a><a class="issue-link js-issue-link" data-error-text="Failed to load issue title" data-id="322916350" data-permission-text="Issue title is private" data-url="https://github.com/python/cpython/issues/6812" href="https://github.com/python/cpython/pull/6812">G…</a>
+            </span>
+          </td>
+          <td class="age">
+            <span class="css-truncate css-truncate-target"><time-ago datetime="2018-05-14T21:16:52Z">May 14, 2018</time-ago></span>
+          </td>
+        </tr>
+        <tr class="js-navigation-item">
+          <td class="icon">
+            <svg class="octicon octicon-file" viewBox="0 0 12 16" version="1.1" width="12" height="16" aria-hidden="true"><path fill-rule="evenodd" d="M6 5H2V4h4v1zM2 8h7V7H2v1zm0 2h7V9H2v1zm0 2h7v-1H2v1zm10-7.5V14c0 .55-.45 1-1 1H1c-.55 0-1-.45-1-1V2c0-.55.45-1 1-1h7.5L12 4.5zM11 5L8 2H1v12h10V5z"/></svg>
+            <img width="16" height="16" class="spinner" alt="" src="https://assets-cdn.github.com/images/spinners/octocat-spinner-32.gif" />
+          </td>
+          <td class="content">
+            <span class="css-truncate css-truncate-target"><a class="js-navigation-open" title="x.py" id="bb7cded7e046058eb94185fc68a74baa-2b78f3e96fc7f76690c8e420ba8cb3fe1688c180" href="/python/cpython/blob/master/x.py">x.py</a></span>
+          </td>
+          <td class="message">
+            <span class="css-truncate css-truncate-target">
+                  <a data-pjax="true" title="bpo-33502: dataclass._Dataclassparams repr: use repr of each member. (GH-6812)" class="message" href="/python/cpython/commit/3059042410dce69806b94be72d5c8055d616f3a3">bpo-33502: dataclass._Dataclassparams repr: use repr of each member. (</a><a class="issue-link js-issue-link" data-error-text="Failed to load issue title" data-id="322916350" data-permission-text="Issue title is private" data-url="https://github.com/python/cpython/issues/6812" href="https://github.com/python/cpython/pull/6812">G…</a>
+            </span>
+          </td>
+          <td class="age">
+            <span class="css-truncate css-truncate-target"><time-ago datetime="2018-05-14T21:16:52Z">May 14, 2018</time-ago></span>
+          </td>
+        </tr>
+    </tbody>
+  </table>
+
+</div>
+
+
+
+  <div id="readme" class="readme boxed-group clearfix announce instapaper_body rst">
+    <h3>
+      <svg class="octicon octicon-book" viewBox="0 0 16 16" version="1.1" width="16" height="16" aria-hidden="true"><path fill-rule="evenodd" d="M3 5h4v1H3V5zm0 3h4V7H3v1zm0 2h4V9H3v1zm11-5h-4v1h4V5zm0 2h-4v1h4V7zm0 2h-4v1h4V9zm2-6v9c0 .55-.45 1-1 1H9.5l-1 1-1-1H2c-.55 0-1-.45-1-1V3c0-.55.45-1 1-1h5.5l1 1 1-1H15c.55 0 1 .45 1 1zm-8 .5L7.5 3H2v9h6V3.5zm7-.5H9.5l-.5.5V12h6V3z"/></svg>
+      README.rst
+    </h3>
+
+      <article class="markdown-body entry-content" itemprop="text"><h1><a id="user-content-this-is-python-version-380-alpha-0" class="anchor" aria-hidden="true" href="#this-is-python-version-380-alpha-0"><svg class="octicon octicon-link" viewBox="0 0 16 16" version="1.1" width="16" height="16" aria-hidden="true"><path fill-rule="evenodd" d="M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z"></path></svg></a>This is Python version 3.8.0 alpha 0</h1>
+<a href="https://travis-ci.org/python/cpython" rel="nofollow"><img alt="CPython build status on Travis CI" src="https://camo.githubusercontent.com/1cf785564e67b5021bcfb04c9e9ba719e53ce233/68747470733a2f2f7472617669732d63692e6f72672f707974686f6e2f63707974686f6e2e7376673f6272616e63683d6d6173746572" data-canonical-src="https://travis-ci.org/python/cpython.svg?branch=master" style="max-width:100%;"></a>
+<a href="https://ci.appveyor.com/project/python/cpython/branch/master" rel="nofollow"><img alt="CPython build status on Appveyor" src="https://camo.githubusercontent.com/92f05e0d3202a37c503a9d64220be4fbc48bf369/68747470733a2f2f63692e6170707665796f722e636f6d2f6170692f70726f6a656374732f7374617475732f346d65773161393378646b62663575612f6272616e63682f6d61737465723f7376673d74727565" data-canonical-src="https://ci.appveyor.com/api/projects/status/4mew1a93xdkbf5ua/branch/master?svg=true" style="max-width:100%;"></a>
+<a href="https://codecov.io/gh/python/cpython" rel="nofollow"><img alt="CPython code coverage on Codecov" src="https://camo.githubusercontent.com/8d830fe82af43496cf4e3c635576df2dc324f266/68747470733a2f2f636f6465636f762e696f2f67682f707974686f6e2f63707974686f6e2f6272616e63682f6d61737465722f67726170682f62616467652e737667" data-canonical-src="https://codecov.io/gh/python/cpython/branch/master/graph/badge.svg" style="max-width:100%;">
+</a>
+<p>Copyright (c) 2001, 2002, 2003, 2004, 2005, 2006, 2007, 2008, 2009, 2010, 2011,
+2012, 2013, 2014, 2015, 2016, 2017, 2018 Python Software Foundation.  All rights
+reserved.</p>
+<p>See the end of this file for further copyright and license information.</p>
+<div id="user-content-contents">
+<p>Contents</p>
+<ul>
+<li><a href="#general-information" id="user-content-id1">General Information</a></li>
+<li><a href="#contributing-to-cpython" id="user-content-id2">Contributing to CPython</a></li>
+<li><a href="#using-python" id="user-content-id3">Using Python</a></li>
+<li><a href="#build-instructions" id="user-content-id4">Build Instructions</a><ul>
+<li><a href="#profile-guided-optimization" id="user-content-id5">Profile Guided Optimization</a></li>
+<li><a href="#link-time-optimization" id="user-content-id6">Link Time Optimization</a></li>
+</ul>
+</li>
+<li><a href="#what-s-new" id="user-content-id7">What's New</a></li>
+<li><a href="#documentation" id="user-content-id8">Documentation</a></li>
+<li><a href="#converting-from-python-2-x-to-3-x" id="user-content-id9">Converting From Python 2.x to 3.x</a></li>
+<li><a href="#testing" id="user-content-id10">Testing</a></li>
+<li><a href="#installing-multiple-versions" id="user-content-id11">Installing multiple versions</a></li>
+<li><a href="#issue-tracker-and-mailing-list" id="user-content-id12">Issue Tracker and Mailing List</a></li>
+<li><a href="#proposals-for-enhancement" id="user-content-id13">Proposals for enhancement</a></li>
+<li><a href="#release-schedule" id="user-content-id14">Release Schedule</a></li>
+<li><a href="#copyright-and-license-information" id="user-content-id15">Copyright and License Information</a></li>
+</ul>
+</div>
+<a name="user-content-general-information"></a>
+<h2><a id="user-content-general-information" class="anchor" aria-hidden="true" href="#general-information"><svg class="octicon octicon-link" viewBox="0 0 16 16" version="1.1" width="16" height="16" aria-hidden="true"><path fill-rule="evenodd" d="M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z"></path></svg></a><a href="#id1">General Information</a></h2>
+<ul>
+<li>Website: <a href="https://www.python.org" rel="nofollow">https://www.python.org</a></li>
+<li>Source code: <a href="https://github.com/python/cpython">https://github.com/python/cpython</a></li>
+<li>Issue tracker: <a href="https://bugs.python.org" rel="nofollow">https://bugs.python.org</a></li>
+<li>Documentation: <a href="https://docs.python.org" rel="nofollow">https://docs.python.org</a></li>
+<li>Developer's Guide: <a href="https://devguide.python.org/" rel="nofollow">https://devguide.python.org/</a></li>
+</ul>
+<a name="user-content-contributing-to-cpython"></a>
+<h2><a id="user-content-contributing-to-cpython" class="anchor" aria-hidden="true" href="#contributing-to-cpython"><svg class="octicon octicon-link" viewBox="0 0 16 16" version="1.1" width="16" height="16" aria-hidden="true"><path fill-rule="evenodd" d="M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z"></path></svg></a><a href="#id2">Contributing to CPython</a></h2>
+<p>For more complete instructions on contributing to CPython development,
+see the <a href="https://devguide.python.org/" rel="nofollow">Developer Guide</a>.</p>
+<a name="user-content-using-python"></a>
+<h2><a id="user-content-using-python" class="anchor" aria-hidden="true" href="#using-python"><svg class="octicon octicon-link" viewBox="0 0 16 16" version="1.1" width="16" height="16" aria-hidden="true"><path fill-rule="evenodd" d="M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z"></path></svg></a><a href="#id3">Using Python</a></h2>
+<p>Installable Python kits, and information about using Python, are available at
+<a href="https://www.python.org/" rel="nofollow">python.org</a>.</p>
+<a name="user-content-build-instructions"></a>
+<h2><a id="user-content-build-instructions" class="anchor" aria-hidden="true" href="#build-instructions"><svg class="octicon octicon-link" viewBox="0 0 16 16" version="1.1" width="16" height="16" aria-hidden="true"><path fill-rule="evenodd" d="M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z"></path></svg></a><a href="#id4">Build Instructions</a></h2>
+<p>On Unix, Linux, BSD, macOS, and Cygwin:</p>
+<pre>./configure
+make
+make test
+sudo make install
+</pre>
+<p>This will install Python as python3.</p>
+<p>You can pass many options to the configure script; run <code>./configure --help</code>
+to find out more.  On macOS and Cygwin, the executable is called <code>python.exe</code>;
+elsewhere it's just <code>python</code>.</p>
+<p>On macOS, if you have configured Python with <code>--enable-framework</code>, you
+should use <code>make frameworkinstall</code> to do the installation.  Note that this
+installs the Python executable in a place that is not normally on your PATH,
+you may want to set up a symlink in <code>/usr/local/bin</code>.</p>
+<p>On Windows, see <a href="https://github.com/python/cpython/blob/master/PCbuild/readme.txt">PCbuild/readme.txt</a>.</p>
+<p>If you wish, you can create a subdirectory and invoke configure from there.
+For example:</p>
+<pre>mkdir debug
+cd debug
+../configure --with-pydebug
+make
+make test
+</pre>
+<p>(This will fail if you <em>also</em> built at the top-level directory.  You should do
+a <code>make clean</code> at the toplevel first.)</p>
+<p>To get an optimized build of Python, <code>configure --enable-optimizations</code>
+before you run <code>make</code>.  This sets the default make targets up to enable
+Profile Guided Optimization (PGO) and may be used to auto-enable Link Time
+Optimization (LTO) on some platforms.  For more details, see the sections
+below.</p>
+<a name="user-content-profile-guided-optimization"></a>
+<h3><a id="user-content-profile-guided-optimization" class="anchor" aria-hidden="true" href="#profile-guided-optimization"><svg class="octicon octicon-link" viewBox="0 0 16 16" version="1.1" width="16" height="16" aria-hidden="true"><path fill-rule="evenodd" d="M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z"></path></svg></a><a href="#id5">Profile Guided Optimization</a></h3>
+<p>PGO takes advantage of recent versions of the GCC or Clang compilers.  If used,
+either via <code>configure --enable-optimizations</code> above or by manually running
+<code>make profile-opt</code> regardless of configure flags it will do several steps.</p>
+<p>First, the entire Python directory is cleaned of temporary files that may have
+resulted in a previous compilation.</p>
+<p>Then, an instrumented version of the interpreter is built, using suitable
+compiler flags for each flavour. Note that this is just an intermediary step.
+The binary resulting from this step is not good for real life workloads as
+it has profiling instructions embedded inside.</p>
+<p>After this instrumented version of the interpreter is built, the Makefile will
+automatically run a training workload. This is necessary in order to profile
+the interpreter execution. Note also that any output, both stdout and stderr,
+that may appear at this step is suppressed.</p>
+<p>Finally, the last step is to rebuild the interpreter, using the information
+collected in the previous one. The end result will be a Python binary that is
+optimized and suitable for distribution or production installation.</p>
+<a name="user-content-link-time-optimization"></a>
+<h3><a id="user-content-link-time-optimization" class="anchor" aria-hidden="true" href="#link-time-optimization"><svg class="octicon octicon-link" viewBox="0 0 16 16" version="1.1" width="16" height="16" aria-hidden="true"><path fill-rule="evenodd" d="M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z"></path></svg></a><a href="#id6">Link Time Optimization</a></h3>
+<p>Enabled via configure's <code>--with-lto</code> flag.  LTO takes advantage of the
+ability of recent compiler toolchains to optimize across the otherwise
+arbitrary <code>.o</code> file boundary when building final executables or shared
+libraries for additional performance gains.</p>
+<a name="user-content-what-s-new"></a>
+<h2><a id="user-content-whats-new" class="anchor" aria-hidden="true" href="#whats-new"><svg class="octicon octicon-link" viewBox="0 0 16 16" version="1.1" width="16" height="16" aria-hidden="true"><path fill-rule="evenodd" d="M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z"></path></svg></a><a href="#id7">What's New</a></h2>
+<p>We have a comprehensive overview of the changes in the <a href="https://docs.python.org/3.8/whatsnew/3.8.html" rel="nofollow">What's New in Python
+3.8</a> document.  For a more
+detailed change log, read <a href="https://github.com/python/cpython/blob/master/Misc/NEWS.d">Misc/NEWS</a>, but a full
+accounting of changes can only be gleaned from the <a href="https://github.com/python/cpython/commits/master">commit history</a>.</p>
+<p>If you want to install multiple versions of Python see the section below
+entitled "Installing multiple versions".</p>
+<a name="user-content-documentation"></a>
+<h2><a id="user-content-documentation" class="anchor" aria-hidden="true" href="#documentation"><svg class="octicon octicon-link" viewBox="0 0 16 16" version="1.1" width="16" height="16" aria-hidden="true"><path fill-rule="evenodd" d="M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z"></path></svg></a><a href="#id8">Documentation</a></h2>
+<p><a href="https://docs.python.org/3.8/" rel="nofollow">Documentation for Python 3.8</a> is online,
+updated daily.</p>
+<p>It can also be downloaded in many formats for faster access.  The documentation
+is downloadable in HTML, PDF, and reStructuredText formats; the latter version
+is primarily for documentation authors, translators, and people with special
+formatting requirements.</p>
+<p>For information about building Python's documentation, refer to <a href="https://github.com/python/cpython/blob/master/Doc/README.rst">Doc/README.rst</a>.</p>
+<a name="user-content-converting-from-python-2-x-to-3-x"></a>
+<h2><a id="user-content-converting-from-python-2x-to-3x" class="anchor" aria-hidden="true" href="#converting-from-python-2x-to-3x"><svg class="octicon octicon-link" viewBox="0 0 16 16" version="1.1" width="16" height="16" aria-hidden="true"><path fill-rule="evenodd" d="M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z"></path></svg></a><a href="#id9">Converting From Python 2.x to 3.x</a></h2>
+<p>Significant backward incompatible changes were made for the release of Python
+3.0, which may cause programs written for Python 2 to fail when run with Python
+3.  For more information about porting your code from Python 2 to Python 3, see
+the <a href="https://docs.python.org/3/howto/pyporting.html" rel="nofollow">Porting HOWTO</a>.</p>
+<a name="user-content-testing"></a>
+<h2><a id="user-content-testing" class="anchor" aria-hidden="true" href="#testing"><svg class="octicon octicon-link" viewBox="0 0 16 16" version="1.1" width="16" height="16" aria-hidden="true"><path fill-rule="evenodd" d="M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z"></path></svg></a><a href="#id10">Testing</a></h2>
+<p>To test the interpreter, type <code>make test</code> in the top-level directory.  The
+test set produces some output.  You can generally ignore the messages about
+skipped tests due to optional features which can't be imported.  If a message
+is printed about a failed test or a traceback or core dump is produced,
+something is wrong.</p>
+<p>By default, tests are prevented from overusing resources like disk space and
+memory.  To enable these tests, run <code>make testall</code>.</p>
+<p>If any tests fail, you can re-run the failing test(s) in verbose mode.  For
+example, if <code>test_os</code> and <code>test_gdb</code> failed, you can run:</p>
+<pre>make test TESTOPTS="-v test_os test_gdb"
+</pre>
+<p>If the failure persists and appears to be a problem with Python rather than
+your environment, you can <a href="https://bugs.python.org" rel="nofollow">file a bug report</a> and
+include relevant output from that command to show the issue.</p>
+<a name="user-content-installing-multiple-versions"></a>
+<h2><a id="user-content-installing-multiple-versions" class="anchor" aria-hidden="true" href="#installing-multiple-versions"><svg class="octicon octicon-link" viewBox="0 0 16 16" version="1.1" width="16" height="16" aria-hidden="true"><path fill-rule="evenodd" d="M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z"></path></svg></a><a href="#id11">Installing multiple versions</a></h2>
+<p>On Unix and Mac systems if you intend to install multiple versions of Python
+using the same installation prefix (<code>--prefix</code> argument to the configure
+script) you must take care that your primary python executable is not
+overwritten by the installation of a different version.  All files and
+directories installed using <code>make altinstall</code> contain the major and minor
+version and can thus live side-by-side.  <code>make install</code> also creates
+<code>${prefix}/bin/python3</code> which refers to <code>${prefix}/bin/pythonX.Y</code>.  If you
+intend to install multiple versions using the same prefix you must decide which
+version (if any) is your "primary" version.  Install that version using <code>make
+install</code>.  Install all other versions using <code>make altinstall</code>.</p>
+<p>For example, if you want to install Python 2.7, 3.6, and 3.8 with 3.8 being the
+primary version, you would execute <code>make install</code> in your 3.8 build directory
+and <code>make altinstall</code> in the others.</p>
+<a name="user-content-issue-tracker-and-mailing-list"></a>
+<h2><a id="user-content-issue-tracker-and-mailing-list" class="anchor" aria-hidden="true" href="#issue-tracker-and-mailing-list"><svg class="octicon octicon-link" viewBox="0 0 16 16" version="1.1" width="16" height="16" aria-hidden="true"><path fill-rule="evenodd" d="M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z"></path></svg></a><a href="#id12">Issue Tracker and Mailing List</a></h2>
+<p>Bug reports are welcome!  You can use the <a href="https://bugs.python.org" rel="nofollow">issue tracker</a> to report bugs, and/or submit pull requests <a href="https://github.com/python/cpython">on
+GitHub</a>.</p>
+<p>You can also follow development discussion on the <a href="https://mail.python.org/mailman/listinfo/python-dev/" rel="nofollow">python-dev mailing list</a>.</p>
+<a name="user-content-proposals-for-enhancement"></a>
+<h2><a id="user-content-proposals-for-enhancement" class="anchor" aria-hidden="true" href="#proposals-for-enhancement"><svg class="octicon octicon-link" viewBox="0 0 16 16" version="1.1" width="16" height="16" aria-hidden="true"><path fill-rule="evenodd" d="M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z"></path></svg></a><a href="#id13">Proposals for enhancement</a></h2>
+<p>If you have a proposal to change Python, you may want to send an email to the
+comp.lang.python or <a href="https://mail.python.org/mailman/listinfo/python-ideas/" rel="nofollow">python-ideas</a> mailing lists for initial feedback.  A
+Python Enhancement Proposal (PEP) may be submitted if your idea gains ground.
+All current PEPs, as well as guidelines for submitting a new PEP, are listed at
+<a href="https://www.python.org/dev/peps/" rel="nofollow">python.org/dev/peps/</a>.</p>
+<a name="user-content-release-schedule"></a>
+<h2><a id="user-content-release-schedule" class="anchor" aria-hidden="true" href="#release-schedule"><svg class="octicon octicon-link" viewBox="0 0 16 16" version="1.1" width="16" height="16" aria-hidden="true"><path fill-rule="evenodd" d="M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z"></path></svg></a><a href="#id14">Release Schedule</a></h2>
+<p>See <a href="http://www.python.org/dev/peps/pep-0569" rel="nofollow">PEP 569</a> for Python 3.8 release details.</p>
+<a name="user-content-copyright-and-license-information"></a>
+<h2><a id="user-content-copyright-and-license-information" class="anchor" aria-hidden="true" href="#copyright-and-license-information"><svg class="octicon octicon-link" viewBox="0 0 16 16" version="1.1" width="16" height="16" aria-hidden="true"><path fill-rule="evenodd" d="M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z"></path></svg></a><a href="#id15">Copyright and License Information</a></h2>
+<p>Copyright (c) 2001, 2002, 2003, 2004, 2005, 2006, 2007, 2008, 2009, 2010, 2011,
+2012, 2013, 2014, 2015, 2016, 2017, 2018 Python Software Foundation.  All rights
+reserved.</p>
+<p>Copyright (c) 2000 BeOpen.com.  All rights reserved.</p>
+<p>Copyright (c) 1995-2001 Corporation for National Research Initiatives.  All
+rights reserved.</p>
+<p>Copyright (c) 1991-1995 Stichting Mathematisch Centrum.  All rights reserved.</p>
+<p>See the file "LICENSE" for information on the history of this software, terms &amp;
+conditions for usage, and a DISCLAIMER OF ALL WARRANTIES.</p>
+<p>This Python distribution contains <em>no</em> GNU General Public License (GPL) code,
+so it may be used in proprietary projects.  There are interfaces to some GNU
+code but these are entirely optional.</p>
+<p>All trademarks referenced herein are property of their respective holders.</p>
+
+</article>
+  </div>
+
+
+  </div>
+  <div class="modal-backdrop js-touch-events"></div>
+</div>
+
+    </div>
+  </div>
+
+  </div>
+
+      
+<div class="footer container-lg px-3" role="contentinfo">
+  <div class="position-relative d-flex flex-justify-between pt-6 pb-2 mt-6 f6 text-gray border-top border-gray-light ">
+    <ul class="list-style-none d-flex flex-wrap ">
+      <li class="mr-3">&copy; 2018 <span title="0.33908s from unicorn-3784475183-qhxcf">GitHub</span>, Inc.</li>
+        <li class="mr-3"><a data-ga-click="Footer, go to terms, text:terms" href="https://github.com/site/terms">Terms</a></li>
+        <li class="mr-3"><a data-ga-click="Footer, go to privacy, text:privacy" href="https://github.com/site/privacy">Privacy</a></li>
+        <li class="mr-3"><a href="https://help.github.com/articles/github-security/" data-ga-click="Footer, go to security, text:security">Security</a></li>
+        <li class="mr-3"><a href="https://status.github.com/" data-ga-click="Footer, go to status, text:status">Status</a></li>
+        <li><a data-ga-click="Footer, go to help, text:help" href="https://help.github.com">Help</a></li>
+    </ul>
+
+    <a aria-label="Homepage" title="GitHub" class="footer-octicon" href="https://github.com">
+      <svg height="24" class="octicon octicon-mark-github" viewBox="0 0 16 16" version="1.1" width="24" aria-hidden="true"><path fill-rule="evenodd" d="M8 0C3.58 0 0 3.58 0 8c0 3.54 2.29 6.53 5.47 7.59.4.07.55-.17.55-.38 0-.19-.01-.82-.01-1.49-2.01.37-2.53-.49-2.69-.94-.09-.23-.48-.94-.82-1.13-.28-.15-.68-.52-.01-.53.63-.01 1.08.58 1.23.82.72 1.21 1.87.87 2.33.66.07-.52.28-.87.51-1.07-1.78-.2-3.64-.89-3.64-3.95 0-.87.31-1.59.82-2.15-.08-.2-.36-1.02.08-2.12 0 0 .67-.21 2.2.82.64-.18 1.32-.27 2-.27.68 0 1.36.09 2 .27 1.53-1.04 2.2-.82 2.2-.82.44 1.1.16 1.92.08 2.12.51.56.82 1.27.82 2.15 0 3.07-1.87 3.75-3.65 3.95.29.25.54.73.54 1.48 0 1.07-.01 1.93-.01 2.2 0 .21.15.46.55.38A8.013 8.013 0 0 0 16 8c0-4.42-3.58-8-8-8z"/></svg>
+</a>
+   <ul class="list-style-none d-flex flex-wrap ">
+        <li class="mr-3"><a data-ga-click="Footer, go to contact, text:contact" href="https://github.com/contact">Contact GitHub</a></li>
+      <li class="mr-3"><a href="https://developer.github.com" data-ga-click="Footer, go to api, text:api">API</a></li>
+      <li class="mr-3"><a href="https://training.github.com" data-ga-click="Footer, go to training, text:training">Training</a></li>
+      <li class="mr-3"><a href="https://shop.github.com" data-ga-click="Footer, go to shop, text:shop">Shop</a></li>
+        <li class="mr-3"><a href="https://blog.github.com" data-ga-click="Footer, go to blog, text:blog">Blog</a></li>
+        <li><a data-ga-click="Footer, go to about, text:about" href="https://github.com/about">About</a></li>
+
+    </ul>
+  </div>
+  <div class="d-flex flex-justify-center pb-6">
+    <span class="f6 text-gray-light"></span>
+  </div>
+</div>
+
+
+
+  <div id="ajax-error-message" class="ajax-error-message flash flash-error">
+    <svg class="octicon octicon-alert" viewBox="0 0 16 16" version="1.1" width="16" height="16" aria-hidden="true"><path fill-rule="evenodd" d="M8.893 1.5c-.183-.31-.52-.5-.887-.5s-.703.19-.886.5L.138 13.499a.98.98 0 0 0 0 1.001c.193.31.53.501.886.501h13.964c.367 0 .704-.19.877-.5a1.03 1.03 0 0 0 .01-1.002L8.893 1.5zm.133 11.497H6.987v-2.003h2.039v2.003zm0-3.004H6.987V5.987h2.039v4.006z"/></svg>
+    <button type="button" class="flash-close js-ajax-error-dismiss" aria-label="Dismiss error">
+      <svg class="octicon octicon-x" viewBox="0 0 12 16" version="1.1" width="12" height="16" aria-hidden="true"><path fill-rule="evenodd" d="M7.48 8l3.75 3.75-1.48 1.48L6 9.48l-3.75 3.75-1.48-1.48L4.52 8 .77 4.25l1.48-1.48L6 6.52l3.75-3.75 1.48 1.48L7.48 8z"/></svg>
+    </button>
+    You can’t perform that action at this time.
+  </div>
+
+
+    <script crossorigin="anonymous" integrity="sha512-2GVr5rsbbfKbHM6oRrri41+qJ2ltJBCqluASS29fj+9yHGLFmFhq0C64VMdL57UJ34G2+FXU+8FZhaAOnsCEhw==" type="application/javascript" src="https://assets-cdn.github.com/assets/compat-bb7abfb15ed4ffb0da9056d4c980fba5.js"></script>
+    <script crossorigin="anonymous" integrity="sha512-Aff3pZ4kxDZQtwoDgGXK3pyN4iQf3iacjHCHaTq0uvu7OAGAVBmvy1B9BIl72Yr4elhuVbdYlkDdCLOERCA3sw==" type="application/javascript" src="https://assets-cdn.github.com/assets/frameworks-69305c61e4ce67cdef4a70845fc0e959.js"></script>
+    
+    <script crossorigin="anonymous" async="async" integrity="sha512-lR6qGUwl+E+II1nTIoUOEsiPPSiFXngO9f8qpYgVtj4Qpz3Txge9KdIdqLMLrpdpVLzkTgyB3Un3aexsxttJ8Q==" type="application/javascript" src="https://assets-cdn.github.com/assets/github-bed113001abefcd143ae6f67ad18ff59.js"></script>
+    
+    
+    
+    
+  <div class="js-stale-session-flash stale-session-flash flash flash-warn flash-banner d-none">
+    <svg class="octicon octicon-alert" viewBox="0 0 16 16" version="1.1" width="16" height="16" aria-hidden="true"><path fill-rule="evenodd" d="M8.893 1.5c-.183-.31-.52-.5-.887-.5s-.703.19-.886.5L.138 13.499a.98.98 0 0 0 0 1.001c.193.31.53.501.886.501h13.964c.367 0 .704-.19.877-.5a1.03 1.03 0 0 0 .01-1.002L8.893 1.5zm.133 11.497H6.987v-2.003h2.039v2.003zm0-3.004H6.987V5.987h2.039v4.006z"/></svg>
+    <span class="signed-in-tab-flash">You signed in with another tab or window. <a href="">Reload</a> to refresh your session.</span>
+    <span class="signed-out-tab-flash">You signed out in another tab or window. <a href="">Reload</a> to refresh your session.</span>
+  </div>
+  <div class="facebox" id="facebox" style="display:none;">
+  <div class="facebox-popup">
+    <div class="facebox-content" role="dialog" aria-labelledby="facebox-header" aria-describedby="facebox-description">
+    </div>
+    <button type="button" class="facebox-close js-facebox-close" aria-label="Close modal">
+      <svg class="octicon octicon-x" viewBox="0 0 12 16" version="1.1" width="12" height="16" aria-hidden="true"><path fill-rule="evenodd" d="M7.48 8l3.75 3.75-1.48 1.48L6 9.48l-3.75 3.75-1.48-1.48L4.52 8 .77 4.25l1.48-1.48L6 6.52l3.75-3.75 1.48 1.48L7.48 8z"/></svg>
+    </button>
+  </div>
+</div>
+
+  <div class="Popover js-hovercard-content position-absolute" style="display: none; outline: none;" tabindex="0">
+  <div class="Popover-message Popover-message--bottom-left Popover-message--large Box box-shadow-large" style="width:360px;">
+  </div>
+</div>
+
+<div id="hovercard-aria-description" class="sr-only">
+  Press h to open a hovercard with more details.
+</div>
+
+
+  </body>
+</html>
+

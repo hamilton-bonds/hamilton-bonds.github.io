@@ -1,0 +1,1 @@
+COWCIPHER:  Farmer Joe is pretty sure that his cows are plotting to take over the farm, but he is not sure.  He thinks that the cows used his computer to make an encryption algorithm, but cannot seem to decode it.  He needs your help in saving the farm!  Farmer Joe hands you a copy of the code (cowcipher.py).

@@ -1,0 +1,13 @@
+#WORK ROLES
+
+#STRATEGIES
+
+#TO DO
+1. Test auto-nmap of multi-host vulns
+2. Determine the necessity of a dirb
+3. Determine auto XSS / XSRF
+4. Study pass-the-hash
+5. Study bash syntax
+6. Study tunneling methods
+7. Ensure all hacking modules downloaded
+

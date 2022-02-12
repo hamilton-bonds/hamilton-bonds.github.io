@@ -1,0 +1,8 @@
+traceroute to 108.170.249.161 (108.170.249.161), 30 hops max, 60 byte packets
+ 1  _gateway (192.168.0.1)  2.001 ms  1.935 ms  1.927 ms
+ 2  * * *
+ 3  dtr01spbgsc-tge-0-7-0-1.spbg.sc.charter.com (96.34.65.137)  12.513 ms  12.688 ms  12.684 ms
+ 4  crr01spbgsc-bue-100.spbg.sc.charter.com (96.34.77.5)  12.695 ms crr02spbgsc-bue-101.spbg.sc.charter.com (96.34.67.247)  12.676 ms  12.688 ms
+ 5  bbr01spbgsc-bue-3.spbg.sc.charter.com (96.34.2.48)  14.962 ms  18.843 ms bbr01spbgsc-bue-4.spbg.sc.charter.com (96.34.2.50)  14.771 ms
+ 6  bbr02slidla-tge-0-1-0-4.slid.la.charter.com (96.34.0.133)  28.941 ms  14.054 ms  17.620 ms
+ 7  bbr02atlnga-tge-0-2-0-0.atln.ga.charter.com (96.34.3.111)  14.279 ms  14.719 ms  14.300 ms
