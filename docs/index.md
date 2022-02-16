@@ -2,12 +2,13 @@
 Cyber Warfare Officer | [CISSP](https://www.credly.com/badges/3e4d80dc-37fd-40dd-86bc-a8e233745d9e/public_url) | CCENT
 
 ## Resume
-[LinkedIn](https://linkedin.com/in/hamilton-b-138843a8/)
+[LinkedIn](https://linkedin.com/in/hamilton-bonds/)
 
 ## Quick Stats
 Click [here](https://hamilton-bonds.github.io/stats/stats.html)
 
-## CTFs
+## Capture-the-Flag (CTF) Competitions
+CTFs are competitions centered around themes in computer security.  Teams or individuals can compete against each other in a test of either Jeopardy-style questions-for-points or "Red-versus-Blue" events that pit attackers (Red) against defenders (Blue) in a simulated network.
 
 - [2019 Parsons CTF](https://hamilton-bonds.github.io/ctf/2019/2019_Parsons_CTF.html)
 - [2020 ACICTF All-Army Cyber Stakes](https://hamilton-bonds.github.io/ctf/2020/2020_ACICTF_Cyber_Stakes.html)

@@ -1,24 +1,16 @@
-# 2020 ACICTF Cyber Stakes
- 
+# 2019 Parsons CTF
+WIP 
 
 ## Cryptography:
 
-[Really Senseless Admins - 35](https://hamilton-bonds.github.io/ctf/2020/2020_ACICTF_Cyber_Stakes/reallysenselessadmins.html)
+[Crypto204](https://hamilton-bonds.github.io/ctf/2019_ParsonsCTF/crypto/crypto204/crypto204.html)
 
-[Over Time: Paid - 50](https://hamilton-bonds.github.io/ctf/2020/2020_ACICTF_Cyber_Stakes/overtimepaid.html)
+[Crypto205](https://hamilton-bonds.github.io/ctf/2019_ParsonsCTF/crypto/crypto205/crypto205.html)
 
-## Reverse Engineering:
+[Fantasan](https://hamilton-bonds.github.io/ctf/2019_ParsonsCTF/crypto/fantasan/fantasan.html)
 
-[National Dex #65 - 100](https://hamilton-bonds.github.io/ctf/2020/2020_ACICTF_Cyber_Stakes/nationaldex65.html)
+[RSA_CHAL](https://hamilton-bonds.github.io/ctf/2019_ParsonsCTF/crypto/RSA_CHAL/rsa_chal.html)
 
-## Web Security:
+## Programming:
 
-[No Escape - 60](https://hamilton-bonds.github.io/ctf/2020/2020_ACICTF_Cyber_Stakes/noescape.html)
-
-[DENIED - 75](https://hamilton-bonds.github.io/ctf/2020/2020_ACICTF_Cyber_Stakes/denied.html)
-
-## Miscellaneous:
-
-[All Your Base Are Belong To Us - 50](https://hamilton-bonds.github.io/ctf/2020/2020_ACICTF_Cyber_Stakes/allyourbase.html)
-
-[Move ZIG - 75](https://hamilton-bonds.github.io/ctf/2020/2020_ACICTF_Cyber_Stakes/movezig.html)
+[Enumeration203](https://hamilton-bonds.github.io/ctf/2019_ParsonsCTF/enumeration/enumeration203.html)
