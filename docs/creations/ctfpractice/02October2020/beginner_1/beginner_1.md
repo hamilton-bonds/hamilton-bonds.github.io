@@ -1,4 +1,4 @@
-# Beginner 1:
+# Beginner 1
 Create your very own Base64 decoder!  Use any language, but don't use modules or commands specifically designed to decode base64. Send the output back to the server to get the flag.
 
 ## Files
