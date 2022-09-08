@@ -51,12 +51,12 @@ Filters Used: `udp.port==6186 and data[8]>="4" and data[9]>="0" and data[10]>="0
 6. (160) Engine Q6: The Other Flag appears to be very buggy. How many times has the Other Flag been triggered, regardless of potentially other flags being turned on/off as well. `575`
 Filters Used: `udp.port==6186 and (data[13]=="5" or data[15]=="5" or data[17]=="5" or data[19]=="5" or data[21]=="5")`
 
-![Engine 6](/engine6.png "Engine 6")
+![Engine 6](/assets/images/2022_PRESIDENTS_CUP/sharkbyte/engine6.png "Engine 6")
 
 7. (80) Sensor Q1: What is the 3-digit identifier for Roger? `715`
 Commands Used: `sudo tcpdump -nAAAXr dauntless-sensors.pcapng`
 
-![Sensor 1](/sensor1.png "Sensor 1")
+![Sensor 1](/assets/images/2022_PRESIDENTS_CUP/sharkbyte/sensor1.png "Sensor 1")
 
 8. (160) Sensor Q2: A codename is being spoofed as the 24-hr key is incorrect. What was the packet number of the spoofed packet sent to the DSS Server? `271678`
 Methods Used: Parsed with Python code
@@ -71,4 +71,4 @@ Methods Used: Parsed with Python code
 
 Below is a picture of the table I used to visualize the data:
 
-![Data Table](/data_table.png "Data Table")
+![Data Table](/assets/images/2022_PRESIDENTS_CUP/sharkbyte/data_table.png "Data Table")
