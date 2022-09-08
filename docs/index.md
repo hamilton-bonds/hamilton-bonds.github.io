@@ -32,8 +32,8 @@ In order to increase the technical competence of my team, I created custom chall
 
 ## Endorsements
 - Peter B. - "1LT Bonds is the #1 of 22 Lieutenants I senior rate and in the top 5% of officers I have ever worked with.  I further enumerate him in the top 5 of 90 officers of all ranks regarding his ability to visualize and implement solutions to operational level problem sets."
-- Ryan M. - "1LT Bonds is the #1 Liutenant I rate, and in the top 1% of all company grade officers I have worked with in over 15 years in the Army."
-- Brian B. - "1LT Bonds is in the top 20% of all junior officers I have worked with in my 21 years of service and is among the most technically proficient Soldierst that I have ever met.  He has thrown himself at ill-defined problem sets and succeeded every time.  Outstanding performance."
+- Ryan M. - "1LT Bonds is the #1 Lieutenant I rate, and in the top 1% of all company grade officers I have worked with in over 15 years in the Army."
+- Brian B. - "1LT Bonds is in the top 20% of all junior officers I have worked with in my 21 years of service and is among the most technically proficient Soldiers that I have ever met.  He has thrown himself at ill-defined problem sets and succeeded every time.  Outstanding performance."
 - John D. - "2LT Bonds is a high performing, intellectual Officer and is amongst the top 10% of Lieutenants that have ever worked for me."
 - Jesse J. - "2LT Bonds demonstrated on a daily basis his ability to manage and complete a wide variety of tasks to near perfection.  He often expertly completed tasks and executed missions that were well above the ability of other Soldiers of the same rank."
 
