@@ -14,6 +14,7 @@ CTFs are competitions centered around themes in computer security.  Teams or ind
 - [2020 ACICTF All-Army Cyber Stakes](https://hamilton-bonds.github.io/ctf/2020/2020_ACICTF_Cyber_Stakes.html)
 - [2020 Hack-A-Sat](https://hamilton-bonds.github.io/ctf/2020/2020_Hack-A-Sat.html)
 - [2021 DEFCON QUALS (OOO)](https://hamilton-bonds.github.io/ctf/2021/2021_DEFCON_QUALS.html)
+- [2022 PRESIDENT'S CUP](https://hamilton-bonds.github.io/ctf/2022/2022_PRESIDENTS_CUP.html)
 
 ## Proofs of Concept
 
