@@ -1,0 +1,23 @@
+Python 3.9.12 (main, Mar 24 2022, 13:02:21) 
+[GCC 11.2.0] on linux
+Type "help", "copyright", "credits" or "license" for more information.
+>>> binary = "0110101100001000000101000100100001000000011000001000111000000110000110001001011001101100111000001010010000010100100"
+>>> for b in binary:
+...     a
+... 
+Traceback (most recent call last):
+  File "<stdin>", line 2, in <module>
+NameError: name 'a' is not defined
+>>> ab = ""
+>>> ba = ""
+>>> for b in binary:
+...     if b == "0":
+...         ab += "A"
+...         ba += "B"
+...     else:
+...         ab += "B"
+...         ba += "A"
+... 
+>>> ab
+'ABBABABBAAAABAAAAAABABAAABAABAAAABAAAAAAABBAAAAABAAABBBAAAAAABBAAAABBAAABAABABBAABBABBAABBBAAAAABABAABAAAAABABAABAA'
+

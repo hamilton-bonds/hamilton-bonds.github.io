@@ -1,0 +1,12 @@
+ Best Cyber Warrior 2022 - US » SONNET 47
+Category IconCategory: Cryptography
+Level IconLevel: easy
+Points IconPoints: 50
+Description
+
+Our intelligence team intercepted a strange stream of data, can you help us to understand what is it?
+0110101100001000000101000100100001000000011000001000111000000110000110001001011001101100111000001010010000010100100
+
+ 
+
+Answer Icon Answer

