@@ -16,12 +16,17 @@ filename: index.md
 			<li><a href="#Achievements">Achievements</a></li>
 		</ol>
 	</nav>
-	<!-- Google tag (gtag.js) -->
-	<script async src="https://www.googletagmanager.com/gtag/js?id=G-T0BGMBMH1Q"></script>
-	<script>
-	        window.dataLayer = window.dataLayer || [];
-        	function gtag(){dataLayer.push(arguments);}
-	        gtag('js', new Date());
-        	gtag('config', 'G-T0BGMBMH1Q');
-	</script>
+	<body>
+		<!-- Google tag (gtag.js) -->
+		<script async src="https://www.googletagmanager.com/gtag/js?id=G-T0BGMBMH1Q"></script>
+		<script>
+		        window.ga = window.ga || function () {
+				(ga.q = ga.q || []).push(arguments)
+			};
+		        ga.l = +new Date;
+        		ga('create', 'G-T0BGMBMH1Q', 'auto');
+			ga('send', 'pageview');
+		</script>
+		<script async src="https://www.google-analytics.com/analytics.js"></script>
+	</body>
 </html>
