@@ -1,8 +1,8 @@
 # Hamilton Bonds
-Cyber Warfare Officer | [CISSP](https://www.credly.com/badges/3e4d80dc-37fd-40dd-86bc-a8e233745d9e/public_url) | CCENT
+Cyber Warfare Officer | [CISSP](https://www.credly.com/badges/3e4d80dc-37fd-40dd-86bc-a8e233745d9e/public_url) | [CSM](https://bcert.me/sjbkfeipq) | CCENT
 
 ## Resume
-[LinkedIn](https://linkedin.com/in/hamilton-bonds/)
+On [LinkedIn](https://linkedin.com/in/hamilton-bonds/)
 
 ## Quick Stats
 Click [here](https://hamilton-bonds.github.io/stats/stats.html)
@@ -39,5 +39,6 @@ In order to increase the technical competence of my team, I created custom chall
 - Jesse J. - "2LT Bonds demonstrated on a daily basis his ability to manage and complete a wide variety of tasks to near perfection.  He often expertly completed tasks and executed missions that were well above the ability of other Soldiers of the same rank."
 
 ## Achievements
+- IBM Quantum Challenge Fall 2022 - [Foundational](https://www.credly.com/badges/dc689ec7-2bf7-4b84-b90c-92ddc65a0bf1/public_url)
 - 1st Place - AFCEA International Cyber Challenge - 21 August 2019
 - 3rd Place - Parsons Cyber Challenge - March 2019
