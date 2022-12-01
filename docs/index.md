@@ -1,5 +1,5 @@
 # Hamilton Bonds
-Cyber Warfare Officer | [CISSP](https://www.credly.com/badges/3e4d80dc-37fd-40dd-86bc-a8e233745d9e/public_url) | [CSM](https://bcert.me/sjbkfeipq) | CCENT | [CodeWars](https://www.codewars.com/users/hamilton-bonds/badges)
+Cyber Warfare Officer | [CISSP](https://www.credly.com/badges/3e4d80dc-37fd-40dd-86bc-a8e233745d9e/public_url) | [CSM](https://bcert.me/sjbkfeipq) | CCENT | [CodeWars](https://www.codewars.com/users/hamilton-bonds/badges/large)
 
 ## Resume
 On [LinkedIn](https://linkedin.com/in/hamilton-bonds/)
