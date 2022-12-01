@@ -1,11 +1,12 @@
 # Hamilton Bonds
-Cyber Warfare Officer | [CISSP](https://www.credly.com/badges/3e4d80dc-37fd-40dd-86bc-a8e233745d9e/public_url) | [CSM](https://bcert.me/sjbkfeipq) | CCENT | [CodeWars](https://www.codewars.com/users/hamilton-bonds/badges/large)
+Cyber Warfare Officer | [CISSP](https://www.credly.com/badges/3e4d80dc-37fd-40dd-86bc-a8e233745d9e/public_url) | [CSM](https://bcert.me/sjbkfeipq) | CCENT
 
 ## Resume
 On [LinkedIn](https://linkedin.com/in/hamilton-bonds/)
 
 ## Quick Stats
 Click [here](https://hamilton-bonds.github.io/stats/stats.html)
+[CodeWars Rank](https://www.codewars.com/users/hamilton-bonds/badges/large)
 
 ## Capture-the-Flag (CTF) Competitions
 CTFs are competitions centered around themes in computer security.  Teams or individuals can compete against each other in a test of either Jeopardy-style questions-for-points or "Red-versus-Blue" events that pit attackers (Red) against defenders (Blue) in a simulated network.
