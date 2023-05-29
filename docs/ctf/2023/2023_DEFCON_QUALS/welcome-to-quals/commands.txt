@@ -1,0 +1,4 @@
+ticket{OwnershipRemodel1982n23:SFlwnzNby2IAG3ERymyFZIZAyXxET1z5sbDOv-ACAjIHFbOv}
+/ova/onfu
+ls -lR /home/user/.ssh/
+

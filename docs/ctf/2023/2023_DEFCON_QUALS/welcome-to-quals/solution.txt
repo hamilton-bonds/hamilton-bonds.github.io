@@ -1,0 +1,7 @@
+kali@example:~/Documents/ctf/defcon2023/welcome-to-quals$ nc welcome-to-quals-vfnva65rlchqk.shellweplayaga.me 10001
+Ticket please: ticket{OwnershipRemodel1982n23:SFlwnzNby2IAG3ERymyFZIZAyXxET1z5sbDOv-ACAjIHFbOv}
+Hello challenger, enter your payload below:
+/ova/onfu
+cat /welcome_flag.txt
+flag{OwnershipRemodel1982n23:TEMhDTMum5XNA-YIPDhex8KWYOXvi816ty_rShXZpBRhxy0pGN3tHxSqjXGuYSLntxvgTUjaEreyNN_A4yo-gQ}Timeout!
+

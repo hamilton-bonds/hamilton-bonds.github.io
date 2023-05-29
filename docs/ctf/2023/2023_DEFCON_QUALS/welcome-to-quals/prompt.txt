@@ -1,0 +1,26 @@
+
+Welcome to Quals
+$285.4820936639118455k
+flag
+Your team already owns this property!
+Someone on your team already solved this challenge 1 minute ago.
+Description
+
+Host: welcome-to-quals-vfnva65rlchqk.shellweplayaga.me
+
+Port: 10001
+
+Ticket
+
+This challenge requires a ticket to connect. Your team's ticket is:
+ticket{OwnershipRemodel1982n23:SFlwnzNby2IAG3ERymyFZIZAyXxET1z5sbDOv-ACAjIHFbOv}
+
+This ticket and the flag are traceable to your team. Do not share it with other teams, and do not try to submit a flag from another team.
+Own This Property
+
+Your already own this property.
+Back to Search
+Statistics
+Previous Owners 	170
+First Listed 	about 3 hours ago
+First Sold 	about 1 hour ago by SuperDiceCode 
