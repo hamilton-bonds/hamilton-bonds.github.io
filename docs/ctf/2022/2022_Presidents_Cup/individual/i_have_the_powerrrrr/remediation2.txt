@@ -1,0 +1,42 @@
+# Remove the thing that keeps processes going...
+
+PS C:\> dir
+dir
+
+
+    Directory: C:\
+
+
+Mode                 LastWriteTime         Length Name                                                                 
+----                 -------------         ------ ----                                                                 
+d-----         12/7/2019   4:14 AM                PerfLogs                                                             
+d-r---         7/25/2022   7:20 PM                Program Files                                                        
+d-r---          9/9/2022   5:13 PM                Program Files (x86)                                                  
+d-----        10/19/2022   2:24 PM                Python310                                                            
+d-r---        10/19/2022   2:15 PM                Users                                                                
+d-----        10/19/2022   2:18 PM                Windows                                                              
+d-----        10/19/2022   2:21 PM                Windows.old                                                          
+-a----         7/27/2022   6:18 PM         294912 nssm.exe                                                             
+-a----         7/13/2022   5:19 PM              0 tasks.xml                                                            
+
+
+
+PS C:\> ps
+ps
+
+
+    131       8     1628       6172       0.00   2820   0 nssm 
+    
+PS C:\> kill 2820
+kill 2820
+
+PS C:\> del nssm.exe
+del nssm.exe
+
+#### ANSWER ####
+
+Remediation 2
+
+Success -- you passed the service persistence check
+
+Token: 9c0e460f

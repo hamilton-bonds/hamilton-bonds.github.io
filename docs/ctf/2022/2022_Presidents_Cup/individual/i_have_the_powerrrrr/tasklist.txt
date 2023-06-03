@@ -1,0 +1,106 @@
+PS C:\Windows> tasklist /V
+
+Image Name                     PID Session Name        Session#    Mem Usage Status          User Name                                              CPU Time Window Title                                                            
+========================= ======== ================ =========== ============ =============== ================================================== ============ ========================================================================       
+System Idle Process              0 Services                   0          8 K Unknown         NT AUTHORITY\SYSTEM                                     3:10:58 N/A
+System                           4 Services                   0        144 K Unknown         N/A                                                     0:00:17 N/A
+Registry                        92 Services                   0     12,540 K Unknown         NT AUTHORITY\SYSTEM                                     0:00:02 N/A
+smss.exe                       344 Services                   0      1,196 K Unknown         NT AUTHORITY\SYSTEM                                     0:00:00 N/A
+csrss.exe                      440 Services                   0      5,240 K Unknown         NT AUTHORITY\SYSTEM                                     0:00:00 N/A
+wininit.exe                    540 Services                   0      6,888 K Unknown         NT AUTHORITY\SYSTEM                                     0:00:00 N/A
+csrss.exe                      552 Console                    1      4,808 K Unknown         NT AUTHORITY\SYSTEM                                     0:00:00 N/A                                                                     
+winlogon.exe                   632 Console                    1     26,340 K Unknown         NT AUTHORITY\SYSTEM                                     0:00:00 N/A
+services.exe                   648 Services                   0      9,728 K Unknown         NT AUTHORITY\SYSTEM                                     0:00:01 N/A
+lsass.exe                      680 Services                   0     16,188 K Unknown         NT AUTHORITY\SYSTEM                                     0:00:12 N/A
+svchost.exe                    788 Services                   0     16,812 K Unknown         NT AUTHORITY\SYSTEM                                     0:00:00 N/A
+fontdrvhost.exe                800 Console                    1      4,532 K Unknown         Font Driver Host\UMFD-1                                 0:00:00 N/A
+fontdrvhost.exe                804 Services                   0      5,192 K Unknown         Font Driver Host\UMFD-0                                 0:00:00 N/A
+svchost.exe                    916 Services                   0     10,952 K Unknown         NT AUTHORITY\NETWORK SERVICE                            0:00:01 N/A
+svchost.exe                    964 Services                   0      7,072 K Unknown         NT AUTHORITY\SYSTEM                                     0:00:00 N/A
+dwm.exe                         60 Console                    1     74,212 K Unknown         Window Manager\DWM-1                                    0:00:00 N/A                                                                     
+svchost.exe                    392 Services                   0     11,336 K Unknown         NT AUTHORITY\SYSTEM                                     0:00:00 N/A
+svchost.exe                    872 Services                   0      8,396 K Unknown         NT AUTHORITY\SYSTEM                                     0:00:00 N/A
+svchost.exe                   1048 Services                   0      5,996 K Unknown         NT AUTHORITY\LOCAL SERVICE                              0:00:00 N/A
+svchost.exe                   1056 Services                   0     17,220 K Unknown         NT AUTHORITY\LOCAL SERVICE                              0:00:01 N/A
+svchost.exe                   1064 Services                   0      6,200 K Unknown         NT AUTHORITY\LOCAL SERVICE                              0:00:00 N/A
+svchost.exe                   1072 Services                   0      5,500 K Unknown         NT AUTHORITY\LOCAL SERVICE                              0:00:00 N/A
+svchost.exe                   1188 Services                   0      7,548 K Unknown         NT AUTHORITY\LOCAL SERVICE                              0:00:00 N/A
+svchost.exe                   1216 Services                   0      7,328 K Unknown         NT AUTHORITY\LOCAL SERVICE                              0:00:00 N/A
+svchost.exe                   1244 Services                   0      7,672 K Unknown         NT AUTHORITY\LOCAL SERVICE                              0:00:00 N/A
+svchost.exe                   1384 Services                   0     12,500 K Unknown         NT AUTHORITY\SYSTEM                                     0:00:00 N/A
+svchost.exe                   1404 Services                   0      8,968 K Unknown         NT AUTHORITY\LOCAL SERVICE                              0:00:00 N/A                                                                     
+svchost.exe                   1428 Services                   0     55,284 K Unknown         NT AUTHORITY\SYSTEM                                     0:00:21 N/A
+svchost.exe                   1464 Services                   0      5,816 K Unknown         NT AUTHORITY\SYSTEM                                     0:00:00 N/A
+svchost.exe                   1496 Services                   0     15,804 K Unknown         NT AUTHORITY\SYSTEM                                     0:00:43 N/A
+svchost.exe                   1568 Services                   0     12,084 K Unknown         NT AUTHORITY\NETWORK SERVICE                            0:00:00 N/A
+Memory Compression            1584 Services                   0     38,912 K Unknown         NT AUTHORITY\SYSTEM                                     0:00:01 N/A
+svchost.exe                   1692 Services                   0      5,896 K Unknown         NT AUTHORITY\SYSTEM                                     0:00:00 N/A
+svchost.exe                   1732 Services                   0      7,332 K Unknown         NT AUTHORITY\SYSTEM                                     0:00:00 N/A
+svchost.exe                   1748 Services                   0      8,096 K Unknown         NT AUTHORITY\LOCAL SERVICE                              0:00:00 N/A
+svchost.exe                   1796 Services                   0      8,332 K Unknown         NT AUTHORITY\LOCAL SERVICE                              0:00:00 N/A
+svchost.exe                   1820 Services                   0      9,120 K Unknown         NT AUTHORITY\LOCAL SERVICE                              0:00:00 N/A
+svchost.exe                   1924 Services                   0      6,428 K Unknown         NT AUTHORITY\LOCAL SERVICE                              0:00:00 N/A                                                                     
+svchost.exe                   1932 Services                   0      8,324 K Unknown         NT AUTHORITY\NETWORK SERVICE                            0:00:00 N/A
+svchost.exe                   1952 Services                   0      9,752 K Unknown         NT AUTHORITY\LOCAL SERVICE                              0:00:00 N/A
+svchost.exe                   2008 Services                   0      8,616 K Unknown         NT AUTHORITY\SYSTEM                                     0:00:00 N/A
+spoolsv.exe                   1884 Services                   0     15,640 K Unknown         NT AUTHORITY\SYSTEM                                     0:00:00 N/A
+svchost.exe                   2076 Services                   0      8,660 K Unknown         NT AUTHORITY\SYSTEM                                     0:00:00 N/A
+svchost.exe                   2128 Services                   0     17,260 K Unknown         NT AUTHORITY\LOCAL SERVICE                              0:00:00 N/A
+svchost.exe                   2156 Services                   0      8,276 K Unknown         NT AUTHORITY\NETWORK SERVICE                            0:00:00 N/A
+svchost.exe                   2220 Services                   0      7,404 K Unknown         NT AUTHORITY\LOCAL SERVICE                              0:00:00 N/A
+svchost.exe                   2584 Services                   0      7,256 K Unknown         NT AUTHORITY\NETWORK SERVICE                            0:00:00 N/A
+svchost.exe                   2592 Services                   0      8,064 K Unknown         NT AUTHORITY\SYSTEM                                     0:00:00 N/A
+svchost.exe                   2688 Services                   0     10,172 K Unknown         NT AUTHORITY\NETWORK SERVICE                            0:00:00 N/A
+svchost.exe                   2696 Services                   0     30,108 K Unknown         NT AUTHORITY\SYSTEM                                     0:00:01 N/A                                                                     
+svchost.exe                   2708 Services                   0     28,420 K Unknown         NT AUTHORITY\LOCAL SERVICE                              0:00:12 N/A
+svchost.exe                   2724 Services                   0     22,396 K Unknown         NT AUTHORITY\SYSTEM                                     0:00:10 N/A
+svchost.exe                   2752 Services                   0      6,776 K Unknown         NT AUTHORITY\LOCAL SERVICE                              0:00:00 N/A
+svchost.exe                   2792 Services                   0      9,272 K Unknown         NT AUTHORITY\SYSTEM                                     0:00:00 N/A
+svchost.exe                   2808 Services                   0      6,824 K Unknown         NT AUTHORITY\LOCAL SERVICE                              0:00:00 N/A
+sqlwriter.exe                 2840 Services                   0      8,044 K Unknown         NT AUTHORITY\SYSTEM                                     0:00:00 N/A
+svchost.exe                   2856 Services                   0      5,520 K Unknown         NT AUTHORITY\LOCAL SERVICE                              0:00:00 N/A
+svchost.exe                   2884 Services                   0      5,664 K Unknown         NT AUTHORITY\SYSTEM                                     0:00:00 N/A
+sshd.exe                      2896 Services                   0      7,300 K Unknown         NT AUTHORITY\SYSTEM                                     0:00:00 N/A
+VGAuthService.exe             2924 Services                   0     11,748 K Unknown         NT AUTHORITY\SYSTEM                                     0:00:00 N/A
+svchost.exe                   2932 Services                   0     10,616 K Unknown         NT AUTHORITY\SYSTEM                                     0:00:00 N/A                                                                     
+vm3dservice.exe               2952 Services                   0      6,204 K Unknown         NT AUTHORITY\SYSTEM                                     0:00:00 N/A
+vmtoolsd.exe                  2996 Services                   0     21,360 K Unknown         NT AUTHORITY\SYSTEM                                     0:00:01 N/A
+wlms.exe                      3056 Services                   0      3,552 K Unknown         NT AUTHORITY\SYSTEM                                     0:00:00 N/A
+svchost.exe                   2140 Services                   0     15,544 K Unknown         NT AUTHORITY\SYSTEM                                     0:00:00 N/A
+MsMpEng.exe                   3152 Services                   0    160,992 K Unknown         NT AUTHORITY\SYSTEM                                     0:00:36 N/A
+vm3dservice.exe               3196 Console                    1      6,596 K Unknown         NT AUTHORITY\SYSTEM                                     0:00:00 N/A
+svchost.exe                   3424 Services                   0     12,716 K Unknown         NT AUTHORITY\SYSTEM                                     0:00:00 N/A
+dllhost.exe                   3768 Services                   0     13,836 K Unknown         NT AUTHORITY\SYSTEM                                     0:00:00 N/A
+msdtc.exe                     3192 Services                   0     10,312 K Unknown         NT AUTHORITY\NETWORK SERVICE                            0:00:00 N/A
+WmiPrvSE.exe                  4140 Services                   0     21,952 K Unknown         NT AUTHORITY\NETWORK SERVICE                            0:00:22 N/A
+LogonUI.exe                   4172 Console                    1     73,600 K Unknown         NT AUTHORITY\SYSTEM                                     0:00:00 N/A                                                                     
+vm3dservice.exe               4220 Console                    1      6,544 K Unknown         NT AUTHORITY\SYSTEM                                     0:00:00 N/A
+svchost.exe                   4624 Services                   0     10,852 K Unknown         NT AUTHORITY\SYSTEM                                     0:00:00 N/A
+svchost.exe                   4784 Services                   0      8,440 K Unknown         NT AUTHORITY\LOCAL SERVICE                              0:00:00 N/A
+svchost.exe                   4616 Services                   0     17,596 K Unknown         NT AUTHORITY\SYSTEM                                     0:00:00 N/A
+svchost.exe                   1124 Services                   0      7,496 K Unknown         NT AUTHORITY\LOCAL SERVICE                              0:00:00 N/A
+svchost.exe                   5700 Services                   0     17,020 K Unknown         NT AUTHORITY\LOCAL SERVICE                              0:00:00 N/A
+MicrosoftEdgeUpdate.exe       5816 Services                   0        404 K Unknown         NT AUTHORITY\SYSTEM                                     0:00:00 N/A
+GoogleUpdate.exe              5964 Services                   0        424 K Unknown         NT AUTHORITY\SYSTEM                                     0:00:00 N/A
+SgrmBroker.exe                1108 Services                   0      6,828 K Unknown         NT AUTHORITY\SYSTEM                                     0:00:00 N/A
+svchost.exe                   2976 Services                   0     22,408 K Unknown         NT AUTHORITY\SYSTEM                                     0:00:00 N/A
+svchost.exe                   5236 Services                   0     10,156 K Unknown         NT AUTHORITY\NETWORK SERVICE                            0:00:00 N/A                                                                     
+svchost.exe                    384 Services                   0     10,248 K Unknown         NT AUTHORITY\LOCAL SERVICE                              0:00:00 N/A
+SearchIndexer.exe             1352 Services                   0     36,416 K Unknown         NT AUTHORITY\SYSTEM                                     0:00:06 N/A
+svchost.exe                   1828 Services                   0     10,732 K Unknown         NT AUTHORITY\SYSTEM                                     0:00:00 N/A
+svchost.exe                   5680 Services                   0     19,248 K Unknown         NT AUTHORITY\SYSTEM                                     0:00:00 N/A
+svchost.exe                   5684 Services                   0      8,548 K Unknown         NT AUTHORITY\SYSTEM                                     0:00:00 N/A
+svchost.exe                   3568 Services                   0      9,792 K Unknown         NT AUTHORITY\SYSTEM                                     0:00:00 N/A
+svchost.exe                   5176 Services                   0      7,592 K Unknown         NT AUTHORITY\LOCAL SERVICE                              0:00:00 N/A
+svchost.exe                   1100 Services                   0     11,900 K Unknown         NT AUTHORITY\SYSTEM                                     0:00:00 N/A
+svchost.exe                   6016 Services                   0      8,276 K Unknown         NT AUTHORITY\SYSTEM                                     0:00:00 N/A
+SecurityHealthService.exe     4832 Services                   0     12,400 K Unknown         NT AUTHORITY\SYSTEM                                     0:00:00 N/A
+conhost.exe                   2736 Services                   0      5,576 K Unknown         ETERNIA\Robin                                           0:00:00 N/A
+sshd.exe                      1332 Services                   0      7,800 K Unknown         NT AUTHORITY\SYSTEM                                     0:00:00 N/A                                                                     
+sshd.exe                      5420 Services                   0      7,880 K Unknown         ETERNIA\Robin                                           0:00:00 N/A
+conhost.exe                   3976 Services                   0      5,836 K Unknown         ETERNIA\Robin                                           0:00:01 N/A
+cmd.exe                       1940 Services                   0      4,020 K Unknown         ETERNIA\Robin                                           0:00:00 N/A
+powershell.exe                5824 Services                   0     91,276 K Unknown         ETERNIA\Robin                                           0:00:05 N/A
+powershell.exe                5248 Services                   0     73,924 K Unknown         ETERNIA\Robin                                           0:00:00 N/A
+conhost.exe                   5888 Services                   0     10,156 K Unknown         ETERNIA\Robin                                           0:00:00 N/A
+tasklist.exe                  5040 Services                   0      8,976 K Unknown         ETERNIA\Robin                                           0:00:00 N/A

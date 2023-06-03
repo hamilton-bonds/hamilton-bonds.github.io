@@ -1,0 +1,157 @@
+PS C:\Windows\System32\wbem> netstat -bano    
+
+Active Connections
+
+  Proto  Local Address          Foreign Address        State           PID
+  TCP    0.0.0.0:22             0.0.0.0:0              LISTENING       2896
+ [sshd.exe]
+  TCP    0.0.0.0:135            0.0.0.0:0              LISTENING       916
+  RpcSs
+ [svchost.exe]
+  TCP    0.0.0.0:445            0.0.0.0:0              LISTENING       4
+ Can not obtain ownership information
+  TCP    0.0.0.0:5040           0.0.0.0:0              LISTENING       5700
+  CDPSvc
+ [svchost.exe]
+  TCP    0.0.0.0:5985           0.0.0.0:0              LISTENING       4
+ Can not obtain ownership information
+  TCP    0.0.0.0:5986           0.0.0.0:0              LISTENING       4
+ Can not obtain ownership information
+  TCP    0.0.0.0:47001          0.0.0.0:0              LISTENING       4
+ Can not obtain ownership information
+  TCP    0.0.0.0:49664          0.0.0.0:0              LISTENING       680
+ [lsass.exe]
+  TCP    0.0.0.0:49665          0.0.0.0:0              LISTENING       540
+ Can not obtain ownership information
+  TCP    0.0.0.0:49666          0.0.0.0:0              LISTENING       1056
+  EventLog
+ [svchost.exe]
+  TCP    0.0.0.0:49667          0.0.0.0:0              LISTENING       1496
+  Schedule
+ [svchost.exe]
+  TCP    0.0.0.0:49668          0.0.0.0:0              LISTENING       1884
+ [spoolsv.exe]
+  TCP    0.0.0.0:49669          0.0.0.0:0              LISTENING       648
+ Can not obtain ownership information
+  TCP    0.0.0.0:49670          0.0.0.0:0              LISTENING       2584
+  PolicyAgent
+ [svchost.exe]
+  TCP    10.5.5.79:22           10.5.5.138:38038       ESTABLISHED     2896
+ [sshd.exe]
+  TCP    10.5.5.79:22           10.5.5.138:44480       CLOSE_WAIT      2896
+ [sshd.exe]
+  TCP    10.5.5.79:139          0.0.0.0:0              LISTENING       4
+ Can not obtain ownership information
+  TCP    10.5.5.79:33507        10.5.5.57:80           TIME_WAIT       0
+  TCP    169.254.6.29:139       0.0.0.0:0              LISTENING       4
+ Can not obtain ownership information
+  TCP    [::]:22                [::]:0                 LISTENING       2896
+ [sshd.exe]
+  TCP    [::]:135               [::]:0                 LISTENING       916
+  RpcSs
+ [svchost.exe]
+  TCP    [::]:445               [::]:0                 LISTENING       4
+ Can not obtain ownership information
+  TCP    [::]:5985              [::]:0                 LISTENING       4
+ Can not obtain ownership information
+  TCP    [::]:5986              [::]:0                 LISTENING       4
+ Can not obtain ownership information
+  TCP    [::]:47001             [::]:0                 LISTENING       4
+ Can not obtain ownership information
+  TCP    [::]:49664             [::]:0                 LISTENING       680
+ [lsass.exe]
+  TCP    [::]:49665             [::]:0                 LISTENING       540
+ Can not obtain ownership information
+  TCP    [::]:49666             [::]:0                 LISTENING       1056
+  EventLog
+ [svchost.exe]
+  TCP    [::]:49667             [::]:0                 LISTENING       1496
+  Schedule
+ [svchost.exe]
+  TCP    [::]:49668             [::]:0                 LISTENING       1884
+ [spoolsv.exe]
+  TCP    [::]:49669             [::]:0                 LISTENING       648
+ Can not obtain ownership information
+  TCP    [::]:49670             [::]:0                 LISTENING       2584
+  PolicyAgent
+ [svchost.exe]
+  UDP    0.0.0.0:123            *:*                                    5176
+  W32Time
+ [svchost.exe]
+  UDP    0.0.0.0:500            *:*                                    2592
+  IKEEXT
+ [svchost.exe]
+  UDP    0.0.0.0:4500           *:*                                    2592
+  IKEEXT
+ [svchost.exe]
+  UDP    0.0.0.0:5050           *:*                                    5700
+  CDPSvc
+ [svchost.exe]
+  UDP    0.0.0.0:5353           *:*                                    1932
+  Dnscache
+ [svchost.exe]
+  UDP    0.0.0.0:5355           *:*                                    1932
+  Dnscache
+ [svchost.exe]
+  UDP    10.5.5.79:137          *:*                                    4
+ Can not obtain ownership information
+  UDP    10.5.5.79:138          *:*                                    4
+ Can not obtain ownership information
+  UDP    10.5.5.79:1900         *:*                                    1124
+  SSDPSRV
+ [svchost.exe]
+  UDP    10.5.5.79:58510        *:*                                    1124
+  SSDPSRV
+ [svchost.exe]
+  UDP    127.0.0.1:1900         *:*                                    1124
+  SSDPSRV
+ [svchost.exe]
+  UDP    127.0.0.1:58511        *:*                                    1124
+  SSDPSRV
+ [svchost.exe]
+  UDP    127.0.0.1:60458        *:*                                    2932
+  iphlpsvc
+ [svchost.exe]
+  UDP    169.254.6.29:137       *:*                                    4
+ Can not obtain ownership information
+  UDP    169.254.6.29:138       *:*                                    4
+ Can not obtain ownership information
+  UDP    169.254.6.29:1900      *:*                                    1124
+  SSDPSRV
+ [svchost.exe]
+  UDP    169.254.6.29:58509     *:*                                    1124
+  SSDPSRV
+ [svchost.exe]
+  UDP    [::]:123               *:*                                    5176
+  W32Time
+ [svchost.exe]
+  UDP    [::]:500               *:*                                    2592
+  IKEEXT
+ [svchost.exe]
+  UDP    [::]:4500              *:*                                    2592
+  IKEEXT
+ [svchost.exe]
+  UDP    [::]:5353              *:*                                    1932
+  Dnscache
+ [svchost.exe]
+  UDP    [::]:5355              *:*                                    1932
+  Dnscache
+ [svchost.exe]
+  UDP    [::1]:1900             *:*                                    1124
+  SSDPSRV
+ [svchost.exe]
+  UDP    [::1]:58508            *:*                                    1124
+  SSDPSRV
+ [svchost.exe]
+  UDP    [fe80::91de:5403:32f:61d%4]:1900  *:*                                    1124
+  SSDPSRV
+ [svchost.exe]
+  UDP    [fe80::91de:5403:32f:61d%4]:58506  *:*                                    1124
+  SSDPSRV
+ [svchost.exe]
+  UDP    [fe80::a07c:6897:bfc8:c86c%8]:1900  *:*                                    1124
+  SSDPSRV
+ [svchost.exe]
+  UDP    [fe80::a07c:6897:bfc8:c86c%8]:58507  *:*                                    1124
+  SSDPSRV
+ [svchost.exe]

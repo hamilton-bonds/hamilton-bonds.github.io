@@ -1,0 +1,404 @@
+┌──(user㉿kali-workstation)-[~]
+└─$ nc 10.5.5.72 21
+220 (vsFTPd 3.0.3)
+USER user
+331 Please specify the password.
+PASS tartans
+230 Login successful.
+LIST
+425 Use PORT or PASV first.
+PORT 55555
+500 Illegal PORT command.
+PORT 123456
+500 Illegal PORT command.
+PASV
+227 Entering Passive Mode (10,5,5,72,174,229).
+LIST
+150 Here comes the directory listing.
+226 Directory send OK.
+PASV
+227 Entering Passive Mode (10,5,5,72,177,241).
+LIST
+150 Here comes the directory listing.
+226 Directory send OK.
+CWD files
+250 Directory successfully changed.
+PASV
+227 Entering Passive Mode (10,5,5,72,165,84).
+LIST
+150 Here comes the directory listing.
+226 Directory send OK.
+
+
+┌──(user㉿kali-workstation)-[~]
+└─$ nc 10.5.5.72 45553
+drwxr-xr-x    3 1000     1000         4096 Oct 19 16:30 files
+                                                                                                                                                                                                                                            
+┌──(user㉿kali-workstation)-[~]
+└─$ nc 10.5.5.72 42324
+-rw-------    1 1000     1000          672 Oct 19 16:30 encrypted.enc
+drwx------  152 1000     1000         4096 Oct 19 16:30 keys
+-rw-------    1 1000     1000          384 Oct 19 16:30 rsa_key.enc
+-rw-------    1 1000     1000        62156 Jul 28 20:32 wordlist.txt
+
+┌──(user㉿kali-workstation)-[~]
+└─$ nc 10.5.5.72 21
+220 (vsFTPd 3.0.3)
+USER user
+331 Please specify the password.
+PASS tartans
+230 Login successful.
+LIST
+425 Use PORT or PASV first.
+PORT 55555
+500 Illegal PORT command.
+PORT 123456
+500 Illegal PORT command.
+PASV
+227 Entering Passive Mode (10,5,5,72,174,229).
+LIST
+150 Here comes the directory listing.
+226 Directory send OK.
+PASV
+227 Entering Passive Mode (10,5,5,72,177,241).
+LIST
+150 Here comes the directory listing.
+226 Directory send OK.
+CWD files
+250 Directory successfully changed.
+PASV
+227 Entering Passive Mode (10,5,5,72,165,84).
+LIST
+150 Here comes the directory listing.
+226 Directory send OK.
+
+┌──(user㉿kali-workstation)-[~]
+└─$ PORT=47366; nc 10.5.5.72 $PORT > encrypted.enc
+
+227 Entering Passive Mode (10,5,5,72,171,71).
+RETR rsa_key.enc
+150 Opening BINARY mode data connection for rsa_key.enc (384 bytes).
+226 Transfer complete.
+
+┌──(user㉿kali-workstation)-[~]
+└─$ PORT=43847; nc 10.5.5.72 $PORT > rsa_key.enc
+
+227 Entering Passive Mode (10,5,5,72,180,24).
+RETR wordlist.txt
+150 Opening BINARY mode data connection for wordlist.txt (62156 bytes).                                                                                                                                                                     
+226 Transfer complete.                                                                                                                                                                                                                      
+CWD keys                                                                                                                                                                                                                                    
+250 Directory successfully changed. 
+
+┌──(user㉿kali-workstation)-[~]
+└─$ nc 10.5.5.72 46104 > wordlist.txt
+
+227 Entering Passive Mode (10,5,5,72,157,250).
+LIST
+150 Here comes the directory listing.
+226 Directory send OK.
+
+┌──(user㉿kali-workstation)-[~]
+└─$ nc 10.5.5.72 40442               
+drwx------    2 1000     1000         4096 Oct 19 16:30 user1
+drwx------    2 1000     1000         4096 Oct 19 16:30 user10
+drwx------    2 1000     1000         4096 Oct 19 16:30 user100
+drwx------    2 1000     1000         4096 Oct 19 16:30 user101
+drwx------    2 1000     1000         4096 Oct 19 16:30 user102
+drwx------    2 1000     1000         4096 Oct 19 16:30 user103
+drwx------    2 1000     1000         4096 Oct 19 16:30 user104
+drwx------    2 1000     1000         4096 Oct 19 16:30 user105
+drwx------    2 1000     1000         4096 Oct 19 16:30 user106
+drwx------    2 1000     1000         4096 Oct 19 16:30 user107
+drwx------    2 1000     1000         4096 Oct 19 16:30 user108
+drwx------    2 1000     1000         4096 Oct 19 16:30 user109
+drwx------    2 1000     1000         4096 Oct 19 16:30 user11
+drwx------    2 1000     1000         4096 Oct 19 16:30 user110
+drwx------    2 1000     1000         4096 Oct 19 16:30 user111
+drwx------    2 1000     1000         4096 Oct 19 16:30 user112
+drwx------    2 1000     1000         4096 Oct 19 16:30 user113
+drwx------    2 1000     1000         4096 Oct 19 16:30 user114
+drwx------    2 1000     1000         4096 Oct 19 16:30 user115
+drwx------    2 1000     1000         4096 Oct 19 16:30 user116
+drwx------    2 1000     1000         4096 Oct 19 16:30 user117
+drwx------    2 1000     1000         4096 Oct 19 16:30 user118
+drwx------    2 1000     1000         4096 Oct 19 16:30 user119
+drwx------    2 1000     1000         4096 Oct 19 16:30 user12
+drwx------    2 1000     1000         4096 Oct 19 16:30 user120
+drwx------    2 1000     1000         4096 Oct 19 16:30 user121
+drwx------    2 1000     1000         4096 Oct 19 16:30 user122
+drwx------    2 1000     1000         4096 Oct 19 16:30 user123
+drwx------    2 1000     1000         4096 Oct 19 16:30 user124
+drwx------    2 1000     1000         4096 Oct 19 16:30 user125
+drwx------    2 1000     1000         4096 Oct 19 16:30 user126
+drwx------    2 1000     1000         4096 Oct 19 16:30 user127
+drwx------    2 1000     1000         4096 Oct 19 16:30 user128
+drwx------    2 1000     1000         4096 Oct 19 16:30 user129
+drwx------    2 1000     1000         4096 Oct 19 16:30 user13
+drwx------    2 1000     1000         4096 Oct 19 16:30 user130
+drwx------    2 1000     1000         4096 Oct 19 16:30 user131
+drwx------    2 1000     1000         4096 Oct 19 16:30 user132
+drwx------    2 1000     1000         4096 Oct 19 16:30 user133
+drwx------    2 1000     1000         4096 Oct 19 16:30 user134
+drwx------    2 1000     1000         4096 Oct 19 16:30 user135
+drwx------    2 1000     1000         4096 Oct 19 16:30 user136
+drwx------    2 1000     1000         4096 Oct 19 16:30 user137
+drwx------    2 1000     1000         4096 Oct 19 16:30 user138
+drwx------    2 1000     1000         4096 Oct 19 16:30 user139
+drwx------    2 1000     1000         4096 Oct 19 16:30 user14
+drwx------    2 1000     1000         4096 Oct 19 16:30 user140
+drwx------    2 1000     1000         4096 Oct 19 16:30 user141
+drwx------    2 1000     1000         4096 Oct 19 16:30 user142
+drwx------    2 1000     1000         4096 Oct 19 16:30 user143
+drwx------    2 1000     1000         4096 Oct 19 16:30 user144
+drwx------    2 1000     1000         4096 Oct 19 16:30 user145
+drwx------    2 1000     1000         4096 Oct 19 16:30 user146
+drwx------    2 1000     1000         4096 Oct 19 16:30 user147
+drwx------    2 1000     1000         4096 Oct 19 16:30 user148
+drwx------    2 1000     1000         4096 Oct 19 16:30 user149
+drwx------    2 1000     1000         4096 Oct 19 16:30 user15
+drwx------    2 1000     1000         4096 Oct 19 16:30 user150
+drwx------    2 1000     1000         4096 Oct 19 16:30 user16
+drwx------    2 1000     1000         4096 Oct 19 16:30 user17
+drwx------    2 1000     1000         4096 Oct 19 16:30 user18
+drwx------    2 1000     1000         4096 Oct 19 16:30 user19
+drwx------    2 1000     1000         4096 Oct 19 16:30 user2
+drwx------    2 1000     1000         4096 Oct 19 16:30 user20
+drwx------    2 1000     1000         4096 Oct 19 16:30 user21
+drwx------    2 1000     1000         4096 Oct 19 16:30 user22
+drwx------    2 1000     1000         4096 Oct 19 16:30 user23
+drwx------    2 1000     1000         4096 Oct 19 16:30 user24
+drwx------    2 1000     1000         4096 Oct 19 16:30 user25
+drwx------    2 1000     1000         4096 Oct 19 16:30 user26
+drwx------    2 1000     1000         4096 Oct 19 16:30 user27
+drwx------    2 1000     1000         4096 Oct 19 16:30 user28
+drwx------    2 1000     1000         4096 Oct 19 16:30 user29
+drwx------    2 1000     1000         4096 Oct 19 16:30 user3
+drwx------    2 1000     1000         4096 Oct 19 16:30 user30
+drwx------    2 1000     1000         4096 Oct 19 16:30 user31
+drwx------    2 1000     1000         4096 Oct 19 16:30 user32
+drwx------    2 1000     1000         4096 Oct 19 16:30 user33
+drwx------    2 1000     1000         4096 Oct 19 16:30 user34
+drwx------    2 1000     1000         4096 Oct 19 16:30 user35
+drwx------    2 1000     1000         4096 Oct 19 16:30 user36
+drwx------    2 1000     1000         4096 Oct 19 16:30 user37
+drwx------    2 1000     1000         4096 Oct 19 16:30 user38
+drwx------    2 1000     1000         4096 Oct 19 16:30 user39
+drwx------    2 1000     1000         4096 Oct 19 16:30 user4
+drwx------    2 1000     1000         4096 Oct 19 16:30 user40
+drwx------    2 1000     1000         4096 Oct 19 16:30 user41
+drwx------    2 1000     1000         4096 Oct 19 16:30 user42
+drwx------    2 1000     1000         4096 Oct 19 16:30 user43
+drwx------    2 1000     1000         4096 Oct 19 16:30 user44
+drwx------    2 1000     1000         4096 Oct 19 16:30 user45
+drwx------    2 1000     1000         4096 Oct 19 16:30 user46
+drwx------    2 1000     1000         4096 Oct 19 16:30 user47
+drwx------    2 1000     1000         4096 Oct 19 16:30 user48
+drwx------    2 1000     1000         4096 Oct 19 16:30 user49
+drwx------    2 1000     1000         4096 Oct 19 16:30 user5
+drwx------    2 1000     1000         4096 Oct 19 16:30 user50
+drwx------    2 1000     1000         4096 Oct 19 16:30 user51
+drwx------    2 1000     1000         4096 Oct 19 16:30 user52
+drwx------    2 1000     1000         4096 Oct 19 16:30 user53
+drwx------    2 1000     1000         4096 Oct 19 16:30 user54
+drwx------    2 1000     1000         4096 Oct 19 16:30 user55
+drwx------    2 1000     1000         4096 Oct 19 16:30 user56
+drwx------    2 1000     1000         4096 Oct 19 16:30 user57
+drwx------    2 1000     1000         4096 Oct 19 16:30 user5
+drwx------    2 1000     1000         4096 Oct 19 16:30 user1
+drwx------    2 1000     1000         4096 Oct 19 16:30 user10
+drwx------    2 1000     1000         4096 Oct 19 16:30 user100
+drwx------    2 1000     1000         4096 Oct 19 16:30 user101
+drwx------    2 1000     1000         4096 Oct 19 16:30 user102
+drwx------    2 1000     1000         4096 Oct 19 16:30 user103
+drwx------    2 1000     1000         4096 Oct 19 16:30 user104
+drwx------    2 1000     1000         4096 Oct 19 16:30 user105
+drwx------    2 1000     1000         4096 Oct 19 16:30 user106
+drwx------    2 1000     1000         4096 Oct 19 16:30 user107
+drwx------    2 1000     1000         4096 Oct 19 16:30 user108
+drwx------    2 1000     1000         4096 Oct 19 16:30 user109
+drwx------    2 1000     1000         4096 Oct 19 16:30 user11
+drwx------    2 1000     1000         4096 Oct 19 16:30 user110
+drwx------    2 1000     1000         4096 Oct 19 16:30 user111
+drwx------    2 1000     1000         4096 Oct 19 16:30 user112
+drwx------    2 1000     1000         4096 Oct 19 16:30 user113
+drwx------    2 1000     1000         4096 Oct 19 16:30 user114
+drwx------    2 1000     1000         4096 Oct 19 16:30 user115
+drwx------    2 1000     1000         4096 Oct 19 16:30 user116
+drwx------    2 1000     1000         4096 Oct 19 16:30 user117
+drwx------    2 1000     1000         4096 Oct 19 16:30 user118
+drwx------    2 1000     1000         4096 Oct 19 16:30 user119
+drwx------    2 1000     1000         4096 Oct 19 16:30 user12
+drwx------    2 1000     1000         4096 Oct 19 16:30 user120
+drwx------    2 1000     1000         4096 Oct 19 16:30 user121
+drwx------    2 1000     1000         4096 Oct 19 16:30 user122
+drwx------    2 1000     1000         4096 Oct 19 16:30 user123
+drwx------    2 1000     1000         4096 Oct 19 16:30 user124
+drwx------    2 1000     1000         4096 Oct 19 16:30 user125
+drwx------    2 1000     1000         4096 Oct 19 16:30 user126
+drwx------    2 1000     1000         4096 Oct 19 16:30 user127
+drwx------    2 1000     1000         4096 Oct 19 16:30 user128
+drwx------    2 1000     1000         4096 Oct 19 16:30 user129
+drwx------    2 1000     1000         4096 Oct 19 16:30 user13
+drwx------    2 1000     1000         4096 Oct 19 16:30 user130
+drwx------    2 1000     1000         4096 Oct 19 16:30 user131
+drwx------    2 1000     1000         4096 Oct 19 16:30 user132
+drwx------    2 1000     1000         4096 Oct 19 16:30 user133
+drwx------    2 1000     1000         4096 Oct 19 16:30 user134
+drwx------    2 1000     1000         4096 Oct 19 16:30 user135
+drwx------    2 1000     1000         4096 Oct 19 16:30 user136
+drwx------    2 1000     1000         4096 Oct 19 16:30 user137
+drwx------    2 1000     1000         4096 Oct 19 16:30 user138
+drwx------    2 1000     1000         4096 Oct 19 16:30 user139
+drwx------    2 1000     1000         4096 Oct 19 16:30 user14
+drwx------    2 1000     1000         4096 Oct 19 16:30 user140
+drwx------    2 1000     1000         4096 Oct 19 16:30 user141
+drwx------    2 1000     1000         4096 Oct 19 16:30 user142
+drwx------    2 1000     1000         4096 Oct 19 16:30 user143
+drwx------    2 1000     1000         4096 Oct 19 16:30 user144
+drwx------    2 1000     1000         4096 Oct 19 16:30 user145
+drwx------    2 1000     1000         4096 Oct 19 16:30 user146
+drwx------    2 1000     1000         4096 Oct 19 16:30 user147
+drwx------    2 1000     1000         4096 Oct 19 16:30 user148
+drwx------    2 1000     1000         4096 Oct 19 16:30 user149
+drwx------    2 1000     1000         4096 Oct 19 16:30 user15
+drwx------    2 1000     1000         4096 Oct 19 16:30 user150
+drwx------    2 1000     1000         4096 Oct 19 16:30 user16
+drwx------    2 1000     1000         4096 Oct 19 16:30 user17
+drwx------    2 1000     1000         4096 Oct 19 16:30 user18
+drwx------    2 1000     1000         4096 Oct 19 16:30 user19
+drwx------    2 1000     1000         4096 Oct 19 16:30 user2
+drwx------    2 1000     1000         4096 Oct 19 16:30 user20
+drwx------    2 1000     1000         4096 Oct 19 16:30 user21
+drwx------    2 1000     1000         4096 Oct 19 16:30 user22
+drwx------    2 1000     1000         4096 Oct 19 16:30 user23
+drwx------    2 1000     1000         4096 Oct 19 16:30 user24
+drwx------    2 1000     1000         4096 Oct 19 16:30 user25
+drwx------    2 1000     1000         4096 Oct 19 16:30 user26
+drwx------    2 1000     1000         4096 Oct 19 16:30 user27
+drwx------    2 1000     1000         4096 Oct 19 16:30 user28
+drwx------    2 1000     1000         4096 Oct 19 16:30 user29
+drwx------    2 1000     1000         4096 Oct 19 16:30 user3
+drwx------    2 1000     1000         4096 Oct 19 16:30 user30
+drwx------    2 1000     1000         4096 Oct 19 16:30 user31
+drwx------    2 1000     1000         4096 Oct 19 16:30 user32
+drwx------    2 1000     1000         4096 Oct 19 16:30 user33
+drwx------    2 1000     1000         4096 Oct 19 16:30 user34
+drwx------    2 1000     1000         4096 Oct 19 16:30 user35
+drwx------    2 1000     1000         4096 Oct 19 16:30 user36
+drwx------    2 1000     1000         4096 Oct 19 16:30 user37
+drwx------    2 1000     1000         4096 Oct 19 16:30 user38
+drwx------    2 1000     1000         4096 Oct 19 16:30 user39
+drwx------    2 1000     1000         4096 Oct 19 16:30 user4
+drwx------    2 1000     1000         4096 Oct 19 16:30 user40
+drwx------    2 1000     1000         4096 Oct 19 16:30 user41
+drwx------    2 1000     1000         4096 Oct 19 16:30 user42
+drwx------    2 1000     1000         4096 Oct 19 16:30 user43
+drwx------    2 1000     1000         4096 Oct 19 16:30 user44
+drwx------    2 1000     1000         4096 Oct 19 16:30 user45
+drwx------    2 1000     1000         4096 Oct 19 16:30 user46
+drwx------    2 1000     1000         4096 Oct 19 16:30 user47
+drwx------    2 1000     1000         4096 Oct 19 16:30 user48
+drwx------    2 1000     1000         4096 Oct 19 16:30 user49
+drwx------    2 1000     1000         4096 Oct 19 16:30 user5
+drwx------    2 1000     1000         4096 Oct 19 16:30 user50
+drwx------    2 1000     1000         4096 Oct 19 16:30 user51
+drwx------    2 1000     1000         4096 Oct 19 16:30 user52
+drwx------    2 1000     1000         4096 Oct 19 16:30 user53
+drwx------    2 1000     1000         4096 Oct 19 16:30 user54
+drwx------    2 1000     1000         4096 Oct 19 16:30 user55
+drwx------    2 1000     1000         4096 Oct 19 16:30 user56
+drwx------    2 1000     1000         4096 Oct 19 16:30 user57
+drwx------    2 1000     1000         4096 Oct 19 16:30 user58
+drwx------    2 1000     1000         4096 Oct 19 16:30 user59
+drwx------    2 1000     1000         4096 Oct 19 16:30 user6
+drwx------    2 1000     1000         4096 Oct 19 16:30 user60
+drwx------    2 1000     1000         4096 Oct 19 16:30 user61
+drwx------    2 1000     1000         4096 Oct 19 16:30 user62
+drwx------    2 1000     1000         4096 Oct 19 16:30 user63
+drwx------    2 1000     1000         4096 Oct 19 16:30 user64
+drwx------    2 1000     1000         4096 Oct 19 16:30 user65
+drwx------    2 1000     1000         4096 Oct 19 16:30 user66
+drwx------    2 1000     1000         4096 Oct 19 16:30 user67
+drwx------    2 1000     1000         4096 Oct 19 16:30 user68
+drwx------    2 1000     1000         4096 Oct 19 16:30 user69
+drwx------    2 1000     1000         4096 Oct 19 16:30 user7
+drwx------    2 1000     1000         4096 Oct 19 16:30 user70
+drwx------    2 1000     1000         4096 Oct 19 16:30 user71
+drwx------    2 1000     1000         4096 Oct 19 16:30 user72
+drwx------    2 1000     1000         4096 Oct 19 16:30 user73
+drwx------    2 1000     1000         4096 Oct 19 16:30 user74
+drwx------    2 1000     1000         4096 Oct 19 16:30 user75
+drwx------    2 1000     1000         4096 Oct 19 16:30 user76
+drwx------    2 1000     1000         4096 Oct 19 16:30 user77
+drwx------    2 1000     1000         4096 Oct 19 16:30 user78
+drwx------    2 1000     1000         4096 Oct 19 16:30 user79
+drwx------    2 1000     1000         4096 Oct 19 16:30 user8
+drwx------    2 1000     1000         4096 Oct 19 16:30 user80
+drwx------    2 1000     1000         4096 Oct 19 16:30 user81
+drwx------    2 1000     1000         4096 Oct 19 16:30 user82
+drwx------    2 1000     1000         4096 Oct 19 16:30 user83
+drwx------    2 1000     1000         4096 Oct 19 16:30 user84
+drwx------    2 1000     1000         4096 Oct 19 16:30 user85
+drwx------    2 1000     1000         4096 Oct 19 16:30 user86
+drwx------    2 1000     1000         4096 Oct 19 16:30 user87
+drwx------    2 1000     1000         4096 Oct 19 16:30 user88
+drwx------    2 1000     1000         4096 Oct 19 16:30 user89
+drwx------    2 1000     1000         4096 Oct 19 16:30 user9
+drwx------    2 1000     1000         4096 Oct 19 16:30 user90
+drwx------    2 1000     1000         4096 Oct 19 16:30 user91
+drwx------    2 1000     1000         4096 Oct 19 16:30 user92
+drwx------    2 1000     1000         4096 Oct 19 16:30 user93
+drwx------    2 1000     1000         4096 Oct 19 16:30 user94
+drwx------    2 1000     1000         4096 Oct 19 16:30 user95
+drwx------    2 1000     1000         4096 Oct 19 16:30 user96
+drwx------    2 1000     1000         4096 Oct 19 16:30 user97
+drwx------    2 1000     1000         4096 Oct 19 16:30 user98
+drwx------    2 1000     1000         4096 Oct 19 16:30 user998
+drwx------    2 1000     1000         4096 Oct 19 16:30 user59
+drwx------    2 1000     1000         4096 Oct 19 16:30 user6
+drwx------    2 1000     1000         4096 Oct 19 16:30 user60
+drwx------    2 1000     1000         4096 Oct 19 16:30 user61
+drwx------    2 1000     1000         4096 Oct 19 16:30 user62
+drwx------    2 1000     1000         4096 Oct 19 16:30 user63
+drwx------    2 1000     1000         4096 Oct 19 16:30 user64
+drwx------    2 1000     1000         4096 Oct 19 16:30 user65
+drwx------    2 1000     1000         4096 Oct 19 16:30 user66
+drwx------    2 1000     1000         4096 Oct 19 16:30 user67
+drwx------    2 1000     1000         4096 Oct 19 16:30 user68
+drwx------    2 1000     1000         4096 Oct 19 16:30 user69
+drwx------    2 1000     1000         4096 Oct 19 16:30 user7
+drwx------    2 1000     1000         4096 Oct 19 16:30 user70
+drwx------    2 1000     1000         4096 Oct 19 16:30 user71
+drwx------    2 1000     1000         4096 Oct 19 16:30 user72
+drwx------    2 1000     1000         4096 Oct 19 16:30 user73
+drwx------    2 1000     1000         4096 Oct 19 16:30 user74
+drwx------    2 1000     1000         4096 Oct 19 16:30 user75
+drwx------    2 1000     1000         4096 Oct 19 16:30 user76
+drwx------    2 1000     1000         4096 Oct 19 16:30 user77
+drwx------    2 1000     1000         4096 Oct 19 16:30 user78
+drwx------    2 1000     1000         4096 Oct 19 16:30 user79
+drwx------    2 1000     1000         4096 Oct 19 16:30 user8
+drwx------    2 1000     1000         4096 Oct 19 16:30 user80
+drwx------    2 1000     1000         4096 Oct 19 16:30 user81
+drwx------    2 1000     1000         4096 Oct 19 16:30 user82
+drwx------    2 1000     1000         4096 Oct 19 16:30 user83
+drwx------    2 1000     1000         4096 Oct 19 16:30 user84
+drwx------    2 1000     1000         4096 Oct 19 16:30 user85
+drwx------    2 1000     1000         4096 Oct 19 16:30 user86
+drwx------    2 1000     1000         4096 Oct 19 16:30 user87
+drwx------    2 1000     1000         4096 Oct 19 16:30 user88
+drwx------    2 1000     1000         4096 Oct 19 16:30 user89
+drwx------    2 1000     1000         4096 Oct 19 16:30 user9
+drwx------    2 1000     1000         4096 Oct 19 16:30 user90
+drwx------    2 1000     1000         4096 Oct 19 16:30 user91
+drwx------    2 1000     1000         4096 Oct 19 16:30 user92
+drwx------    2 1000     1000         4096 Oct 19 16:30 user93
+drwx------    2 1000     1000         4096 Oct 19 16:30 user94
+drwx------    2 1000     1000         4096 Oct 19 16:30 user95
+drwx------    2 1000     1000         4096 Oct 19 16:30 user96
+drwx------    2 1000     1000         4096 Oct 19 16:30 user97
+drwx------    2 1000     1000         4096 Oct 19 16:30 user98
+drwx------    2 1000     1000         4096 Oct 19 16:30 user99
+
+

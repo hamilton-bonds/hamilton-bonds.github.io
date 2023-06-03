@@ -1,0 +1,49 @@
+Where did I put my keys?
+A devastating insider threat attack has disabled a critical cube drive manufacturing facility. You are tasked with helping us regain SSH access to the file server.
+
+NICE Work Roles
+
+Cyber Defense Incident Responder
+NICE Tasks
+
+T0510 - Coordinate incident response functions.
+T0278 - Collect intrusion artifacts (e.g., source code, malware, Trojans) and use discovered data to enable mitigation of potential cyber defense incidents within the enterprise.
+NOTE
+This challenge can take about three (3) minutes to launch and configure.
+
+Background
+On August 16, a high-ranking employee in charge of securing many of our servers has shut down our access to a cube drive manufacturing facility's main server.
+
+The attacker left an encrypted attack script alongside every other employee’s SSH key pairs. We believe the attacker used one of the collected SSH key pairs to encrypt a python script using 256-bit AES and cipher-block chaining. To prevent further compromise, we reset the SSH keys used for authentication.
+
+Additional evidence shows the attacker was using the ssh-access workstation and the username remote-user to upload python or shell scripts to ftp-server.us. The scripts were automatically executed upon upload.
+
+The image below shows the connections we suspect the attacker is capable of making.
+
+network-topology-1258573180.png
+Getting Started
+You’ve been given access to ourkali-workstation and credentials to user on ftp-server.us. The FTP access you are given contains the resources you need.
+
+We need you to:
+
+Determine which SSH key pair was used to encrypt the attacker's script. Use the decrypted script to login to the ssh-access machine.
+Utilize the ssh-access machine to login to the ftp-server using the remote-user.
+Use the access you gained to login to the secure-server and retrieve the token.
+System and Tool Credentials
+system/tool	username	password
+kali-workstation	user	tartans
+ftp-server	user	tartans
+Note
+Attacking or unauthorized access to challenge.us (10.5.5.5) is forbidden.
+
+Gamespace Resources
+Challenge Questions
+1. (500) Which user's key was used to encrypt the script?
+Example answer: user452
+2. (500) What is the token found on the ftp server?
+Example answer: abcdef0123456789
+3. (1000) What is the token found on 10.5.5.128?
+Example answer: abcdef0123456789
+1 of 3
+(Session ends in 1h 9m)
+Score: 0 of 2000

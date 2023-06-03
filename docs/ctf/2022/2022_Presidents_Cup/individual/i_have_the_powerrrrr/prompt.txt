@@ -1,0 +1,63 @@
+I HAVE THE POWERRRRR! (shell)
+Investigate and remedy a cyber defense incident.
+
+NICE Work Roles
+
+Cyber Defense Incident Responder
+NICE Tasks
+
+T0163 Perform cyber defense incident triage, to include determining scope, urgency, and potential impact, identifying the specific vulnerability, and making recommendations that enable expeditious remediation.
+
+T0278 Collect intrusion artifacts (e.g., source code, malware, Trojans) and use discovered data to enable mitigation of potential cyber defense incidents within the enterprise.
+
+Getting Started
+An alien malware has infected the remote merchant console Eternia, rendering it unusable. The IP address for this terminal is 10.5.5.79. However, we can't login with our credentials. Gain access to the machine from the provided Kali terminal, remediate the malware, and remove all persistence mechanisms it uses.
+
+IMPORTANT
+10.5.5.5 must have SSH access via the user account on 10.5.5.79 for grading. DO NOT disable SSH access on 10.5.5.79.
+
+Submission
+The grading checks look for five specific remediated conditions. They are:
+
+Remediation 1: remove attacker's access vector (you might use the same access vector to gain access to the machine, but it must be closed to prevent future attacks)
+Remediation 2: remove persistence mechanism A
+Remediation 3: remove persistence mechanism B
+Remediation 4: remove persistence mechanism C
+Remediation 5: remove persistence mechanism D
+Persistence mechanisms periodically recreate themselves. You must remove persistence in a way that prevents all mechanisms from coming back.
+
+Tokens will be provided after scoring checks at https://challenge.us. In the gamespace, browse to https://challenge.us and click the Grade Challenge button to get grading results.
+
+System and Tool Credentials
+system/tool	username	password
+Grayskull (kali)	user	tartans
+Note
+Attacking or unauthorized access to challenge.us (10.5.5.5) is forbidden. You may only use the provided web page to view challenge progress and download any challenge artifacts that are provided.
+
+Gamespace Resources
+Challenge Questions
+1. (260) Enter the token for Remediation 1: removing the attacker's access vector
+Example answer: 12345678
+
+ANSWER: 
+
+2. (260) Enter the token for Remediation 2: removing persistence mechanism A
+Example answer: 12345678
+
+ANSWER: 
+
+3. (260) Enter the token for Remediation 3: removing persistence mechanism B
+Example answer: 12345678
+
+ANSWER: 
+
+4. (260) Enter the token for Remediation 4: removing persistence mechanism C
+Example answer: 12345678
+
+ANSWER: 
+
+5. (260) Enter the token for Remediation 5: removing persistence mechanism D
+Example answer: 12345678
+
+ANSWER: 
+

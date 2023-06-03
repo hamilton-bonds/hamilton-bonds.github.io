@@ -1,0 +1,138 @@
+PS C:\> ps
+
+Handles  NPM(K)    PM(K)      WS(K)     CPU(s)     Id  SI ProcessName
+-------  ------    -----      -----     ------     --  -- -----------
+     76       5     2340       4020       0.00   1940   0 cmd
+     73       5     4396       4144       0.00   5028   0 cmd
+    110       6     1168       5576       0.17   2736   0 conhost
+    160      10     6716      13840       0.45   3112   0 conhost
+    116       7     1168       5572       0.05   3976   0 conhost
+    159      10     6768      13716       0.03   4304   0 conhost
+    134       9     4232      10156       0.02   5888   0 conhost
+    589      22     1684       5276       0.69    440   0 csrss
+    178      10     1528       4808       0.16    552   1 csrss
+    254      14     3836      13836       0.20   3768   0 dllhost
+    697      26    38428      74196       0.75     60   1 dwm
+     36       5     1800       4532       0.03    800   1 fontdrvhost
+     36       6     2040       5192       0.02    804   0 fontdrvhost
+    229      14     2484        424       0.09   5964   0 GoogleUpdate
+      0       0       60          8                 0   0 Idle
+    659      37    20280      73616       0.45   4172   1 LogonUI
+   1064      23     5184      16204       9.02    680   0 lsass
+      0       0      208      39000       1.19   1584   0 Memory Compression
+    213      13     1928        404       0.02   5816   0 MicrosoftEdgeUpdate
+    223      13     2844      10312       0.03   3192   0 msdtc
+    730      81   189768     161012      36.58   3152   0 MsMpEng
+    662      35    73796      87788       0.81   2908   0 powershell
+    644      33    66788      74028       0.45   5148   0 powershell
+    599      29    63048      73424       0.73   5248   0 powershell
+    689      30    67396      81508       0.94   5824   0 powershell
+    162      10     1508       7128       0.03   1280   0 PSEXESVC
+     89       7     5292       9076       0.06   3376   0 python
+      0      13     5448      12528       2.58     92   0 Registry
+    143       8     1416       7304       0.00   5348   0 SearchFilterHost
+    698      70    29516      37308       6.16   1352   0 SearchIndexer
+    340      13     2408      12660       0.05   4208   0 SearchProtocolHost
+    273      13     2852      12416       0.09   4832   0 SecurityHealthService
+    611      12     4576       9704       1.50    648   0 services
+    105       8     3672       6856       0.08   1108   0 SgrmBroker
+     53       3     1072       1196       0.13    344   0 smss
+    431      21     5268      15640       0.11   1884   0 spoolsv
+    141      10     1820       8044       0.03   2840   0 sqlwriter
+    126       9     2480       7800       0.06   1332   0 sshd
+    120      12     2124       7396       0.08   2896   0 sshd
+    135      10     2588       7868       0.03   5420   0 sshd
+    223      13     2624      10268       0.02    384   0 svchost
+    287      13     3396      11336       0.33    392   0 svchost
+   1123      16     7536      16816       0.70    788   0 svchost
+    186      11     1840       8380       0.06    872   0 svchost
+    125       7     2276       7484       0.00    880   0 svchost
+    824      15     4320      10876       1.52    916   0 svchost
+    237      10     1900       7048       0.05    964   0 svchost
+    129       7     1288       5984       0.03   1048   0 svchost
+    352      13    13520      17276       1.64   1056   0 svchost
+    201       7     1364       6188       0.00   1064   0 svchost
+    115       7     1264       5488       0.00   1072   0 svchost
+    216      13     2964      11912       0.03   1100   0 svchost
+    233      16     1984       7496       0.02   1124   0 svchost
+    134      15     3300       7504       0.22   1188   0 svchost
+    124       8     1408       7316       0.02   1216   0 svchost
+    231      10     2088       7620       0.33   1244   0 svchost
+    240      13     2760      12552       0.23   1384   0 svchost
+    428       9     2776       8952       0.25   1404   0 svchost
+    211      14    52740      54764      18.59   1428   0 svchost
+    118       7     1208       5804       0.00   1464   0 svchost
+    383      18     6596      15796      32.45   1496   0 svchost
+    386      13     4360      12084       0.06   1568   0 svchost
+    130       8     1332       5896       0.03   1692   0 svchost
+    141       9     1496       7316       0.02   1732   0 svchost
+    161      10     2124       8084       0.52   1748   0 svchost
+    195      10     1876       8320       0.02   1796   0 svchost
+    366      11     2456       9096       0.19   1820   0 svchost
+    125       8     3516      10736       0.28   1828   0 svchost
+    132       8     1508       6428       0.03   1924   0 svchost
+    287      14     2764       8320       0.78   1932   0 svchost
+    365      12     2280       9752       0.06   1952   0 svchost
+    188      12     1944       8604       0.06   2008   0 svchost
+    413      31     8116      17200       0.47   2128   0 svchost
+    198      11     2872      15548       0.03   2140   0 svchost
+    184      11     2008       8276       0.14   2156   0 svchost
+    164       9     1840       7412       0.34   2220   0 svchost
+    264      13     2600       8044       0.05   2592   0 svchost
+    204      22     2732      10188       0.36   2688   0 svchost
+    450      23    15028      29880       1.73   2696   0 svchost
+    362      23    28484      35132       0.14   2708   0 svchost
+    442      19    11704      22012       7.59   2724   0 svchost
+    121       8     1468       6764       0.03   2752   0 svchost
+    209      12     2404       9268       0.16   2792   0 svchost
+    108       7     1244       5508       0.02   2856   0 svchost
+    128       8     1232       5664       0.00   2884   0 svchost
+    361      14     2684      10616       0.05   2932   0 svchost
+    333      20     5020      22420       0.14   2976   0 svchost
+    248      14     3184      13112       0.06   3092   0 svchost
+    390      23     3416      12700       0.11   3424   0 svchost
+    188      15     6028       9796       0.03   3568   0 svchost
+    372      27     8980      17596       0.06   4616   0 svchost
+    212      11     2540      10856       0.08   4624   0 svchost
+    210      11     1948       8440       0.05   4784   0 svchost
+    207      12     1688       7588       0.03   5176   0 svchost
+    204      11     2448      10160       0.05   5236   0 svchost
+    261      16     4736      19260       0.20   5680   0 svchost
+    152       9     1616       8548       0.02   5684   0 svchost
+    319      18     4172      17016       0.06   5700   0 svchost
+    206      10     3308       8276       0.02   6016   0 svchost
+   1965       0      196        144      15.47      4   0 System
+    114       7     1360       6332       0.03   4996   0 uhssvc
+    172      11     3168      11748       0.02   2924   0 VGAuthService
+    119       7     1420       6204       0.03   2952   0 vm3dservice
+    117       8     1508       6596       0.02   3196   1 vm3dservice
+    114       8     1424       6544       0.00   4220   1 vm3dservice
+    388      22     9656      21136       0.77   2996   0 vmtoolsd
+    165      11     1364       6888       0.05    540   0 wininit
+    247      13     2752      26340       0.19    632   1 winlogon
+     62       5      820       3580       0.03   3056   0 wlms
+    378      18    11272      22012      16.84   4140   0 WmiPrvSE
+
+
+PS C:\> kill 3376
+
+Confirm
+Are you sure you want to perform the Stop-Process operation on the following item: python(3376)?
+[Y] Yes  [A] Yes to All  [N] No  [L] No to All  [S] Suspend  [?] Help (default is "Y"): A
+PS C:\> rmdir /F C:\Python310
+Remove-Item : A positional parameter cannot be found that accepts argument 'C:\Python310'.
+At line:1 char:1
++ rmdir /F C:\Python310
++ ~~~~~~~~~~~~~~~~~~~~~
+    + CategoryInfo          : InvalidArgument: (:) [Remove-Item], ParameterBindingException
+    + FullyQualifiedErrorId : PositionalParameterNotFound,Microsoft.PowerShell.Commands.RemoveItemCommand
+ 
+PS C:\> del Python310
+
+Confirm
+The item at C:\Python310 has children and the Recurse parameter was not specified. If you continue, all children will be removed with the item. Are you sure you want to continue?
+[Y] Yes  [A] Yes to All  [N] No  [L] No to All  [S] Suspend  [?] Help (default is "Y"): A
+
+#### ANSWER ####
+
+

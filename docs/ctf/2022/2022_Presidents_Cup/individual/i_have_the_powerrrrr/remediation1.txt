@@ -1,0 +1,25 @@
+PS C:\> cd Windows.old
+cd Windows.old
+
+PS C:\Windows.old> dir
+dir
+
+
+    Directory: C:\Windows.old
+
+
+Mode                 LastWriteTime         Length Name                                                                 
+----                 -------------         ------ ----                                                                 
+-a----        10/19/2022   2:13 PM        5117448 explorer.exe
+
+    103       9     1036        400       0.06   5976   0 explorer.exe:search
+    
+PS C:\Windows.old> kill 5976
+    
+#### ANSWER ####
+
+Remediation 1
+
+Success -- you passed the netcat listener check
+
+Token: ad41ed58
