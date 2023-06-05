@@ -44,7 +44,7 @@ def level_0(content: str):
             content = content.replace(flag_content, "BLaH_bLaH_BLAH")
     print(content)
 ```
-The function `level0` indicates that if we successfully bleed the flag, the human-machine interface (HMI) code will sanitize the output.  This fact alone allows us to distinguish between an AI synthesizing flags and the AI divulging the flag secret.
+The function `level_0` indicates that if we successfully bleed the flag, the human-machine interface (HMI) code will sanitize the output.  This fact alone allows us to distinguish between an AI synthesizing flags and the AI divulging the flag secret.
 
 ## Solution
 I will walk through my solution by showing my prompts one after the other in a code block.  If my prompt caused an information bleed that got sanitized but *did not* produce a solution, I placed asterisks (*) next to the submission.  If the submission was a solution, I placed the text "SOLUTION" next to the message.
