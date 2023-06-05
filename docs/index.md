@@ -18,7 +18,6 @@ CTFs are competitions centered around themes in computer security.  Teams or ind
 - [2022 President's Cup](https://hamilton-bonds.github.io/ctf/2022/2022_Presidents_Cup.html)
 - [2022 Cyber Best Warrior](https://hamilton-bonds.github.io/ctf/2022/2022_Cyber_Best_Warrior.html)
 - [2023 Hack-the-Box "Cyber Apocalypse"](https://hamilton-bonds.github.cio/ctf/2023/2023_HTB_Cyber_Apocalypse.html)
-- [2023 Hack-A-Sat](https://hamilton-bonds.github.io/ctf/2023/2023_Hack-A-Sat.html)
 - [2023 DEFCON Quals](https://hamilton-bonds.github.io/ctf/2023/2023_DEFCON_Quals.html)
 
 ## Professional Contributions
