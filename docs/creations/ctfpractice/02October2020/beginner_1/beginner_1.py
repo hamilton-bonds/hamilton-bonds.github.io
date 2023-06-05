@@ -5,17 +5,16 @@ import random as rand
 import base64 as b64
 from threading import Thread
 
-def base64encoder():
+def base64encode():
     alphanum = "0123456789abcdefghijklmnopqrstuvwxyz"
-    sentence = str()
+    expected = str()
     for i in range(20):
-        sentence += rand.choice(list(alphanum))
-    print("Expected sentence response: {}".format(sentence))
-    tosend = b64.b64encode(sentence)
-    return sentence,tosend
+        expected += rand.choice(list(alphanum))
+    tosend = b64.b64encode(expected.encode('ascii'))
+    return expected,tosend
 
 def mainLoop():
-    PORT = rand.randint(1025,65535)
+    PORT = rand.randint(1024,65535)
     print("Server will send to port {}.".format(PORT))
     s = socket.socket(socket.AF_INET,socket.SOCK_STREAM)
     while True:
@@ -51,20 +50,34 @@ def handle_client(conn,addr):
 
     clients[conn] = addr
 
-    while True:
-        for x,m in enumerate(mts):
-            conn.send(m.encode('ascii')) # Deleted time.sleep(1)
-            if x == len(mts)-1:
-                conn.send(str(tosend).encode('ascii'))
-                conn.send(b'\n')
-
-'''
-def respond(message,conn):
-    try:
-        conn.send(mts,order)
-    except:
-        conn.close()
-'''
+    num_trials = 10
+    trials = [list(base64encode()) for i in range(num_trials)]
+    for x,trial in enumerate(trials):
+        [expected,tosend] = trial
+        conn.send(tosend)
+        resp = conn.recv(BUFFER).decode('ascii')
+        print("Expected response: {}".format(expected))
+        print("{} replied with {}".format(addr,resp))
+        if resp == expected + "\n":
+            print("{} is correct!  {} / {}".format(addr,x+1,num_trials))
+            CORRECT = "Correct!  {} / {}\n".format(x+1,num_trials)
+            conn.send(CORRECT.encode('ascii'))
+            if x == num_trials-1:
+                x = num_trials
+        else:
+            print("{} is incorrect!  {} / {}".format(addr,x+1,num_trials))
+            INCORRECT = "Incorrect!  {} / {}\n".format(x+1,num_trials)
+            conn.send(INCORRECT.encode('ascii'))
+            break
+    if x == num_trials:
+        flag_msg = "Good job!  Here's the flag: {}".format(flag)
+        conn.send(flag_msg.encode('ascii'))
+    else:
+        fail_msg = "Sorry!  Try again by reconnecting."
+        conn.send(fail_msg.encode('ascii'))
+    print("Terminating connection with {}".format(addr))
+    conn.close()
+    
 
 if __name__ == '__main__':
     global message
@@ -72,10 +85,15 @@ if __name__ == '__main__':
     global addresses
     global sentence
     global flag
+    
+    global BUFFER
+    BUFFER = 1024
 
-    message = "Beginner 1: Create your very own Base64 decoder!  Use any language, but don't use modules or commands specifically designed to decode base64. Send the output back to the server to get the flag."
+    message = "Beginner 1: Create your very own Base64 decoder!  Use any language, but don't use modules or commands specifically designed to decode base64. Send the output back to the server to get the flag.\n"
     clients = dict()
     addresses = dict()
+    
+    flag = "RTD{QmFzZTY0IElzIEF3ZXNvbWUh}"
 
     ########## NET ###########
     print("Starting server socket...")

@@ -1,0 +1,54 @@
+┌──(kali㉿kali)-[~/Documents/ctf/htb_cyber_apocalypse2023/rev_hunting_license]
+└─$ ./license                                                                                                                                                                                                 255 ⨯
+So, you want to be a relic hunter?
+First, you're going to need your license, and for that you need to pass the exam.
+It's short, but it's not for the faint of heart. Are you up to the challenge?! (y/n)
+y        
+Okay, first, a warmup - what's the first password? This one's not even hidden: PasswordNumeroUno
+Getting harder - what's the second password? P4ssw0rdTw0
+Your final test - give me the third, and most protected, password: ThirdAndFinal!!!
+Well done hunter - consider yourself certified!
+                                                                                                                                                                                                                    
+┌──(kali㉿kali)-[~/Documents/ctf/htb_cyber_apocalypse2023/rev_hunting_license]
+└─$ nc 165.232.98.59 32066
+What is the file format of the executable?
+> elf                                                                                                                                                                                                               
+[+] Correct!
+                                                                                                                                                                                                                    
+What is the CPU architecture of the executable?                                                                                                                                                                     
+> x86                                                                                                                                                                                                               
+[+] Correct!
+                                                                                                                                                                                                                    
+What library is used to read lines for user answers? (`ldd` may help)                                                                                                                                               
+> libreadline.so.8                                                                                                                                                                                                  
+[+] Correct!
+                                                                                                                                                                                                                    
+What is the address of the `main` function?                                                                                                                                                                         
+> 0x401172                                                                                                                                                                                                          
+[+] Correct!
+                                                                                                                                                                                                                    
+How many calls to `puts` are there in `main`? (using a decompiler may help)                                                                                                                                         
+> 5                                                                                                                                                                                                                 
+[+] Correct!
+                                                                                                                                                                                                                    
+What is the first password?                                                                                                                                                                                         
+> PasswordNumeroUno                                                                                                                                                                                                 
+[+] Correct!
+                                                                                                                                                                                                                    
+What is the reversed form of the second password?                                                                                                                                                                   
+> 0wTdr0wss4P                                                                                                                                                                                                       
+[+] Correct!
+                                                                                                                                                                                                                    
+What is the real second password?                                                                                                                                                                                   
+> P4ssw0rdTw0                                                                                                                                                                                                       
+[+] Correct!
+                                                                                                                                                                                                                    
+What is the XOR key used to encode the third password?                                                                                                                                                              
+> 0x13                                                                                                                                                                                                              
+[+] Correct!
+                                                                                                                                                                                                                    
+What is the third password?                                                                                                                                                                                         
+> ThirdAndFinal!!!                                                                                                                                                                                                  
+[+] Correct!
+                                                                                                                                                                                                                    
+[+] Here is the flag: `HTB{l1c3ns3_4cquir3d-hunt1ng_t1m3!}` 
