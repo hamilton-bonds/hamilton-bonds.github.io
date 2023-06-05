@@ -1,5 +1,5 @@
 # 2019 Parsons CTF
-WIP 
+These writeups are WIPs and their links may not work.  Please naviate to the [portfolio home](https://hamilton-bonds.github.io/) to enjoy more content.
 
 ## Cryptography:
 
