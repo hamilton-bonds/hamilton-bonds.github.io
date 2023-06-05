@@ -22,8 +22,8 @@ CTFs are competitions centered around themes in computer security.  Teams or ind
 - [2023 DEFCON Quals](https://hamilton-bonds.github.io/ctf/2023/2023_DEFCON_Quals.html)
 
 ## Professional Contributions
-[Presentation on Quantum Encryption in a Classical Internet](https://www.dvidshub.net/video/870208/avengercon-vii-quantum-encryption-classical-internet)
-[Article on Quantum Coin Flipping (p. 14)](https://www.dvidshub.net/publication/issues/66602)
+- [Presentation on Quantum Encryption in a Classical Internet](https://www.dvidshub.net/video/870208/avengercon-vii-quantum-encryption-classical-internet)
+- [Article on Quantum Coin Flipping (p. 14)](https://www.dvidshub.net/publication/issues/66602)
 
 ## Proofs of Concept
 
