@@ -7,6 +7,7 @@ On [LinkedIn](https://linkedin.com/in/hamilton-bonds/)
 ## Quick Stats
 Click [here](https://hamilton-bonds.github.io/stats/stats.html)
 [CodeWars Rank](https://www.codewars.com/users/hamilton-bonds/badges/large)
+[Code Golf Stats](https://code.golf/golfers/hamilton-bonds)
 
 ## Capture-the-Flag (CTF) Competitions
 CTFs are competitions centered around themes in computer security.  Teams or individuals can compete against each other in a test of either Jeopardy-style questions-for-points or "Red-versus-Blue" events that pit attackers (Red) against defenders (Blue) in a simulated network.
